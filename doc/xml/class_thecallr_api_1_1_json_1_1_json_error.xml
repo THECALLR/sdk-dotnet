@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_json_1_1_json_error" kind="class" prot="public">
+    <compoundname>ThecallrApi::Json::JsonError</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_error_1afedfded0b702f999b5dbf2765cb296e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Json.JsonError.code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+<para>Error type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_error_1adb98db03a6d6c2a5f6d209cfbd38d96f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonError.message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+<para>Error description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_error_1a0817a85286acbf457ae240f0a17a6140" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object ThecallrApi.Json.JsonError.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>Object containing more error details (optional). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a JSON-RPC format error. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" line="7" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" bodystart="6" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_error_1afedfded0b702f999b5dbf2765cb296e3" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonError</scope><name>code</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_error_1a0817a85286acbf457ae240f0a17a6140" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonError</scope><name>data</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_error_1adb98db03a6d6c2a5f6d209cfbd38d96f" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonError</scope><name>message</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

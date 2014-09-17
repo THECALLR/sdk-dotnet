@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Did::DidForStat</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" prot="public" virt="non-virtual">ThecallrApi.Objects.Did.Did</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1aaa2e445523c301391033d410b1384e89" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Did.DidForStat.Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <briefdescription>
+<para>DID ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a2f40a26d299bc9950802443410c90bba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Did.DidForStat.LocalNumber</definition>
+        <argsstring></argsstring>
+        <name>LocalNumber</name>
+        <briefdescription>
+<para>Phone number in local format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1af122d6765d9204d750df5099eb8891e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Did.DidForStat.IntlNumber</definition>
+        <argsstring></argsstring>
+        <name>IntlNumber</name>
+        <briefdescription>
+<para>Phone number in international format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a586b03f0f32163303070c9f0d6ddb7aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Did.DidForStat.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a simple DID. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="204">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="205">
+        <label>ThecallrApi.Objects.Did.Did</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>ThecallrApi.Objects.Did.DidForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="207">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="206">
+        <label>ThecallrApi.Objects.Did.DidForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/DidForStat.cs" bodystart="8" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1aaa2e445523c301391033d410b1384e89" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::DidForStat</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a586b03f0f32163303070c9f0d6ddb7aa" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Did::DidForStat</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1af122d6765d9204d750df5099eb8891e6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::DidForStat</scope><name>IntlNumber</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a2f40a26d299bc9950802443410c90bba" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::DidForStat</scope><name>LocalNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

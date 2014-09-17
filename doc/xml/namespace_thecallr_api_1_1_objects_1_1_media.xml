@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_objects_1_1_media" kind="namespace">
+    <compoundname>ThecallrApi::Objects::Media</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template" prot="public">ThecallrApi::Objects::Media::EmailTemplate</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" prot="public">ThecallrApi::Objects::Media::MediaLibrary</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id" prot="public">ThecallrApi::Objects::Media::PhoneId</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options" prot="public">ThecallrApi::Objects::Media::TtsOptions</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Misc::Timezone</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ab9adc22c5aa360444e0fb49ec606f3d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Misc.Timezone.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kindref="compound">Timezone</ref> ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1a1583c475af1c82150d387bff9ba98edb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Timezone.Label</definition>
+        <argsstring></argsstring>
+        <name>Label</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kindref="compound">Timezone</ref> name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ad8396fddbcc1b25bdf8bf4627c20fe4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Timezone.PhpName</definition>
+        <argsstring></argsstring>
+        <name>PhpName</name>
+        <briefdescription>
+<para>PHP/IANA timezone name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ae3e2f8b72e80f993d35e7c6772d9b14b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Timezone.Dst</definition>
+        <argsstring></argsstring>
+        <name>Dst</name>
+        <briefdescription>
+<para>Indicate if the timezone is subject to Daylight Saving Time. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1a3edb8b95b32e89329ba93482b0abb2c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Misc.Timezone.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kindref="compound">Timezone</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="321">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="320">
+        <label>ThecallrApi.Objects.Misc.Timezone</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone"/>
+        <childnode refid="321" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="323">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="322">
+        <label>ThecallrApi.Objects.Misc.Timezone</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone"/>
+        <childnode refid="323" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Timezone.cs" bodystart="8" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ae3e2f8b72e80f993d35e7c6772d9b14b" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Timezone</scope><name>Dst</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ab9adc22c5aa360444e0fb49ec606f3d8" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Timezone</scope><name>Id</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1a3edb8b95b32e89329ba93482b0abb2c7" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Misc::Timezone</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1a1583c475af1c82150d387bff9ba98edb" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Timezone</scope><name>Label</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ad8396fddbcc1b25bdf8bf4627c20fe4b" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Timezone</scope><name>PhpName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

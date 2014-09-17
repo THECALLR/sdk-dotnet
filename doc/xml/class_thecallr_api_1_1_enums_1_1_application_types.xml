@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_application_types" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::ApplicationTypes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_application_types_1a2935b062185ea6e3644ef6889a37f356" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ApplicationTypes.CALLTRACKING</definition>
+        <argsstring></argsstring>
+        <name>CALLTRACKING</name>
+        <initializer>= &quot;CALLTRACKING10&quot;</initializer>
+        <briefdescription>
+<para>Call Tracking with call forwarding, prompts, and voicemail. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_application_types_1a72c8285d641a61ab7fb19c8f758c0bd1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ApplicationTypes.CLICKTOCALL</definition>
+        <argsstring></argsstring>
+        <name>CLICKTOCALL</name>
+        <initializer>= &quot;CLICKTOCALL10&quot;</initializer>
+        <briefdescription>
+<para>Click-to-Call with dynamic parties and voicemail. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_application_types_1a68c45bc31929dfae52b9ec7bb018ce10" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ApplicationTypes.REALTIME</definition>
+        <argsstring></argsstring>
+        <name>REALTIME</name>
+        <initializer>= &quot;REALTIME10&quot;</initializer>
+        <briefdescription>
+<para>Real-time app. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the types of voice applications. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationTypes.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_application_types_1a2935b062185ea6e3644ef6889a37f356" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ApplicationTypes</scope><name>CALLTRACKING</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_application_types_1a72c8285d641a61ab7fb19c8f758c0bd1" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ApplicationTypes</scope><name>CLICKTOCALL</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_application_types_1a68c45bc31929dfae52b9ec7bb018ce10" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ApplicationTypes</scope><name>REALTIME</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

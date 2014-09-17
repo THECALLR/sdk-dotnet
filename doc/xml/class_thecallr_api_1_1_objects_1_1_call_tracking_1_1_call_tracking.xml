@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::CallTracking::CallTracking</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a68c17764a15030fafb9b58a5995e4b88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media" kindref="compound">CallTrackingMedia</ref></type>
+        <definition>CallTrackingMedia ThecallrApi.Objects.CallTracking.CallTracking.Medias</definition>
+        <argsstring></argsstring>
+        <name>Medias</name>
+        <briefdescription>
+<para>Medias. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" line="16" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a37219e1d71588470d93871513092a6ae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options" kindref="compound">CallTrackingOptions</ref></type>
+        <definition>CallTrackingOptions ThecallrApi.Objects.CallTracking.CallTracking.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <briefdescription>
+<para>Options. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" line="21" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a0299f3d96fb5b3e741cfdc6500c92265" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">Target</ref> &gt;</type>
+        <definition>List&lt;Target&gt; ThecallrApi.Objects.CallTracking.CallTracking.Targets</definition>
+        <argsstring></argsstring>
+        <name>Targets</name>
+        <briefdescription>
+<para>Targets (Call forwarding). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" line="26" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1aa0565ab6abac5be0e4fa1667c37af58b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms" kindref="compound">Vms</ref></type>
+        <definition>Vms ThecallrApi.Objects.CallTracking.CallTracking.Vms</definition>
+        <argsstring></argsstring>
+        <name>Vms</name>
+        <briefdescription>
+<para>Voicemail. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" line="31" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1ae6ded2174af769547fd16f5f4a67c87c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a" kindref="compound">GA</ref></type>
+        <definition>GA ThecallrApi.Objects.CallTracking.CallTracking.Ga</definition>
+        <argsstring></argsstring>
+        <name>Ga</name>
+        <briefdescription>
+<para>Google Analytics. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" line="36" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a5d9cf1642ef46b1be795443e0cdcf534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.CallTracking.CallTracking.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" bodystart="44" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents Call Tracking with call forwarding, prompts, and voicemail. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="91">
+        <label>ThecallrApi.Objects.CallTracking.CallTracking</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="94">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="93">
+        <label>ThecallrApi.Objects.CallTracking.CallTracking</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" line="11" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTracking.cs" bodystart="10" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1ae6ded2174af769547fd16f5f4a67c87c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::CallTracking::CallTracking</scope><name>Ga</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a5d9cf1642ef46b1be795443e0cdcf534" prot="public" virt="virtual"><scope>ThecallrApi::Objects::CallTracking::CallTracking</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a68c17764a15030fafb9b58a5995e4b88" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::CallTracking::CallTracking</scope><name>Medias</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a37219e1d71588470d93871513092a6ae" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::CallTracking::CallTracking</scope><name>Options</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a0299f3d96fb5b3e741cfdc6500c92265" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::CallTracking::CallTracking</scope><name>Targets</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1aa0565ab6abac5be0e4fa1667c37af58b" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::CallTracking::CallTracking</scope><name>Vms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

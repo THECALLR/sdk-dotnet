@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::AppsBaseService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.ClientBaseService</basecompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.AppsBaseExtendedService</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.ClickToCallService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a39351754f1f49516bf45ad82621112e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.AppsBaseService.AppsBaseService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>AppsBaseService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="20" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a161cbc874b775a592fdfedd1903d353e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.AppsBaseService.AppsBaseService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>AppsBaseService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a16eb4a94326a3092236c599d8c5445d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref></type>
+        <definition>App ThecallrApi.Services.Client.AppsBaseService.Get</definition>
+        <argsstring>(string hash)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>string</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves a Voice App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>App ID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref> object representing the Voice App.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="42" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af50747d346b92754ffb83f17970dfda8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.AppsBaseService.Delete</definition>
+        <argsstring>(string hash)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>string</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>This method deletes Voice App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>App ID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af6caca8bc3d8db1bd4fe6f627dde7d8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli" kindref="compound">CustomerCli</ref> &gt;</type>
+        <definition>List&lt;CustomerCli&gt; ThecallrApi.Services.Client.AppsBaseService.GetAuthorizedClis</definition>
+        <argsstring>(string type)</argsstring>
+        <name>GetAuthorizedClis</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>This method lists the authorized CLIs on your account. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CLI type (possible values are defined in ThecallrApi.Enums.CliAuthTypes class).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli" kindref="compound">ThecallrApi.Objects.Misc.CustomerCli</ref> object list representing the authorized CLIs on your account.</para></simplesect>
+<simplesect kind="see"><para>ThecallrApi.Enums.CliAuthTypes, <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli" kindref="compound">ThecallrApi.Objects.Misc.CustomerCli</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="68" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a28330950bff9a8a9ba69773e5efbc69d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref></type>
+        <definition>App ThecallrApi.Services.Client.AppsBaseService.Create</definition>
+        <argsstring>(string type, string name, object obj)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>This method creates a new Voice App, and optionally configure it at the same time. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voice App type (possible values are defined in ThecallrApi.Enums.ApplicationTypes class).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voice App name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional Voice App parameters (possible objects are <ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">ThecallrApi.Objects.CallTracking.CallTracking</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ThecallrApi.Objects.ClickToCall.ClickToCall</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" kindref="compound">ThecallrApi.Objects.RealTime.RealTime</ref>).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref> object representing the new Voice App.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">ThecallrApi.Objects.CallTracking.CallTracking</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ThecallrApi.Objects.ClickToCall.ClickToCall</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" kindref="compound">ThecallrApi.Objects.RealTime.RealTime</ref>, ThecallrApi.Enums.ApplicationTypes</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="89" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="89" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a10db4e2eee56c8561b384fbc6d1c1f05" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref></type>
+        <definition>App ThecallrApi.Services.Client.AppsBaseService.Edit</definition>
+        <argsstring>(string hash, string name, object app)</argsstring>
+        <name>Edit</name>
+        <param>
+          <type>string</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+<para>This method edits a Voice App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voice App ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The App name. Send <computeroutput>null</computeroutput> if you do not want to edit the name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An object containing the parameters you want to edit (possible objects are <ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">ThecallrApi.Objects.CallTracking.CallTracking</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ThecallrApi.Objects.ClickToCall.ClickToCall</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" kindref="compound">ThecallrApi.Objects.RealTime.RealTime</ref>).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref> object representing the edited Voice App.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">ThecallrApi.Objects.CallTracking.CallTracking</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ThecallrApi.Objects.ClickToCall.ClickToCall</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" kindref="compound">ThecallrApi.Objects.RealTime.RealTime</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="107" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="107" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class acts as base class for application services thats allows you CRUD operations. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>ThecallrApi.Services.Client.AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="27">
+        <label>ThecallrApi.Services.Client.CallTrackingService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>ThecallrApi.Services.Client.AppsService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>ThecallrApi.Services.Client.AppsBaseExtendedService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>ThecallrApi.Services.Client.ClickToCallService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>ThecallrApi.Services.Client.AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseService.cs" bodystart="11" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a39351754f1f49516bf45ad82621112e4" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a161cbc874b775a592fdfedd1903d353e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a28330950bff9a8a9ba69773e5efbc69d" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>Create</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af50747d346b92754ffb83f17970dfda8" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>Delete</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a10db4e2eee56c8561b384fbc6d1c1f05" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>Edit</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a16eb4a94326a3092236c599d8c5445d2" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>Get</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af6caca8bc3d8db1bd4fe6f627dde7d8d" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseService</scope><name>GetAuthorizedClis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_json_1_1_json_rpc_client" kind="class" prot="public">
+    <compoundname>ThecallrApi::Json::JsonRpcClient</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a089929699b48b819ef921c49851da1ad" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Json.JsonRpcClient.URL_API</definition>
+        <argsstring></argsstring>
+        <name>URL_API</name>
+        <initializer>= &quot;https://api.thecallr.com&quot;</initializer>
+        <briefdescription>
+<para>API url. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="18" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1af0e422ceb48e0e60ea2931a60f5b3e29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonRpcClient.url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+<para>API url. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a5abb517979932f03537abbff5007e4fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonRpcClient.login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+<para>Login. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1aefa7c23e20a776ca0862d47dffab33ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonRpcClient.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+<para>Password. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1abf7d3147fbfb5aa457cc60ce63b9dd02" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonRpcClient.base64_authorization</definition>
+        <argsstring></argsstring>
+        <name>base64_authorization</name>
+        <briefdescription>
+<para>Base 64 encoded &quot;login:password&quot; string. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a831ed2ac7f301b9967074aa938d1b500" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Json.JsonRpcClient.request_id</definition>
+        <argsstring></argsstring>
+        <name>request_id</name>
+        <briefdescription>
+<para>Current request ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a643b5479b710d4ba06d41a153aa24e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Json.JsonRpcClient.JsonRpcClient</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>JsonRpcClient</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a9e96579260649ba1a845989cc9033822" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Json.JsonRpcClient.JsonRpcClient</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>JsonRpcClient</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="70" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a9e7b2b6af7bc036bc92c9d742fe7a223" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_json_1_1_json_response" kindref="compound">JsonResponse</ref></type>
+        <definition>JsonResponse ThecallrApi.Json.JsonRpcClient.MakeRequest</definition>
+        <argsstring>(string method, object parameter)</argsstring>
+        <name>MakeRequest</name>
+        <param>
+          <type>string</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>This metho requests the specified API method with its parameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API method to execute.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Method parameter.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_json_1_1_json_response" kindref="compound">ThecallrApi.Json.JsonResponse</ref> object containing error or result.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_json_1_1_json_response" kindref="compound">ThecallrApi.Json.JsonResponse</ref>, <ref refid="class_thecallr_api_1_1_json_1_1_json_request" kindref="compound">ThecallrApi.Json.JsonRequest</ref>, System.Net.HttpWebRequest, System.Web.Script.Serialization.JavaScriptSerializer</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="87" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="87" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows you to execute API requests. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRpcClient.cs" bodystart="13" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1abf7d3147fbfb5aa457cc60ce63b9dd02" prot="private" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>base64_authorization</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a643b5479b710d4ba06d41a153aa24e1c" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>JsonRpcClient</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a9e96579260649ba1a845989cc9033822" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>JsonRpcClient</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a5abb517979932f03537abbff5007e4fa" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>login</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a9e7b2b6af7bc036bc92c9d742fe7a223" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>MakeRequest</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1aefa7c23e20a776ca0862d47dffab33ce" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>password</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a831ed2ac7f301b9967074aa938d1b500" prot="private" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>request_id</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1af0e422ceb48e0e60ea2931a60f5b3e29" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>url</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a089929699b48b819ef921c49851da1ad" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRpcClient</scope><name>URL_API</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

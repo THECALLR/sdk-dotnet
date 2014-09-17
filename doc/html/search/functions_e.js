@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['send',['Send',['../class_thecallr_api_1_1_services_1_1_client_1_1_sms_service.html#ac6b2841312fb583b870d0581e430f9bc',1,'ThecallrApi::Services::Client::SmsService']]],
+  ['senddtmf',['SendDtmf',['../class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service.html#a3ad6d4a674103c9f46b91616cbacdcf6',1,'ThecallrApi::Services::Server::RealTimeService']]],
+  ['setcontent',['SetContent',['../class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library.html#a45f46ae84daeb6292ac8936087902899',1,'ThecallrApi.Services.Client.MediaService.NestedLibrary.SetContent()'],['../class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts.html#ab82434078f5ce52c675dc95711203407',1,'ThecallrApi.Services.Client.MediaService.NestedTts.SetContent()']]],
+  ['setcontentfromrecording',['SetContentFromRecording',['../class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library.html#ad96ab505d16574ffd1406924470f4b7a',1,'ThecallrApi::Services::Client::MediaService::NestedLibrary']]],
+  ['setname',['SetName',['../class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library.html#a5ebd233179cb13d86e1385200c7f71d2',1,'ThecallrApi::Services::Client::MediaService::NestedLibrary']]],
+  ['settags',['SetTags',['../class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library.html#a60cb9afca681eeb401f879ca8d3302b3',1,'ThecallrApi::Services::Client::MediaService::NestedLibrary']]],
+  ['smsservice',['SmsService',['../class_thecallr_api_1_1_services_1_1_client_1_1_sms_service.html#a07f4ba5167b9fc91d173b3d600bdfe1a',1,'ThecallrApi.Services.Client.SmsService.SmsService(string url, string login, string password)'],['../class_thecallr_api_1_1_services_1_1_client_1_1_sms_service.html#affcea6a4058f3282593b099529b6cf27',1,'ThecallrApi.Services.Client.SmsService.SmsService(string login, string password)']]],
+  ['start2calls',['Start2Calls',['../class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service.html#a4122c61ebaf50e0d62047c89201c5e51',1,'ThecallrApi::Services::Client::ClickToCallService']]],
+  ['systemservice',['SystemService',['../class_thecallr_api_1_1_services_1_1_client_1_1_system_service.html#a139f9329b6542e8ce9b321e5de0e4d0b',1,'ThecallrApi.Services.Client.SystemService.SystemService(string url, string login, string password)'],['../class_thecallr_api_1_1_services_1_1_client_1_1_system_service.html#a1a51979c0cde9bcc42e4989818e088dc',1,'ThecallrApi.Services.Client.SystemService.SystemService(string login, string password)']]]
+];

@@ -1,0 +1,141 @@
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request}{\section{Thecallr\+Api.\+Objects.\+Real\+Time.\+Request Class Reference}
+\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request}\index{Thecallr\+Api.\+Objects.\+Real\+Time.\+Request@{Thecallr\+Api.\+Objects.\+Real\+Time.\+Request}}
+}
+
+
+This class represents a Real-\/\+Time \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request}{Request} (Our P\+O\+S\+T to your server).  
+
+
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a3679a1e4a3a2cadd4cd9b120b508d701}{app}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Voice \hyperlink{namespace_thecallr_api_1_1_objects_1_1_app}{App} I\+D. \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_ae9e65e0b9f9df536b066ef913f6fb687}{callid}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Call Unique I\+D (C\+D\+R). \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_aaeadcbd8def6779be7f6765234c7fe1c}{request\+\_\+hash}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Outbound \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request}{Request} I\+D (if outbound call). \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a184d3472cbd338b6c58e98578727ee42}{cli\+\_\+name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em C\+L\+I name. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a2e1a6f9393fb53a7dfba2476408815da}{cli\+\_\+number}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em C\+L\+I number. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a944c8d2e0794ccc9f2eab565194cc6d6}{number}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em D\+I\+D/\+Outbound phone number. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_aab93436f8f9491a59ddae770cb418275}{command}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The command name related to this request. \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a4d625a8e9e5b43dc7bcec57fac38eec9}{command\+\_\+id}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The command id related to this request. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a8758947fb3991ef5faa67febed4f558d}{command\+\_\+result}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The command result related to this request. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a882e151a5315eab6d4a15b63d434785c}{command\+\_\+error}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The command error (if any) related to this request. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a679ba6811aae07b3dd93d91690b72005}{call\+\_\+status}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Call status (possible values are defined in Thecallr\+Api.\+Enums.\+Real\+Time\+Call\+Statuses class). \end{DoxyCompactList}\item 
+Dictionary$<$ string, object $>$ \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_afc3423f28ec2b5f75b5ba4f9919eb61b}{variables}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Key/\+Value object sent back with each request. You can use this as a session object. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a61d31ceb1bd9faa206feabc5dc28822c}{date\+\_\+started}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When the call has started. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents a Real-\/\+Time \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request}{Request} (Our P\+O\+S\+T to your server). 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a3679a1e4a3a2cadd4cd9b120b508d701}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!app@{app}}
+\index{app@{app}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{app}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+app\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a3679a1e4a3a2cadd4cd9b120b508d701}
+
+
+Voice \hyperlink{namespace_thecallr_api_1_1_objects_1_1_app}{App} I\+D. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a679ba6811aae07b3dd93d91690b72005}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!call\+\_\+status@{call\+\_\+status}}
+\index{call\+\_\+status@{call\+\_\+status}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{call\+\_\+status}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+call\+\_\+status\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a679ba6811aae07b3dd93d91690b72005}
+
+
+Call status (possible values are defined in Thecallr\+Api.\+Enums.\+Real\+Time\+Call\+Statuses class). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_ae9e65e0b9f9df536b066ef913f6fb687}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!callid@{callid}}
+\index{callid@{callid}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{callid}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+callid\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_ae9e65e0b9f9df536b066ef913f6fb687}
+
+
+Call Unique I\+D (C\+D\+R). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a184d3472cbd338b6c58e98578727ee42}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!cli\+\_\+name@{cli\+\_\+name}}
+\index{cli\+\_\+name@{cli\+\_\+name}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{cli\+\_\+name}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+cli\+\_\+name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a184d3472cbd338b6c58e98578727ee42}
+
+
+C\+L\+I name. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a2e1a6f9393fb53a7dfba2476408815da}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!cli\+\_\+number@{cli\+\_\+number}}
+\index{cli\+\_\+number@{cli\+\_\+number}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{cli\+\_\+number}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+cli\+\_\+number\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a2e1a6f9393fb53a7dfba2476408815da}
+
+
+C\+L\+I number. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_aab93436f8f9491a59ddae770cb418275}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!command@{command}}
+\index{command@{command}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{command}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+command\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_aab93436f8f9491a59ddae770cb418275}
+
+
+The command name related to this request. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a882e151a5315eab6d4a15b63d434785c}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!command\+\_\+error@{command\+\_\+error}}
+\index{command\+\_\+error@{command\+\_\+error}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{command\+\_\+error}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+command\+\_\+error\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a882e151a5315eab6d4a15b63d434785c}
+
+
+The command error (if any) related to this request. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a4d625a8e9e5b43dc7bcec57fac38eec9}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!command\+\_\+id@{command\+\_\+id}}
+\index{command\+\_\+id@{command\+\_\+id}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{command\+\_\+id}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+command\+\_\+id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a4d625a8e9e5b43dc7bcec57fac38eec9}
+
+
+The command id related to this request. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a8758947fb3991ef5faa67febed4f558d}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!command\+\_\+result@{command\+\_\+result}}
+\index{command\+\_\+result@{command\+\_\+result}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{command\+\_\+result}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+command\+\_\+result\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a8758947fb3991ef5faa67febed4f558d}
+
+
+The command result related to this request. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a61d31ceb1bd9faa206feabc5dc28822c}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!date\+\_\+started@{date\+\_\+started}}
+\index{date\+\_\+started@{date\+\_\+started}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{date\+\_\+started}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+date\+\_\+started\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a61d31ceb1bd9faa206feabc5dc28822c}
+
+
+When the call has started. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a944c8d2e0794ccc9f2eab565194cc6d6}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!number@{number}}
+\index{number@{number}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{number}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+number\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_a944c8d2e0794ccc9f2eab565194cc6d6}
+
+
+D\+I\+D/\+Outbound phone number. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_aaeadcbd8def6779be7f6765234c7fe1c}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!request\+\_\+hash@{request\+\_\+hash}}
+\index{request\+\_\+hash@{request\+\_\+hash}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{request\+\_\+hash}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+request\+\_\+hash\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_aaeadcbd8def6779be7f6765234c7fe1c}
+
+
+Outbound \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request}{Request} I\+D (if outbound call). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_afc3423f28ec2b5f75b5ba4f9919eb61b}{\index{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}!variables@{variables}}
+\index{variables@{variables}!Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request@{Thecallr\+Api\+::\+Objects\+::\+Real\+Time\+::\+Request}}
+\subsubsection[{variables}]{\setlength{\rightskip}{0pt plus 5cm}Dictionary$<$string, object$>$ Thecallr\+Api.\+Objects.\+Real\+Time.\+Request.\+variables\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_afc3423f28ec2b5f75b5ba4f9919eb61b}
+
+
+Key/\+Value object sent back with each request. You can use this as a session object. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Objects/\+Real\+Time/Request.\+cs\end{DoxyCompactItemize}

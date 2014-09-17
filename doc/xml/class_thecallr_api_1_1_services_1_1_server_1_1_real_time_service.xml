@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Server::RealTimeService</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a84722e63cf2d110ec8679b6764a04e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.Dialout</definition>
+        <argsstring>(string cdrField, string cli, string ringtone, List&lt; Target &gt; targets, string whisper)</argsstring>
+        <name>Dialout</name>
+        <param>
+          <type>string</type>
+          <declname>cdrField</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cli</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ringtone</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">Target</ref> &gt;</type>
+          <declname>targets</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>whisper</declname>
+        </param>
+        <briefdescription>
+<para>This method makes another call, and bridges the call on answer. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdrField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value written in the CDR.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cli</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Outbound Caller ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ringtone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Plays music or classic ringtone (possible values are defined in ThecallrApi.Enums.RealTimeRingtones class).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>targets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Phone numbers called sequentially until one answers.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>whisper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callee whispering Media.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para>ThecallrApi.Enums.RealTimeRingtones, <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="23" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a5a4dcc847bb702afce43876047507fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.Hangup</definition>
+        <argsstring>()</argsstring>
+        <name>Hangup</name>
+        <briefdescription>
+<para>This method hangs up the call. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1ab7f2eada0f38e99b789af1e98b26b77e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.Play</definition>
+        <argsstring>(string mediaId)</argsstring>
+        <name>Play</name>
+        <param>
+          <type>string</type>
+          <declname>mediaId</declname>
+        </param>
+        <briefdescription>
+<para>This method plays a Media.Library or say something with the Text-to-Speech. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Media ID or Text to say.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="51" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1ae638ea9bbf631fda1281445ba73d7ce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.PlayRecord</definition>
+        <argsstring>(string mediaFile)</argsstring>
+        <name>PlayRecord</name>
+        <param>
+          <type>string</type>
+          <declname>mediaFile</declname>
+        </param>
+        <briefdescription>
+<para>This method plays a recording recorded with the <ref refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a72d665b9e464c3a8fe992217efc4d945" kindref="member">Record</ref> command. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Temporary file name.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref>, <ref refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a72d665b9e464c3a8fe992217efc4d945" kindref="member">Record</ref></para></simplesect>
+/&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="65" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a532fa874454f105002b2b21d437dd5ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.Read</definition>
+        <argsstring>(int attempts, int maxDigits, string mediaId, int timeoutMs)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>int</type>
+          <declname>attempts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDigits</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mediaId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeoutMs</declname>
+        </param>
+        <briefdescription>
+<para>This method plays a Media and wait for a DTMF input at the same time. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>attempts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum attempts. min:1 max:10.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDigits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum digits. min:1 max:20.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Prompt message.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeoutMs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input timeout in milliseconds. min:100 max:30000.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="81" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="81" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a72d665b9e464c3a8fe992217efc4d945" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.Record</definition>
+        <argsstring>(int maxDuration, int silence)</argsstring>
+        <name>Record</name>
+        <param>
+          <type>int</type>
+          <declname>maxDuration</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>silence</declname>
+        </param>
+        <briefdescription>
+<para>This method records the user. The recording can be stopped by pressing the hash key &apos;#&apos;, when silence is detected, or when maximum recording duration is reached. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(seconds) Maximum recording duration. Min:0 (disabled), Max:300.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>silence</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(seconds) Stop recording on silence. Min:0 (disabled), Max:20.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="99" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a3ad6d4a674103c9f46b91616cbacdcf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.SendDtmf</definition>
+        <argsstring>(string digits, int durationMs, int timeoutMs)</argsstring>
+        <name>SendDtmf</name>
+        <param>
+          <type>string</type>
+          <declname>digits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>durationMs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeoutMs</declname>
+        </param>
+        <briefdescription>
+<para>This method sends DTMF digits. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>digits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Digits to send (0-9, , #). Example : &quot;123#&quot;.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>durationMs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(milliseconds) Duration of each digit. Min: 1, Max: 5000.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeoutMs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(milliseconds) Amount of time between tones. Min: 0, Max: 10000.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="115" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="115" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1accc4c5a802e762bc960c28f8eec7a369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.Wait</definition>
+        <argsstring>(int wait)</argsstring>
+        <name>Wait</name>
+        <param>
+          <type>int</type>
+          <declname>wait</declname>
+        </param>
+        <briefdescription>
+<para>This method waits for a few seconds. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wait</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(seconds) Time to wait. Min:1, Max: 30.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="130" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="130" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a437c92082a86f4dde2f02ea57b8a3bb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">RealTimeResponse</ref></type>
+        <definition>RealTimeResponse ThecallrApi.Services.Server.RealTimeService.WaitForSilence</definition>
+        <argsstring>(int iterations, int silenceMs, int timeout)</argsstring>
+        <name>WaitForSilence</name>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>silenceMs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+<para>This method waits until silence is detected, or timeout is reached. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iterations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of times to try. Min:1, Max:10.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>silenceMs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(milliseconds) Minimum silence duration. Min:1, Max:5000.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(seconds) Global timeout if silence is not detected. Min:0 (disabled), Max:300.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref> object representing the real-time response.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeResponse</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="145" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="145" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows you to control phone calls in real-time. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="11" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" bodystart="10" bodyend="153"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a84722e63cf2d110ec8679b6764a04e3a" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>Dialout</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a5a4dcc847bb702afce43876047507fe0" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>Hangup</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1ab7f2eada0f38e99b789af1e98b26b77e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>Play</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1ae638ea9bbf631fda1281445ba73d7ce3" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>PlayRecord</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a532fa874454f105002b2b21d437dd5ea" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>Read</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a72d665b9e464c3a8fe992217efc4d945" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>Record</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a3ad6d4a674103c9f46b91616cbacdcf6" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>SendDtmf</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1accc4c5a802e762bc960c28f8eec7a369" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>Wait</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a437c92082a86f4dde2f02ea57b8a3bb7" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Server::RealTimeService</scope><name>WaitForSilence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

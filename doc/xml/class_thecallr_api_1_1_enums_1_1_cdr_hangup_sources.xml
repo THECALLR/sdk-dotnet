@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::CdrHangupSources</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1ac5e9da325c6a00f45b10d8df32c6c704" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.CdrHangupSources.GATEWAY</definition>
+        <argsstring></argsstring>
+        <name>GATEWAY</name>
+        <initializer>= &quot;GATEWAY&quot;</initializer>
+        <briefdescription>
+<para>The call was hungup by our gateway. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1adb1b9b399fb39a1a02d3263dcc521f59" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.CdrHangupSources.CALLER</definition>
+        <argsstring></argsstring>
+        <name>CALLER</name>
+        <initializer>= &quot;CALLER&quot;</initializer>
+        <briefdescription>
+<para>The caller hung up the call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1ab3c9ea92bc068dca9b5dc224cde774ad" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.CdrHangupSources.CALLEE</definition>
+        <argsstring></argsstring>
+        <name>CALLEE</name>
+        <initializer>= &quot;CALLEE&quot;</initializer>
+        <briefdescription>
+<para>The callee hung up the call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all hangup sources. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CdrHangupSources.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1ab3c9ea92bc068dca9b5dc224cde774ad" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::CdrHangupSources</scope><name>CALLEE</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1adb1b9b399fb39a1a02d3263dcc521f59" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::CdrHangupSources</scope><name>CALLER</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1ac5e9da325c6a00f45b10d8df32c6c704" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::CdrHangupSources</scope><name>GATEWAY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::App::Param::Vms</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ac361875c2bbe9afb787095925fea6d58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.App.Param.Vms.Active</definition>
+        <argsstring></argsstring>
+        <name>Active</name>
+        <briefdescription>
+<para>If not activated, the call is hang up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1aa9fb2d9fe59dc28f3a8cb192f3af7be4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.Vms.Intro</definition>
+        <argsstring></argsstring>
+        <name>Intro</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> prompt. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ad6cfde4ca36277a2821d9194ab2063fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Param.Vms.FileFormat</definition>
+        <argsstring></argsstring>
+        <name>FileFormat</name>
+        <briefdescription>
+<para>File attachment format (possible values are defined in ThecallrApi.Enums.VoicemailFileFormats class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a24db06489db2f2a78cb9cf2325792787" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Param.Vms.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+<para>File attachment name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1aafb848d0bde7e20f2f6dbb8763697545" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Param.Vms.EmailTemplate</definition>
+        <argsstring></argsstring>
+        <name>EmailTemplate</name>
+        <briefdescription>
+<para>Email template. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a22fad0cb2e2243b2712445daf007a97c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.App.Param.Vms.Record</definition>
+        <argsstring></argsstring>
+        <name>Record</name>
+        <briefdescription>
+<para>If <computeroutput>false</computeroutput>, the call is hang up after playing the prompt. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ad443b458fb9fd27b6ac5b900d6ad284c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.Vms.Timeout</definition>
+        <argsstring></argsstring>
+        <name>Timeout</name>
+        <briefdescription>
+<para>Max recording length in seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1af0d9b7c568758a880708e66aad5088da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Param.Vms.Locale</definition>
+        <argsstring></argsstring>
+        <name>Locale</name>
+        <briefdescription>
+<para>Locale used for date/time formatting. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="49" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a9abf635b1d566fa90a73a857e42b0f30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Param.Vms.Timezone</definition>
+        <argsstring></argsstring>
+        <name>Timezone</name>
+        <briefdescription>
+<para>Timezone IANA name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ab3e6a64404a32328cbd1675d7a775ed6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ThecallrApi.Objects.App.Param.Vms.Emails</definition>
+        <argsstring></argsstring>
+        <name>Emails</name>
+        <briefdescription>
+<para>Email recipients. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="59" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a615f4c8d0771129b8223963919809b1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.App.Param.Vms.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="67" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Voicemail </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="331">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="330">
+        <label>ThecallrApi.Objects.App.Param.Vms</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="333">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="332">
+        <label>ThecallrApi.Objects.App.Param.Vms</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms"/>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/Vms.cs" bodystart="8" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ac361875c2bbe9afb787095925fea6d58" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>Active</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ab3e6a64404a32328cbd1675d7a775ed6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>Emails</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1aafb848d0bde7e20f2f6dbb8763697545" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>EmailTemplate</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ad6cfde4ca36277a2821d9194ab2063fc" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>FileFormat</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a24db06489db2f2a78cb9cf2325792787" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>FileName</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a615f4c8d0771129b8223963919809b1c" prot="public" virt="virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1aa9fb2d9fe59dc28f3a8cb192f3af7be4" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>Intro</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1af0d9b7c568758a880708e66aad5088da" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>Locale</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a22fad0cb2e2243b2712445daf007a97c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>Record</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ad443b458fb9fd27b6ac5b900d6ad284c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>Timeout</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a9abf635b1d566fa90a73a857e42b0f30" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::Vms</scope><name>Timezone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

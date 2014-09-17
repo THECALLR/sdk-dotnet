@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Media::EmailTemplate</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a502d2a4538c073aac28958d811fe3a0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.EmailTemplate.Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <briefdescription>
+<para>Template ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1ae38f4e09ef638944137d7cf2082a4f0c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.EmailTemplate.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>Template type (possible values are defined in ThecallrApi.Enums.MediaEmailTemplates class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a1492e7daee29809843604fc8378a64e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.EmailTemplate.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Template name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a0439e8d3c5b13e544196073f798e8cab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Media.EmailTemplate.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents an email template. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="211">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="210">
+        <label>ThecallrApi.Objects.Media.EmailTemplate</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="213">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="212">
+        <label>ThecallrApi.Objects.Media.EmailTemplate</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/EmailTemplate.cs" bodystart="8" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a502d2a4538c073aac28958d811fe3a0e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::EmailTemplate</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a0439e8d3c5b13e544196073f798e8cab" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Media::EmailTemplate</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a1492e7daee29809843604fc8378a64e5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::EmailTemplate</scope><name>Name</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1ae38f4e09ef638944137d7cf2082a4f0c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::EmailTemplate</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

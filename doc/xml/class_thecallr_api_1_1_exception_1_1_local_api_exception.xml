@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_exception_1_1_local_api_exception" kind="class" prot="public">
+    <compoundname>ThecallrApi::Exception::LocalApiException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_exception_1_1_local_api_exception_1a52d746b68d7ec64f280d9775c4499340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Exception.LocalApiException.LocalApiException</definition>
+        <argsstring>(string message, System.Exception innerException)</argsstring>
+        <name>LocalApiException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> message.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>innerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Inner exception.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Exception/LocalApiException.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Exception/LocalApiException.cs" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_exception_1_1_local_api_exception_1ac7b33f253c30ef0900bb83e46e29c8d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Exception.LocalApiException.LocalApiException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>LocalApiException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> message.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Exception/LocalApiException.cs" line="25" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Exception/LocalApiException.cs" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents an internal library error. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="230">
+        <label>ThecallrApi.Exception.LocalApiException</label>
+        <link refid="class_thecallr_api_1_1_exception_1_1_local_api_exception"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>System::Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="232">
+        <label>ThecallrApi.Exception.LocalApiException</label>
+        <link refid="class_thecallr_api_1_1_exception_1_1_local_api_exception"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>System::Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Exception/LocalApiException.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Exception/LocalApiException.cs" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_exception_1_1_local_api_exception_1a52d746b68d7ec64f280d9775c4499340" prot="public" virt="non-virtual"><scope>ThecallrApi::Exception::LocalApiException</scope><name>LocalApiException</name></member>
+      <member refid="class_thecallr_api_1_1_exception_1_1_local_api_exception_1ac7b33f253c30ef0900bb83e46e29c8d8" prot="public" virt="non-virtual"><scope>ThecallrApi::Exception::LocalApiException</scope><name>LocalApiException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

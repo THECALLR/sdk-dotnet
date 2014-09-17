@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::DialrService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.ClientBaseService</basecompoundref>
+    <innerclass refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call" prot="public">ThecallrApi::Services::Client::DialrService::NestedCall</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a6103910860ad9a5f01d5fc166b733442" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call" kindref="compound">NestedCall</ref></type>
+        <definition>NestedCall ThecallrApi.Services.Client.DialrService._call</definition>
+        <argsstring></argsstring>
+        <name>_call</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="16" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a378f63f5a8055d6f817fe980b7a4a67f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call" kindref="compound">NestedCall</ref></type>
+        <definition>NestedCall ThecallrApi.Services.Client.DialrService.Call</definition>
+        <argsstring></argsstring>
+        <name>Call</name>
+        <briefdescription>
+<para>This class allows Dialr call management. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="23" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a6ff3b2633184a10b64ec33cf5a6ed622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.DialrService.DialrService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>DialrService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="40" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a7feeb9842dc52b52351f24d4dbfb5688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.DialrService.DialrService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>DialrService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="49" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows Dialr Service management. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="188">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="187">
+        <label>ThecallrApi.Services.Client.DialrService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="190">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="189">
+        <label>ThecallrApi.Services.Client.DialrService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="13" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a6103910860ad9a5f01d5fc166b733442" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService</scope><name>_call</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a378f63f5a8055d6f817fe980b7a4a67f" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService</scope><name>Call</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a6ff3b2633184a10b64ec33cf5a6ed622" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService</scope><name>DialrService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a7feeb9842dc52b52351f24d4dbfb5688" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService</scope><name>DialrService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

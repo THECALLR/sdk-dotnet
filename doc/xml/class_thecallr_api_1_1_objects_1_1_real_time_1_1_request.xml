@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::RealTime::Request</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a3679a1e4a3a2cadd4cd9b120b508d701" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <briefdescription>
+<para>Voice <ref refid="namespace_thecallr_api_1_1_objects_1_1_app" kindref="compound">App</ref> ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1ae9e65e0b9f9df536b066ef913f6fb687" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.RealTime.Request.callid</definition>
+        <argsstring></argsstring>
+        <name>callid</name>
+        <briefdescription>
+<para>Call Unique ID (CDR). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1aaeadcbd8def6779be7f6765234c7fe1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.request_hash</definition>
+        <argsstring></argsstring>
+        <name>request_hash</name>
+        <briefdescription>
+<para>Outbound <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request" kindref="compound">Request</ref> ID (if outbound call). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a184d3472cbd338b6c58e98578727ee42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.cli_name</definition>
+        <argsstring></argsstring>
+        <name>cli_name</name>
+        <briefdescription>
+<para>CLI name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a2e1a6f9393fb53a7dfba2476408815da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.cli_number</definition>
+        <argsstring></argsstring>
+        <name>cli_number</name>
+        <briefdescription>
+<para>CLI number. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a944c8d2e0794ccc9f2eab565194cc6d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+<para>DID/Outbound phone number. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1aab93436f8f9491a59ddae770cb418275" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.command</definition>
+        <argsstring></argsstring>
+        <name>command</name>
+        <briefdescription>
+<para>The command name related to this request. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a4d625a8e9e5b43dc7bcec57fac38eec9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.RealTime.Request.command_id</definition>
+        <argsstring></argsstring>
+        <name>command_id</name>
+        <briefdescription>
+<para>The command id related to this request. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="49" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a8758947fb3991ef5faa67febed4f558d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.command_result</definition>
+        <argsstring></argsstring>
+        <name>command_result</name>
+        <briefdescription>
+<para>The command result related to this request. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a882e151a5315eab6d4a15b63d434785c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.command_error</definition>
+        <argsstring></argsstring>
+        <name>command_error</name>
+        <briefdescription>
+<para>The command error (if any) related to this request. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="59" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a679ba6811aae07b3dd93d91690b72005" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.call_status</definition>
+        <argsstring></argsstring>
+        <name>call_status</name>
+        <briefdescription>
+<para>Call status (possible values are defined in ThecallrApi.Enums.RealTimeCallStatuses class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="64" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1afc3423f28ec2b5f75b5ba4f9919eb61b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; ThecallrApi.Objects.RealTime.Request.variables</definition>
+        <argsstring></argsstring>
+        <name>variables</name>
+        <briefdescription>
+<para>Key/Value object sent back with each request. You can use this as a session object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="69" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a61d31ceb1bd9faa206feabc5dc28822c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.Request.date_started</definition>
+        <argsstring></argsstring>
+        <name>date_started</name>
+        <briefdescription>
+<para>When the call has started. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="74" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Real-Time <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request" kindref="compound">Request</ref> (Our POST to your server). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/Request.cs" bodystart="8" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a3679a1e4a3a2cadd4cd9b120b508d701" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>app</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a679ba6811aae07b3dd93d91690b72005" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>call_status</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1ae9e65e0b9f9df536b066ef913f6fb687" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>callid</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a184d3472cbd338b6c58e98578727ee42" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>cli_name</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a2e1a6f9393fb53a7dfba2476408815da" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>cli_number</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1aab93436f8f9491a59ddae770cb418275" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>command</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a882e151a5315eab6d4a15b63d434785c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>command_error</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a4d625a8e9e5b43dc7bcec57fac38eec9" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>command_id</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a8758947fb3991ef5faa67febed4f558d" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>command_result</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a61d31ceb1bd9faa206feabc5dc28822c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>date_started</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a944c8d2e0794ccc9f2eab565194cc6d6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>number</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1aaeadcbd8def6779be7f6765234c7fe1c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>request_hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1afc3423f28ec2b5f75b5ba4f9919eb61b" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::Request</scope><name>variables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

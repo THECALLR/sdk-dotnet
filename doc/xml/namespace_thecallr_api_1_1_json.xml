@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_json" kind="namespace">
+    <compoundname>ThecallrApi::Json</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_json_1_1_json_error" prot="public">ThecallrApi::Json::JsonError</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_json_1_1_json_request" prot="public">ThecallrApi::Json::JsonRequest</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_json_1_1_json_response" prot="public">ThecallrApi::Json::JsonResponse</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_json_1_1_json_rpc_client" prot="public">ThecallrApi::Json::JsonRpcClient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonError.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

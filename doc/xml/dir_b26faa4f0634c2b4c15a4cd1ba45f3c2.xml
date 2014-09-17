@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_b26faa4f0634c2b4c15a4cd1ba45f3c2" kind="dir">
+    <compoundname>Helper</compoundname>
+    <innerfile refid="_base_class_java_script_converter_8cs">BaseClassJavaScriptConverter.cs</innerfile>
+    <innerfile refid="_converter_8cs">Converter.cs</innerfile>
+    <innerfile refid="_creator_8cs">Creator.cs</innerfile>
+    <innerfile refid="_dictionary_creator_8cs">DictionaryCreator.cs</innerfile>
+    <innerfile refid="_tools_8cs">Tools.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/"/>
+  </compounddef>
+</doxygen>

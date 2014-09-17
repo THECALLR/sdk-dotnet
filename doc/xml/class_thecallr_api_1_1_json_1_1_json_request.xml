@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_json_1_1_json_request" kind="class" prot="public">
+    <compoundname>ThecallrApi::Json::JsonRequest</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_request_1a1d4768420076b42a6a32dd793caf6523" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Json.JsonRequest.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>Request ID. The server will respond with the same ID in order to identify it. </para>        </briefdescription>
+        <detaileddescription>
+<para>Object type can be int, string or null.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_request_1a167b1e5a74a478c3358eb642ce791c66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonRequest.version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+<para>JSON-RPC protocol version to use. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_request_1aaab569b47d1872369cf4872fc27a7be8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonRequest.method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <briefdescription>
+<para>Method to process on the server. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" line="27" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_request_1a90783eb7527497449a7741cb9231acf8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>object</type>
+        <definition>object ThecallrApi.Json.JsonRequest.parameters</definition>
+        <argsstring></argsstring>
+        <name>parameters</name>
+        <briefdescription>
+<para>Structured object acting as the method parameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_json_1_1_json_request_1af16927b283df49d006d0de8af860e5c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Json.JsonRequest.JsonRequest</definition>
+        <argsstring>(int?id, string method, object parameter)</argsstring>
+        <name>JsonRequest</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Request ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Method to process.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Method parameter.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" line="42" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_json_1_1_json_request_1a4d37a319a08ebe3b59b8e8ad727a7cae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonRequest.GetJson</definition>
+        <argsstring>()</argsstring>
+        <name>GetJson</name>
+        <briefdescription>
+<para>Build the request in JSON-RPC format. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The request in JSON-RPC format.</para></simplesect>
+<simplesect kind="see"><para>System.Web.Script.Serialization.JavaScriptSerializer</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" line="57" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" bodystart="57" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents data sent to API server during a JSON-RPC request. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonRequest.cs" bodystart="9" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a4d37a319a08ebe3b59b8e8ad727a7cae" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRequest</scope><name>GetJson</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a1d4768420076b42a6a32dd793caf6523" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRequest</scope><name>id</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_request_1af16927b283df49d006d0de8af860e5c3" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRequest</scope><name>JsonRequest</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_request_1aaab569b47d1872369cf4872fc27a7be8" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRequest</scope><name>method</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a90783eb7527497449a7741cb9231acf8" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRequest</scope><name>parameters</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a167b1e5a74a478c3358eb642ce791c66" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonRequest</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

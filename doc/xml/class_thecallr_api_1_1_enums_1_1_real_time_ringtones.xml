@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_real_time_ringtones" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::RealTimeRingtones</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_ringtones_1a02360b6e088121cccedf8029cc4f34db" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeRingtones.MUSIC</definition>
+        <argsstring></argsstring>
+        <name>MUSIC</name>
+        <initializer>= &quot;MUSIC&quot;</initializer>
+        <briefdescription>
+<para>Plays music. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeRingtones.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeRingtones.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_ringtones_1a43a87233424ba8e0a866dfb590e938f5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeRingtones.RING</definition>
+        <argsstring></argsstring>
+        <name>RING</name>
+        <initializer>= &quot;RING&quot;</initializer>
+        <briefdescription>
+<para>Plays classic ringtone. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeRingtones.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeRingtones.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the ringtones in dialout Real-Time command. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeRingtones.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeRingtones.cs" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_ringtones_1a02360b6e088121cccedf8029cc4f34db" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeRingtones</scope><name>MUSIC</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_ringtones_1a43a87233424ba8e0a866dfb590e938f5" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeRingtones</scope><name>RING</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

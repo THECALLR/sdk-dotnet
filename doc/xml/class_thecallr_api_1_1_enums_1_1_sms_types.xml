@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_sms_types" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::SmsTypes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_types_1a61e04fcd263d086f1da44556e3850c50" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsTypes.IN</definition>
+        <argsstring></argsstring>
+        <name>IN</name>
+        <initializer>= &quot;IN&quot;</initializer>
+        <briefdescription>
+<para>Inbound SMS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsTypes.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsTypes.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_types_1a6ad8f804cf375e4a5398b5cb468cb606" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsTypes.OUT</definition>
+        <argsstring></argsstring>
+        <name>OUT</name>
+        <initializer>= &quot;OUT&quot;</initializer>
+        <briefdescription>
+<para>Outbound SMS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsTypes.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsTypes.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the types of SMS. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsTypes.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsTypes.cs" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_types_1a61e04fcd263d086f1da44556e3850c50" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsTypes</scope><name>IN</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_types_1a6ad8f804cf375e4a5398b5cb468cb606" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsTypes</scope><name>OUT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

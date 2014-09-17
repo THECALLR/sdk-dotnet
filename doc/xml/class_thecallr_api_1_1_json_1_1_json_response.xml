@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_json_1_1_json_response" kind="class" prot="public">
+    <compoundname>ThecallrApi::Json::JsonResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_response_1a37a1a8e1a7317edcd56456911cd72cbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Json.JsonResponse.jsonrpc</definition>
+        <argsstring></argsstring>
+        <name>jsonrpc</name>
+        <briefdescription>
+<para>JSON-RPC protocol version. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" line="13" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_response_1a4366a7a60d9781436d368ab499ec6ae8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object ThecallrApi.Json.JsonResponse.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <briefdescription>
+<para>Method call result. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set only in case of success call.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_response_1aff2a4d7e08a310c009d90f7d9278f179" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_json_1_1_json_error" kindref="compound">JsonError</ref></type>
+        <definition>JsonError ThecallrApi.Json.JsonResponse.error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+<para>Method call error. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set only in case of error.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" line="25" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_json_1_1_json_response_1a234bb72dabad32bff0d92a4f391d8e94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Json.JsonResponse.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>Related request ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" line="30" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents data contained in a JSON-RPC response. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/JsonResponse.cs" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_response_1aff2a4d7e08a310c009d90f7d9278f179" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonResponse</scope><name>error</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_response_1a234bb72dabad32bff0d92a4f391d8e94" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonResponse</scope><name>id</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_response_1a37a1a8e1a7317edcd56456911cd72cbf" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonResponse</scope><name>jsonrpc</name></member>
+      <member refid="class_thecallr_api_1_1_json_1_1_json_response_1a4366a7a60d9781436d368ab499ec6ae8" prot="public" virt="non-virtual"><scope>ThecallrApi::Json::JsonResponse</scope><name>result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

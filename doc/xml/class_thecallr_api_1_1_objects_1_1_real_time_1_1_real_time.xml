@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::RealTime::RealTime</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a666f2857f9d7284203450cc9e5920d41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.RealTime.DataFormat</definition>
+        <argsstring></argsstring>
+        <name>DataFormat</name>
+        <briefdescription>
+<para>Data format. The only format supported right now is &quot;JSON&quot; (possible values are defined in ThecallrApi.Enums.RealTimeDataFormats class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a7f00ac41d231c5d758a5294cd7a2777c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.RealTime.Login</definition>
+        <argsstring></argsstring>
+        <name>Login</name>
+        <briefdescription>
+<para>Login if your URL is password protected (HTTP Basic Authentication). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a6a97a4668e19618e11cef48eb86e5f65" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.RealTime.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+<para>Password If your URL is password protected (HTTP Basic Authentication). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a33ab53bd6843893ad4fda5488e94b16d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.RealTime.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <briefdescription>
+<para>Your URL callback. Our system will POST call status to your URL, and your answers will control the call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a99e33578b5501668eeb600aa93026d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.RealTime.RealTime.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents Realtime <ref refid="namespace_thecallr_api_1_1_objects_1_1_app" kindref="compound">App</ref>. Allows you to control the call in realtime. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="271">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="270">
+        <label>ThecallrApi.Objects.RealTime.RealTime</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="273">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="272">
+        <label>ThecallrApi.Objects.RealTime.RealTime</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" bodystart="8" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a666f2857f9d7284203450cc9e5920d41" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTime</scope><name>DataFormat</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a99e33578b5501668eeb600aa93026d2e" prot="public" virt="virtual"><scope>ThecallrApi::Objects::RealTime::RealTime</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a7f00ac41d231c5d758a5294cd7a2777c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTime</scope><name>Login</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a6a97a4668e19618e11cef48eb86e5f65" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTime</scope><name>Password</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a33ab53bd6843893ad4fda5488e94b16d" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTime</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_cli_presentations" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::CliPresentations</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_cli_presentations_1adbb6195a12b727ec85f5c56ed77f4f9b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.CliPresentations.ALLOWED_PASSED_SCREEN</definition>
+        <argsstring></argsstring>
+        <name>ALLOWED_PASSED_SCREEN</name>
+        <initializer>= &quot;allowed_passed_screen&quot;</initializer>
+        <briefdescription>
+<para>Presentation allowed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CliPresentations.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CliPresentations.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_cli_presentations_1a4d05398a0705d8f5ff3707432ca0d39c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.CliPresentations.PROHIB_PASSED_SCREEN</definition>
+        <argsstring></argsstring>
+        <name>PROHIB_PASSED_SCREEN</name>
+        <initializer>= &quot;prohib_passed_screen&quot;</initializer>
+        <briefdescription>
+<para>Presentation prohibited. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CliPresentations.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CliPresentations.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the Calling Line Identification presentations. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CliPresentations.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/CliPresentations.cs" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_cli_presentations_1adbb6195a12b727ec85f5c56ed77f4f9b" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::CliPresentations</scope><name>ALLOWED_PASSED_SCREEN</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_cli_presentations_1a4d05398a0705d8f5ff3707432ca0d39c" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::CliPresentations</scope><name>PROHIB_PASSED_SCREEN</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

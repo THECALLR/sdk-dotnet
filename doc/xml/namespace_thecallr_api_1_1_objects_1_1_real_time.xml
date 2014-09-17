@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_objects_1_1_real_time" kind="namespace">
+    <compoundname>ThecallrApi::Objects::RealTime</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" prot="public">ThecallrApi::Objects::RealTime::RealTime</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options" prot="public">ThecallrApi::Objects::RealTime::RealTimeCallOptions</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" prot="public">ThecallrApi::Objects::RealTime::RealTimeResponse</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request" prot="public">ThecallrApi::Objects::RealTime::Request</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTime.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Sms::Sms</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a3514d7f34644b71999f47370e1679e6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>SMS type (possible values are defined in ThecallrApi.Enums.SmsTypes class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1afc7d55f40da0c17ad7a209af28e5bb23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <briefdescription>
+<para>SMS ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="20" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a9d38d772952e23c3bfd88913b181ee06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.From</definition>
+        <argsstring></argsstring>
+        <name>From</name>
+        <briefdescription>
+<para>Sender. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="25" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aeb6c4f4712263abde25201997ca9952e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.To</definition>
+        <argsstring></argsstring>
+        <name>To</name>
+        <briefdescription>
+<para>Recipient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="30" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a64da1b9a01370e919f60889bf2e057eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+<para>SMS content. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="35" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a8f9ac62227f9244db992316c245e703b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options" kindref="compound">SmsOptions</ref></type>
+        <definition>SmsOptions ThecallrApi.Objects.Sms.Sms.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <briefdescription>
+<para>SMS options. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="40" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1ad83d4b652366ee9a27466298a0b96b1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.BCustomerMode</definition>
+        <argsstring></argsstring>
+        <name>BCustomerMode</name>
+        <briefdescription>
+<para>Billing mode (possible values are defined in ThecallrApi.Enums.BillingModes class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="45" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa00199af3aa282597a789f6f80ff809d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal ThecallrApi.Objects.Sms.Sms.BCustomerDebit</definition>
+        <argsstring></argsstring>
+        <name>BCustomerDebit</name>
+        <briefdescription>
+<para>Amount debited. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="50" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a5696eacf0b2b71e0e57ac1d5d8f4c5d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+<para>SMS status (possible values are defined in ThecallrApi.Enums.SmsStatuses class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="55" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a86b7454de956bf5f0ffb7408acfe0451" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Sms.Sms.StatusError</definition>
+        <argsstring></argsstring>
+        <name>StatusError</name>
+        <briefdescription>
+<para>Descriptive error if status is &quot;ERROR&quot;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="60" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa5cd1ebfd79ee98aa22dbca23bb2b53f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.Sms.Sms.DateCreation</definition>
+        <argsstring></argsstring>
+        <name>DateCreation</name>
+        <briefdescription>
+<para>Date of creation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="65" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1afe96e975ed1571dd2f5de10febd5a4ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.Sms.Sms.DateUpdate</definition>
+        <argsstring></argsstring>
+        <name>DateUpdate</name>
+        <briefdescription>
+<para>Date of last update (status update). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="70" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa042a2a85dec93e3f22c5c36534d1dfe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.Sms.Sms.DateSent</definition>
+        <argsstring></argsstring>
+        <name>DateSent</name>
+        <briefdescription>
+<para>Sent date (if sent). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="75" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa6845032ebb03aaa18b69d7fc5e87367" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.Sms.Sms.DateReceived</definition>
+        <argsstring></argsstring>
+        <name>DateReceived</name>
+        <briefdescription>
+<para>Received date (if received). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="80" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a6910e0004b98ac99d14f70217fc10c3e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Sms.Sms.Parts</definition>
+        <argsstring></argsstring>
+        <name>Parts</name>
+        <briefdescription>
+<para>Number of SMS parts billed. May be &gt; 1 if your text is too long. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="85" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa9122320673a83b153a63008b0caa055" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Sms.Sms.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="93" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="93" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a SMS text message. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="293">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="292">
+        <label>ThecallrApi.Objects.Sms.Sms</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="295">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="294">
+        <label>ThecallrApi.Objects.Sms.Sms</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/Sms.cs" bodystart="9" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa00199af3aa282597a789f6f80ff809d" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>BCustomerDebit</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1ad83d4b652366ee9a27466298a0b96b1f" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>BCustomerMode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa5cd1ebfd79ee98aa22dbca23bb2b53f" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>DateCreation</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa6845032ebb03aaa18b69d7fc5e87367" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>DateReceived</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa042a2a85dec93e3f22c5c36534d1dfe" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>DateSent</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1afe96e975ed1571dd2f5de10febd5a4ea" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>DateUpdate</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a9d38d772952e23c3bfd88913b181ee06" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>From</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1afc7d55f40da0c17ad7a209af28e5bb23" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa9122320673a83b153a63008b0caa055" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a8f9ac62227f9244db992316c245e703b" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>Options</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a6910e0004b98ac99d14f70217fc10c3e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>Parts</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a5696eacf0b2b71e0e57ac1d5d8f4c5d5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>Status</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a86b7454de956bf5f0ffb7408acfe0451" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>StatusError</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a64da1b9a01370e919f60889bf2e057eb" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>Text</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aeb6c4f4712263abde25201997ca9952e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>To</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a3514d7f34644b71999f47370e1679e6e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Sms::Sms</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

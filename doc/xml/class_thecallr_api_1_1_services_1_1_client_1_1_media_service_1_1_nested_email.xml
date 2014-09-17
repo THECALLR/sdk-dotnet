@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::MediaService::NestedEmail</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1a5d5cc52bd7bc07cac007fcb3f4efb0b7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kindref="compound">MediaService</ref></type>
+        <definition>MediaService ThecallrApi.Services.Client.MediaService.NestedEmail.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="84" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1ad2a6f74decf8c09ee38bf24c10891451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.MediaService.NestedEmail.NestedEmail</definition>
+        <argsstring>(MediaService parent)</argsstring>
+        <name>NestedEmail</name>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kindref="compound">MediaService</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="89" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1a8fc8a8d8753629867492438b88faa127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template" kindref="compound">EmailTemplate</ref> &gt;</type>
+        <definition>Dictionary&lt;string, EmailTemplate&gt; ThecallrApi.Services.Client.MediaService.NestedEmail.GetTemplates</definition>
+        <argsstring>(string templateType)</argsstring>
+        <name>GetTemplates</name>
+        <param>
+          <type>string</type>
+          <declname>templateType</declname>
+        </param>
+        <briefdescription>
+<para>This methods retireves email templates (used in Voicemails, recording alerts, etc.) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>templateType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Template type (possibles values are defined in ThecallrApi.Enums.MediaEmailTemplates class).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dictionary (string key type, <ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template" kindref="compound">ThecallrApi.Objects.Media.EmailTemplate</ref> value type) object representing the list of available templates.</para></simplesect>
+<simplesect kind="see"><para>ThecallrApi.Enums.MediaEmailTemplates, <ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template" kindref="compound">ThecallrApi.Objects.Media.EmailTemplate</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="100" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="100" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows Media email management. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="83" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="82" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1a8fc8a8d8753629867492438b88faa127" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedEmail</scope><name>GetTemplates</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1ad2a6f74decf8c09ee38bf24c10891451" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedEmail</scope><name>NestedEmail</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1a5d5cc52bd7bc07cac007fcb3f4efb0b7" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedEmail</scope><name>Parent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

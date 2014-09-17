@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_helper" kind="namespace">
+    <compoundname>ThecallrApi::Helper</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter" prot="package">ThecallrApi::Helper::BaseClassJavaScriptConverter</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_helper_1_1_converter_3_01_t_01_4" prot="package">ThecallrApi::Helper::Converter&lt; T &gt;</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4" prot="package">ThecallrApi::Helper::Creator&lt; T &gt;</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_helper_1_1_dictionary_creator_3_01_k_00_01_t_01_4" prot="package">ThecallrApi::Helper::DictionaryCreator&lt; K, T &gt;</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_helper_1_1_tools" prot="public">ThecallrApi::Helper::Tools</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

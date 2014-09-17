@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_media_email_templates" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::MediaEmailTemplates</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_email_templates_1a3a445ff632c72dfa51abfdfd5da7b7b0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaEmailTemplates.VMS</definition>
+        <argsstring></argsstring>
+        <name>VMS</name>
+        <initializer>= &quot;VMS&quot;</initializer>
+        <briefdescription>
+<para>Voicemail template. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaEmailTemplates.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaEmailTemplates.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_email_templates_1ab881d39a3d19b5f98930a17d04279682" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaEmailTemplates.RECORD</definition>
+        <argsstring></argsstring>
+        <name>RECORD</name>
+        <initializer>= &quot;RECORD&quot;</initializer>
+        <briefdescription>
+<para>Recording template. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaEmailTemplates.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaEmailTemplates.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the email templates of media. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaEmailTemplates.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaEmailTemplates.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_email_templates_1ab881d39a3d19b5f98930a17d04279682" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaEmailTemplates</scope><name>RECORD</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_email_templates_1a3a445ff632c72dfa51abfdfd5da7b7b0" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaEmailTemplates</scope><name>VMS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

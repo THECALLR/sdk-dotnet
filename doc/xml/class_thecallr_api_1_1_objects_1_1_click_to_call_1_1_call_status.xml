@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::ClickToCall::CallStatus</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a5c05799b09c8b539e7dcd41159819326" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.CallStatus.Callid</definition>
+        <argsstring></argsstring>
+        <name>Callid</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> Unique ID (CDR). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1aff24253003dbfffc671a694a61a6d272" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.ClickToCall.CallStatus.Number</definition>
+        <argsstring></argsstring>
+        <name>Number</name>
+        <briefdescription>
+<para>The number dialing or answered. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a0737314b722623d37fcc228c15fb92e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.ClickToCall.CallStatus.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> status (possible values are defined in ThecallrApi.Enums.ClickToCallCallStatuses class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a740e9f272a7217ad55cd4ffae2c11a01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.CallStatus.Try</definition>
+        <argsstring></argsstring>
+        <name>Try</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> try. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1ab4286fd165183b5ff9449e2edea202bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.ClickToCall.CallStatus.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Click-to-Call <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> status. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="88">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="87">
+        <label>ThecallrApi.Objects.ClickToCall.CallStatus</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="90">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="89">
+        <label>ThecallrApi.Objects.ClickToCall.CallStatus</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/CallStatus.cs" bodystart="8" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a5c05799b09c8b539e7dcd41159819326" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::CallStatus</scope><name>Callid</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1ab4286fd165183b5ff9449e2edea202bb" prot="public" virt="virtual"><scope>ThecallrApi::Objects::ClickToCall::CallStatus</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1aff24253003dbfffc671a694a61a6d272" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::CallStatus</scope><name>Number</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a0737314b722623d37fcc228c15fb92e1" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::CallStatus</scope><name>Status</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a740e9f272a7217ad55cd4ffae2c11a01" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::CallStatus</scope><name>Try</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_list_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::ListService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.ClientBaseService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1ad82e9bccd16679849ae88018179f5cc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.ListService.ListService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>ListService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" line="21" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a7cdeef937b6742b68f457352f120ac11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.ListService.ListService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>ListService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" line="30" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a427153b158b323e0adb4dfa7eecd7569" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref> &gt;</type>
+        <definition>Dictionary&lt;string, Country&gt; ThecallrApi.Services.Client.ListService.GetCountries</definition>
+        <argsstring>()</argsstring>
+        <name>GetCountries</name>
+        <briefdescription>
+<para>This method retrieves all managed countries. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A dictionary of string/<ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">ThecallrApi.Objects.Misc.Country</ref> key/value pairs.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">ThecallrApi.Objects.Misc.Country</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" line="42" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a1d50d41a5fb9ab5c70478e400d48b22e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos" kindref="compound">NumberInfos</ref></type>
+        <definition>NumberInfos ThecallrApi.Services.Client.ListService.GetNumberInfos</definition>
+        <argsstring>(string number)</argsstring>
+        <name>GetNumberInfos</name>
+        <param>
+          <type>string</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves informations on a specific phone number. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Phone number to inspect.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos" kindref="compound">ThecallrApi.Objects.Misc.NumberInfos</ref> object representing number informations.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos" kindref="compound">ThecallrApi.Objects.Misc.NumberInfos</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" line="55" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1accc6e5d0e75b08f41176dbcb42a938b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; int, <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kindref="compound">Timezone</ref> &gt;</type>
+        <definition>Dictionary&lt;int, Timezone&gt; ThecallrApi.Services.Client.ListService.GetTimezones</definition>
+        <argsstring>()</argsstring>
+        <name>GetTimezones</name>
+        <briefdescription>
+<para>This method retrieves all managed timezones. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A dictionary of string/<ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kindref="compound">ThecallrApi.Objects.Misc.Timezone</ref> key/value pairs.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kindref="compound">ThecallrApi.Objects.Misc.Timezone</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" line="67" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows you to retrieve static items. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="227">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="226">
+        <label>ThecallrApi.Services.Client.ListService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="229">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="228">
+        <label>ThecallrApi.Services.Client.ListService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" line="13" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ListService.cs" bodystart="12" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a427153b158b323e0adb4dfa7eecd7569" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>GetCountries</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a1d50d41a5fb9ab5c70478e400d48b22e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>GetNumberInfos</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1accc6e5d0e75b08f41176dbcb42a938b9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>GetTimezones</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1ad82e9bccd16679849ae88018179f5cc7" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>ListService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a7cdeef937b6742b68f457352f120ac11" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ListService</scope><name>ListService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

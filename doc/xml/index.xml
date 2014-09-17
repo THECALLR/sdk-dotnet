@@ -1,0 +1,899 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.8">
+  <compound refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kind="class"><name>ThecallrApi::Objects::App::App</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1aeb2ee2fb35ab7f407044a0a3a3dcffa3" kind="property"><name>Ct</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a8b2f7a421d464397e30431761bfae2c5" kind="property"><name>Ctc</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1afd59d20e6ce286c90e3f78a793c5b1f5" kind="property"><name>Rt</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a4583c5a48e6905278027f55b8fdccc1c" kind="property"><name>Did</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a019f1ebcc724bfba07689db44ab75622" kind="property"><name>Package</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a3f53bb7ab63063db2e9fe82aa48c7d45" kind="property"><name>DateCreation</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1adfa5dc973ed2ea1089cab6853d525028" kind="property"><name>DateUpdate</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a006d5cc3bccc77b67b8afb1018c15845" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat" kind="class"><name>ThecallrApi::Objects::App::AppForStat</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a6e538c1ad356e0bc657287492938e7cf" kind="property"><name>Hash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a7b83f0d49dfaf1053ef148fe699d0709" kind="property"><name>Name</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a9785b6f52acd7a85ae0724873aea9219" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_application_package_types" kind="class"><name>ThecallrApi::Enums::ApplicationPackageTypes</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_application_package_types_1a630da5021a124584ab87e51a998369f1" kind="variable"><name>CALLTRACKING</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_application_package_types_1a1226d40f4868f40a3d65d6a05026b972" kind="variable"><name>CLICKTOCALL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_application_package_types_1a2de43c4f26ec81b3b1b406585f09167d" kind="variable"><name>REALTIME</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_application_types" kind="class"><name>ThecallrApi::Enums::ApplicationTypes</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_application_types_1a2935b062185ea6e3644ef6889a37f356" kind="variable"><name>CALLTRACKING</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_application_types_1a72c8285d641a61ab7fb19c8f758c0bd1" kind="variable"><name>CLICKTOCALL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_application_types_1a68c45bc31929dfae52b9ec7bb018ce10" kind="variable"><name>REALTIME</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service" kind="class"><name>ThecallrApi::Services::Client::AppsBaseExtendedService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ae22f26bfe5fc700c722d3f07d3ca18af" kind="function"><name>AppsBaseExtendedService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a193070cf3cf51d8eb7e415d4a8504e40" kind="function"><name>AppsBaseExtendedService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a983c3162af3403a1193fb750eb3ce6b7" kind="function"><name>AssignDid</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ac6563145ea71814102717f99c34dd994" kind="function"><name>AssignFirstAvailableDid</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a46c40a1972d8e7120dda4fc617c3faa3" kind="function"><name>RemoveDid</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a2afb0125e7204d6853142e8ffb016e80" kind="function"><name>GetDids</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service" kind="class"><name>ThecallrApi::Services::Client::AppsBaseService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a39351754f1f49516bf45ad82621112e4" kind="function"><name>AppsBaseService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a161cbc874b775a592fdfedd1903d353e" kind="function"><name>AppsBaseService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a16eb4a94326a3092236c599d8c5445d2" kind="function"><name>Get</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af50747d346b92754ffb83f17970dfda8" kind="function"><name>Delete</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af6caca8bc3d8db1bd4fe6f627dde7d8d" kind="function"><name>GetAuthorizedClis</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a28330950bff9a8a9ba69773e5efbc69d" kind="function"><name>Create</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a10db4e2eee56c8561b384fbc6d1c1f05" kind="function"><name>Edit</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service" kind="class"><name>ThecallrApi::Services::Client::AppsService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service_1a97282749e4df37a6a868e4f1b8583c9b" kind="function"><name>AppsService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service_1a8fd8c9bb958d97f3b69642af4775a64d" kind="function"><name>AppsService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service_1a2a1d864f27e3bb3a40baee6dd13f7905" kind="function"><name>Create</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service_1a46d1378375b6a13b283e5069c8cbb0fb" kind="function"><name>Edit</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service_1a3080b4e19eaa8418836f79a85e0959be" kind="function"><name>GetList</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_base_class" kind="class"><name>ThecallrApi::Objects::BaseClass</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter" kind="class"><name>ThecallrApi::Helper::BaseClassJavaScriptConverter</name>
+    <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a13401f07f75372db21f0069820c6e29c" kind="property"><name>SupportedTypes</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a30b70acc0090fbebe348df6647a6ca69" kind="function"><name>Deserialize</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a3f39427b30c4949078e8799749ef0cc5" kind="function"><name>Serialize</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1aefbc2b7c760c48c9ab1c08ff67366c07" kind="function"><name>GetJsonPropertyName</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_billing_modes" kind="class"><name>ThecallrApi::Enums::BillingModes</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_billing_modes_1a53a6c06253dd3fc297af784e38129abf" kind="variable"><name>PREPAID</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_billing_modes_1ad486bf0d0f26301b723882b018194237" kind="variable"><name>POSTPAID</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_billing_service" kind="class"><name>ThecallrApi::Services::Client::BillingService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_billing_service_1a501a2ae9dc6094bf0233f2de26ece543" kind="function"><name>BillingService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_billing_service_1ab03982d15aaa56cd39e90aef35b967bd" kind="function"><name>BillingService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_billing_service_1af8f6a6a3b184630ddad9a738eea39342" kind="function"><name>GetPrepaidCredit</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kind="class"><name>ThecallrApi::Objects::ClickToCall::Call</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1ace27f663f3517ef92de5931bbd1bda82" kind="property"><name>AStatus</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a0ceeac33bdae976a1e9f6297a23abb92" kind="property"><name>ATargets</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a9d0ad80b98dab88fb386637ff668480e" kind="property"><name>App</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a1643f0e3b3669473ceb72c9914eeb390" kind="property"><name>BStatus</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1ac7f3758f766a089e1907c7c7e299afbb" kind="property"><name>BTargets</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a5678a023993d4aebb7c436a9d60d1def" kind="property"><name>CdrField</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1af2650b6ee1f0fe07a4afb29904e8812c" kind="property"><name>Cli</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a31aa6c9e2ee7c732832eed6dea689c1d" kind="property"><name>DateCreation</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a239f72ff8873cc6357ea09f6f21639f1" kind="property"><name>DateScheduled</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a2c41253671e6e7e7f642179509e090c2" kind="property"><name>DateStarted</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1af8adadac38937aac089a05dff4db6efd" kind="property"><name>DateUpdate</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a3c29cf89b24f37e9c754a85a5df800aa" kind="property"><name>Hash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a43d743a09581bded6e337c312400fede" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status" kind="class"><name>ThecallrApi::Objects::ClickToCall::CallStatus</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a5c05799b09c8b539e7dcd41159819326" kind="property"><name>Callid</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1aff24253003dbfffc671a694a61a6d272" kind="property"><name>Number</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a0737314b722623d37fcc228c15fb92e1" kind="property"><name>Status</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1a740e9f272a7217ad55cd4ffae2c11a01" kind="property"><name>Try</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1ab4286fd165183b5ff9449e2edea202bb" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kind="class"><name>ThecallrApi::Objects::CallTracking::CallTracking</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a68c17764a15030fafb9b58a5995e4b88" kind="property"><name>Medias</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a37219e1d71588470d93871513092a6ae" kind="property"><name>Options</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a0299f3d96fb5b3e741cfdc6500c92265" kind="property"><name>Targets</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1aa0565ab6abac5be0e4fa1667c37af58b" kind="property"><name>Vms</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1ae6ded2174af769547fd16f5f4a67c87c" kind="property"><name>Ga</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a5d9cf1642ef46b1be795443e0cdcf534" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media" kind="class"><name>ThecallrApi::Objects::CallTracking::CallTrackingMedia</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media_1a53a06025c2b5d6b70e2008c5a6d6520a" kind="property"><name>Welcome</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media_1a85afee9291532f02030e6e9f908a3d74" kind="property"><name>Ringtone</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media_1af818e678277ab6ed9fc8db5f958b5afe" kind="property"><name>Whisper</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media_1a99c7ee76a0cca866e1d823ae51d51c70" kind="property"><name>Bridge</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media_1af0c9f5035ded4624dbd9d6bc6f004fb3" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options" kind="class"><name>ThecallrApi::Objects::CallTracking::CallTrackingOptions</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options_1a9da9a39ec1dfd7699966699da95c920f" kind="property"><name>RecordCalls</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options_1a8a8fd96ebca3d45ece5ea8a9b38c021b" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service" kind="class"><name>ThecallrApi::Services::Client::CallTrackingService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1aeb6a8618a7f57e4db5ac04ddb2769f87" kind="function"><name>CallTrackingService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1a943d1050964d33e7fd55646999e218c9" kind="function"><name>CallTrackingService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1a0a687d6a2f4135f53792a4b5e6733203" kind="function"><name>Create</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1add0083efd720abdc246b1ada3507853c" kind="function"><name>Edit</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr" kind="class"><name>ThecallrApi::Objects::Cdr::Cdr</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a52478907d35ef1b6206c04e5301fa660" kind="property"><name>Callid</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1af269ebba752eaae2d7ce48ff1816a990" kind="property"><name>CliPres</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a6b34d157641041475dd36cfcb8264dd0" kind="property"><name>CliNumber</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a087b06034c7d5f67bcc4ea1239998f52" kind="property"><name>CliName</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a6c88b0e698d2f4bb2f10a44d21bc0d4d" kind="property"><name>Start</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a792393dfcf53621bc1afe4c196bb8125" kind="property"><name>Answer</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1ad8e4ffb8e2851da0211728bb14d5b483" kind="property"><name>Hangup</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a2d51198b5beb2aa54dea66ef3f79c9b6" kind="property"><name>Hangupsource</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1aa3bfc9609582e77e9093b0834996cd91" kind="property"><name>Hangupcause</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1ad0320e61db4b940615d5e14605e50bc8" kind="property"><name>Duration</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a81c5af1816a5aa69e050ca01e8080edc" kind="property"><name>DurationAnswered</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a289efda31c58ea9d18f5710486bd67f5" kind="property"><name>DurationBilled</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a92ae341a1305c1d65c441342ec766eb5" kind="property"><name>BillingCustomerCostLabel</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a28797a072690e3cfb74df18d75e3df13" kind="property"><name>BillingCustomerDebitEur</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a29dc8be3313a08b1688ae89dc00f1960" kind="property"><name>BillingCustomerCreditEur</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a0d4841f02ac250c0da0a3e724b3e3aec" kind="property"><name>ScenarioName</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a31530558154022c2b05e71e521b8ff13" kind="property"><name>ScenarioHash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1aaf35fd3a4fd477b805ac88c16a00273d" kind="property"><name>PackageName</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1ac7353fb9e4082e4666e0dda7073744e4" kind="property"><name>CustomerField</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1aace16753e6a3e13f8261c41a4b76a7b3" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources" kind="class"><name>ThecallrApi::Enums::CdrHangupSources</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1ac5e9da325c6a00f45b10d8df32c6c704" kind="variable"><name>GATEWAY</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1adb1b9b399fb39a1a02d3263dcc521f59" kind="variable"><name>CALLER</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources_1ab3c9ea92bc068dca9b5dc224cde774ad" kind="variable"><name>CALLEE</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in" kind="class"><name>ThecallrApi::Objects::Cdr::CdrIn</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a9a877205a0b724cc3864a3f3350f1c71" kind="property"><name>DidIntlNumber</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a7dbf57d93e1de425a7b111a51d6b2a59" kind="property"><name>DidHash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a9337ea2117de747a64a1c4e4051469c6" kind="property"><name>CliCountryCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a73d9fda683eda52039acecd97aa96053" kind="property"><name>CliNumberType</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a327298c791abec06fab4e425889aa320" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out" kind="class"><name>ThecallrApi::Objects::Cdr::CdrOut</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out_1a312799a8b4cff10347a3b535ffd113fd" kind="property"><name>CallidIn</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out_1aa53b71447be3a82fdff0e65198abbb86" kind="property"><name>Number</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out_1a1711e4341fa0aea1c3eedf63969f2b8f" kind="property"><name>NumberCountryCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out_1ad352c614bc31cdfb578bf3de4447fa6e" kind="property"><name>NumberType</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out_1a3226b8ef9370dbb420fa9bd4ec2f29d2" kind="property"><name>Dialstatus</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out_1aea66d434d7e9762633a0c59fd4837d2b" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service" kind="class"><name>ThecallrApi::Services::Client::CdrService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1adab14d3ad6bf022e62612d9224a35ed1" kind="function"><name>CdrService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1aeb5d25c9b53e011c26c1a57ddb87f35e" kind="function"><name>CdrService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1a8d3a3be9079ca5b31c0c393e663c090e" kind="function"><name>GetInboundCdrs</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1aac8d6b7689fcbd3987ae4a6de6753c49" kind="function"><name>GetOutboundCdrs</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_cdr_types" kind="class"><name>ThecallrApi::Enums::CdrTypes</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cdr_types_1a4b6e1e209c145f1eaeebd4e306e13db6" kind="variable"><name>IN</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cdr_types_1ac889782fcec5f8c8fdd0e701a1842b51" kind="variable"><name>OUT</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_cli_auth_types" kind="class"><name>ThecallrApi::Enums::CliAuthTypes</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cli_auth_types_1ae8b6129dce2610accb5015984602f1db" kind="variable"><name>CALL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cli_auth_types_1a1b87ffefa958724f85c9535305d91409" kind="variable"><name>SMS</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kind="class"><name>ThecallrApi::Objects::ClickToCall::ClickToCall</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a5397b5ba57e9f6babdbeb7471aeb5149" kind="property"><name>Medias</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a870e36287a1dc95d3dd8da8da568f47e" kind="property"><name>Options</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1acd7e771b8815dfcad1bf20f9f2418e46" kind="property"><name>Vms</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a82aa6494acdca5d63a2755b0cbb5781b" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses" kind="class"><name>ThecallrApi::Enums::ClickToCallCallStatuses</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1a51710148a2c324bdda172801901e488d" kind="variable"><name>NOANSWER</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ab9e17e60f79c282510f6a98b7bd001fb" kind="variable"><name>ANSWER</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1abb11fdf75a5a66c19baa5dd00d4420b1" kind="variable"><name>VOICEMAIL_DETECTED</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ae3967e40a1bcb69b6dd90da49f617c47" kind="variable"><name>HANGUP</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ab8d48f35774d3eac7a18f2e88c3208c3" kind="variable"><name>ABORTED</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ac775547730e2a5c584eb987a64ab4694" kind="variable"><name>DIALING</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media" kind="class"><name>ThecallrApi::Objects::ClickToCall::ClickToCallMedia</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1ab0c3d537dbb8696f5dc380996c06e990" kind="property"><name>A_ringtone</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1aacad81f654abd19afa10bee0452cb2ea" kind="property"><name>A_welcome</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a0ad99a629b6b99d92744ccb3cbe19349" kind="property"><name>AB_bridge</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a25ffb7b43ae4ca4072abc0cf931b0fdb" kind="property"><name>B_whisper</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a63e7e5726b94528991ac03ad56ffa7c1" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options" kind="class"><name>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a18020bbe178aa228739f72ff272d294c" kind="property"><name>A_attempts</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a47a08184c5029968eeb0e2101ea5ac32" kind="property"><name>A_retrypause</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a21d86e0a6155d85c43a58cb3f036d848" kind="property"><name>A_vms_detect</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a152d2e17b82893a32cb9dc9c37056321" kind="property"><name>B_vms_detect</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1af5d2a462fe9021bf9401acf1bd14f542" kind="property"><name>RecordCalls</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1ab4bc886caf22406d3f0f27469a707ccc" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service" kind="class"><name>ThecallrApi::Services::Client::ClickToCallService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1adbf749e9f86a567ab83e4e2a0176ed81" kind="function"><name>ClickToCallService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1ab05ce3979d1621442892ab4380e0e5d0" kind="function"><name>ClickToCallService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1aa802eeadd15f02633eaa5ad0dd6ee775" kind="function"><name>Create</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1af618a38f22756fcb2fba6b4123877694" kind="function"><name>Edit</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1aa5b46e4936b757775282c794905835a6" kind="function"><name>CancelCall</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1a7771eb29926fc182005351d22a2fa233" kind="function"><name>GetCallList</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1ae24fd30da5c02c1f9d9c3eb4d0cf9ba9" kind="function"><name>GetCallStatus</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1a4122c61ebaf50e0d62047c89201c5e51" kind="function"><name>Start2Calls</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service" kind="class"><name>ThecallrApi::Services::Client::ClientBaseService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" kind="property"><name>client</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" kind="function"><name>ClientBaseService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" kind="function"><name>ClientBaseService</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_cli_presentations" kind="class"><name>ThecallrApi::Enums::CliPresentations</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cli_presentations_1adbb6195a12b727ec85f5c56ed77f4f9b" kind="variable"><name>ALLOWED_PASSED_SCREEN</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_cli_presentations_1a4d05398a0705d8f5ff3707432ca0d39c" kind="variable"><name>PROHIB_PASSED_SCREEN</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_helper_1_1_converter_3_01_t_01_4" kind="class"><name>ThecallrApi::Helper::Converter&lt; T &gt;</name>
+    <member refid="class_thecallr_api_1_1_helper_1_1_converter_3_01_t_01_4_1a7653babd34f6ad18fca351244990b7dc" kind="function"><name>ToObject</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_converter_3_01_t_01_4_1a92c876440cb430418dbc906404e108b9" kind="function"><name>ToObject</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_converter_3_01_t_01_4_1a43d66e12513049ecd194370748105079" kind="function"><name>ToObjectList</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_converter_3_01_t_01_4_1af3d595b73db86c622b5dc2dffbafdda2" kind="function"><name>ToObjectList</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_converter_3_01_t_01_4_1a207b3ef250cc537324c69503ef915377" kind="function"><name>ToDictionaryList</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kind="class"><name>ThecallrApi::Objects::Misc::Country</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ae5472779a7e2e53b6340faa3e8fca171" kind="property"><name>CapitalCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ad53605ad72d876c812539599fddee9a3" kind="property"><name>CountryCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a720ea690f46e37e46d7174eb634778da" kind="property"><name>CountryFrLabel</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a7cdc50ff26233fdb7d3bf0d1c5f217bf" kind="property"><name>CountryEnLabel</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a243dc036f1c7e06c7e5cf5cc8aa81011" kind="property"><name>CountryLabel</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a4c1b15a803f665cc4613caa1d4a23dc4" kind="property"><name>ContinentCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a4d6c39835cde4c1ba5f6f965bb7f50fb" kind="property"><name>CurrencyCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a16fc0547d9f55b21c13c190f2dea6325" kind="property"><name>CountryTld</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1afa4bcb2e1475731e0f8a52cbdd4bc587" kind="property"><name>CountryLanguages</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ae82d3d4498f1d42d328170943a50ade3" kind="property"><name>CountryNeighbours</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1acf631d893a02b4f081522c6522d2dde2" kind="property"><name>CountryLongitude</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a685dc4405582869d93d7af0b59078e1e" kind="property"><name>CountryLatitude</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a8589fecc9228607d3eb57a33c0ba350f" kind="property"><name>CountryDialcode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a37f44dc37a8d928d89903f5f6e09ecad" kind="property"><name>CountryLocalcode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ab0e2b34c8e39eb40e9ae4cbfad2f5810" kind="property"><name>CountryNumberLength</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a7c6f63ce6878d406a608f431b9f917e2" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4" kind="class"><name>ThecallrApi::Helper::Creator&lt; T &gt;</name>
+    <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a2ada423b8190125672b4635e2d42ca12" kind="function"><name>Object</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a446214bddd4446789f03ce58cedafed0" kind="function"><name>Object</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1aa9034fb28eea49788265703cf4f2fac8" kind="function"><name>ObjectList</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a24b1f532eaee98b060059fac233e5dfe" kind="function"><name>ObjectList</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli" kind="class"><name>ThecallrApi::Objects::Misc::CustomerCli</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a24427299f59afd644d2d3d68f8516da3" kind="property"><name>Cli</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a7a499a1a059a4c49fca2ce8164a67d98" kind="property"><name>Comment</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a1bda330a9e54b4ce6f863104fb7fced8" kind="property"><name>Label</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a37072f4b63f9fb1d72bf2e63c94dcd16" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service" kind="class"><name>ThecallrApi::Services::Client::DialrService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a6103910860ad9a5f01d5fc166b733442" kind="variable"><name>_call</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a378f63f5a8055d6f817fe980b7a4a67f" kind="property"><name>Call</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a6ff3b2633184a10b64ec33cf5a6ed622" kind="function"><name>DialrService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1a7feeb9842dc52b52351f24d4dbfb5688" kind="function"><name>DialrService</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_dial_statuses" kind="class"><name>ThecallrApi::Enums::DialStatuses</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_dial_statuses_1afddd10b8c1ac1b1601ad11c3e0f33899" kind="variable"><name>ANSWER</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_dial_statuses_1ac49334165b933dcb7458206434f7ed24" kind="variable"><name>NOANSWER</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_dial_statuses_1a9a2d1076835b0c0c79aec1ea1df299aa" kind="variable"><name>CONGESTION</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_dial_statuses_1a8b0db720823b064e38e7e0331fef8c77" kind="variable"><name>BUSY</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_dial_statuses_1a1e789e3c6523feb4a705cd31db1cd17d" kind="variable"><name>CANCEL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_dial_statuses_1a3747c8efd3e822fa4fd0ed0b4a1e2964" kind="variable"><name>CHANUNAVAIL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_dial_statuses_1acb776d43d8f5ccc271d17133ad11cf5c" kind="variable"><name>NODIAL</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_helper_1_1_dictionary_creator_3_01_k_00_01_t_01_4" kind="class"><name>ThecallrApi::Helper::DictionaryCreator&lt; K, T &gt;</name>
+    <member refid="class_thecallr_api_1_1_helper_1_1_dictionary_creator_3_01_k_00_01_t_01_4_1a378db2cbf9e8bfe8ec71ca00237c2993" kind="function"><name>Object</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kind="class"><name>ThecallrApi::Objects::Did::Did</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1a2e04ceee55d81776b998e3ecbe50de7d" kind="property"><name>Class</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ad2c75fcb5993b346a96bb04b94f1f0e3" kind="property"><name>Type</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ad7ac5466b3ef000462a712b9ab826204" kind="property"><name>CountryCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ac3096be5d44e343cc14e19c83389e9cc" kind="property"><name>App</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1a8ebcd52fc677841a231e20c88e658fa5" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_did_classes" kind="class"><name>ThecallrApi::Enums::DidClasses</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_classes_1abfe63c316fd59c092d56e56dd2e83a27" kind="variable"><name>CLASSIC</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_classes_1a36821e9427e1052b310dcaa4c1226fe9" kind="variable"><name>GOLD</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat" kind="class"><name>ThecallrApi::Objects::Did::DidForStat</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1aaa2e445523c301391033d410b1384e89" kind="property"><name>Hash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a2f40a26d299bc9950802443410c90bba" kind="property"><name>LocalNumber</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1af122d6765d9204d750df5099eb8891e6" kind="property"><name>IntlNumber</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a586b03f0f32163303070c9f0d6ddb7aa" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_did_types" kind="class"><name>ThecallrApi::Enums::DidTypes</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a27138e5bb03baf6834994f6bf2821091" kind="variable"><name>GEOGRAPHIC</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a11ce8600f52790d9cc0548c500efa099" kind="variable"><name>PERSONAL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a3ab140fa9235842748c10f847400ebaf" kind="variable"><name>TOLLFREE</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1ae27c6651a7d677f0b003d7b779f4546e" kind="variable"><name>SHAREDCOST</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a949051e4efb9ce05784608ca7164add9" kind="variable"><name>SHAREDREVENUE</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a6df275779fd733a2145f16de12136500" kind="variable"><name>SPECIAL</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template" kind="class"><name>ThecallrApi::Objects::Media::EmailTemplate</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a502d2a4538c073aac28958d811fe3a0e" kind="property"><name>Hash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1ae38f4e09ef638944137d7cf2082a4f0c" kind="property"><name>Type</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a1492e7daee29809843604fc8378a64e5" kind="property"><name>Name</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a0439e8d3c5b13e544196073f798e8cab" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a" kind="class"><name>ThecallrApi::Objects::CallTracking::GA</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a_1a139a813922b509a8d633c8ff47f89578" kind="property"><name>Ua</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a_1a67873a01d68fd703fa349882846b7826" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_json_1_1_json_error" kind="class"><name>ThecallrApi::Json::JsonError</name>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_error_1afedfded0b702f999b5dbf2765cb296e3" kind="property"><name>code</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_error_1adb98db03a6d6c2a5f6d209cfbd38d96f" kind="property"><name>message</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_error_1a0817a85286acbf457ae240f0a17a6140" kind="property"><name>data</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_json_1_1_json_request" kind="class"><name>ThecallrApi::Json::JsonRequest</name>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a1d4768420076b42a6a32dd793caf6523" kind="property"><name>id</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a167b1e5a74a478c3358eb642ce791c66" kind="property"><name>version</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_request_1aaab569b47d1872369cf4872fc27a7be8" kind="property"><name>method</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a90783eb7527497449a7741cb9231acf8" kind="property"><name>parameters</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_request_1af16927b283df49d006d0de8af860e5c3" kind="function"><name>JsonRequest</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_request_1a4d37a319a08ebe3b59b8e8ad727a7cae" kind="function"><name>GetJson</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_json_1_1_json_response" kind="class"><name>ThecallrApi::Json::JsonResponse</name>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_response_1a37a1a8e1a7317edcd56456911cd72cbf" kind="property"><name>jsonrpc</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_response_1a4366a7a60d9781436d368ab499ec6ae8" kind="property"><name>result</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_response_1aff2a4d7e08a310c009d90f7d9278f179" kind="property"><name>error</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_response_1a234bb72dabad32bff0d92a4f391d8e94" kind="property"><name>id</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_json_1_1_json_rpc_client" kind="class"><name>ThecallrApi::Json::JsonRpcClient</name>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a089929699b48b819ef921c49851da1ad" kind="variable"><name>URL_API</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1af0e422ceb48e0e60ea2931a60f5b3e29" kind="property"><name>url</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a5abb517979932f03537abbff5007e4fa" kind="property"><name>login</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1aefa7c23e20a776ca0862d47dffab33ce" kind="property"><name>password</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1abf7d3147fbfb5aa457cc60ce63b9dd02" kind="property"><name>base64_authorization</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a831ed2ac7f301b9967074aa938d1b500" kind="property"><name>request_id</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a643b5479b710d4ba06d41a153aa24e1c" kind="function"><name>JsonRpcClient</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a9e96579260649ba1a845989cc9033822" kind="function"><name>JsonRpcClient</name></member>
+    <member refid="class_thecallr_api_1_1_json_1_1_json_rpc_client_1a9e7b2b6af7bc036bc92c9d742fe7a223" kind="function"><name>MakeRequest</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service" kind="class"><name>ThecallrApi::Services::Client::ListService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1ad82e9bccd16679849ae88018179f5cc7" kind="function"><name>ListService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a7cdeef937b6742b68f457352f120ac11" kind="function"><name>ListService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a427153b158b323e0adb4dfa7eecd7569" kind="function"><name>GetCountries</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1a1d50d41a5fb9ab5c70478e400d48b22e" kind="function"><name>GetNumberInfos</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_list_service_1accc6e5d0e75b08f41176dbcb42a938b9" kind="function"><name>GetTimezones</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_exception_1_1_local_api_exception" kind="class"><name>ThecallrApi::Exception::LocalApiException</name>
+    <member refid="class_thecallr_api_1_1_exception_1_1_local_api_exception_1a52d746b68d7ec64f280d9775c4499340" kind="function"><name>LocalApiException</name></member>
+    <member refid="class_thecallr_api_1_1_exception_1_1_local_api_exception_1ac7b33f253c30ef0900bb83e46e29c8d8" kind="function"><name>LocalApiException</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_media_email_templates" kind="class"><name>ThecallrApi::Enums::MediaEmailTemplates</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_email_templates_1a3a445ff632c72dfa51abfdfd5da7b7b0" kind="variable"><name>VMS</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_email_templates_1ab881d39a3d19b5f98930a17d04279682" kind="variable"><name>RECORD</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kind="class"><name>ThecallrApi::Objects::Media::MediaLibrary</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a96225807000e05b1ba6726a8b8f4617e" kind="property"><name>Id</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a4d9c7a546db06d691af374470e7a83be" kind="property"><name>Hash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1ac7d3e1a5654d0f64d19d680d0443a633" kind="property"><name>Name</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a6dd097f204166d9489e5bd28d67849be" kind="property"><name>Content</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a9a4b62eb05010a5b2e277a17ff51eeb8" kind="property"><name>Duration</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a93fdc07d8cad82b6a52025e15783106c" kind="property"><name>Voice</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a241facca8ba1a21a3c3b6cf0ad116334" kind="property"><name>Status</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1aab1314d4f77d95a5257c3e7c1096d908" kind="property"><name>Language</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a3f76165fd490356b94ce34cbb43cdbc3" kind="property"><name>Category</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a762c427c7906705923eb7d5ee5b6feb5" kind="property"><name>Tags</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1afe79591d315a5a0b69c908d176491b62" kind="property"><name>Url</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a50f729122a6bf39e5f776e01978ddf8b" kind="property"><name>IsEditable</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a533f9580df9163ab2a17fd40ba75186a" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_media_library_categories" kind="class"><name>ThecallrApi::Enums::MediaLibraryCategories</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a8b4017b25f320e00902de1b5a906dc15" kind="variable"><name>FAILURE</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a2b10091f224093c38102fa3e73f3b750" kind="variable"><name>WELCOME</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a13d001d3b22ce9fe557ae21cf540d957" kind="variable"><name>RINGTONE</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1acd822dbb9e9b2ada74f5929e94a9f8d9" kind="variable"><name>VOICEMAIL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a6b1a4b3b80afcb7d6486e5f439935102" kind="variable"><name>MISC</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a0a692aaa3f0d0f9e411cb92d75c91fa9" kind="variable"><name>IVR</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a30994553c64b9ab7e13e07d6ca2d77d4" kind="variable"><name>WHISPER</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kind="class"><name>ThecallrApi::Services::Client::MediaService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a92b0086e7b833599506f2f7589961757" kind="variable"><name>_email</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a8fa056d778188ce122c9f181876ad756" kind="variable"><name>_library</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a17022fe9889d61fb96a90eec52501963" kind="variable"><name>_tts</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1ae089b8524249479ae223ac30c91a7405" kind="property"><name>Email</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a896317fa88b888876ea5bbb530d130ef" kind="property"><name>Library</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a4b8075ed42ba760aea9598f48471c0f5" kind="property"><name>Tts</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a93575b71dc17663da39eed9fec08ede8" kind="function"><name>MediaService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a39611e6545e4a68f02d818319a4f6995" kind="function"><name>MediaService</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_media_statuses" kind="class"><name>ThecallrApi::Enums::MediaStatuses</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1ae5082080fd593037e22c8ce62b6768a9" kind="variable"><name>READY</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1a9416956829d688d60288ee38b558eb38" kind="variable"><name>PENDING_CONTENT</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1a06f0fb1670b290bf500d4eccbe6758fd" kind="variable"><name>PENDING_CONVERSION</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1a33d78e96f6c9a30e5643c9831db23f5c" kind="variable"><name>ERROR</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1af6543fa40eb2ba28bb44c2ade3159196" kind="variable"><name>PROCESSING</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices" kind="class"><name>ThecallrApi::Enums::MediaTtsVoices</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1ab2b26aac3f5bb599fe0ebb5566d9046b" kind="variable"><name>NUANCE_FR_SEBASTIEN</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1aeadde8b6b5cd3daca59c6e551d1ef878" kind="variable"><name>NUANCE_FR_AUDREY</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1a314e66be5bea72e2e1cb87f64044d0e8" kind="variable"><name>NUANCE_FR_VIRGINIE</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1a53814ffea1dc951fde19f76a5ed80c05" kind="variable"><name>NUANCE_FR_THOMAS</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call" kind="class"><name>ThecallrApi::Services::Client::DialrService::NestedCall</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1aef4e83d79b06c09a0d8399bb18f30175" kind="variable"><name>Parent</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1ab0b84272ec929aba1a07328107d9279d" kind="function"><name>NestedCall</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1a44dd5aa924d28b77ccbedc8761672176" kind="function"><name>RealTime</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email" kind="class"><name>ThecallrApi::Services::Client::MediaService::NestedEmail</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1a5d5cc52bd7bc07cac007fcb3f4efb0b7" kind="variable"><name>Parent</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1ad2a6f74decf8c09ee38bf24c10891451" kind="function"><name>NestedEmail</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email_1a8fc8a8d8753629867492438b88faa127" kind="function"><name>GetTemplates</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library" kind="class"><name>ThecallrApi::Services::Client::MediaService::NestedLibrary</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1af2c4a7089e404e3ffc788d2b74439649" kind="variable"><name>Parent</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5b71592adde74b2c74132e7d71ee9d93" kind="function"><name>NestedLibrary</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5d90c3c7c3ab20fbcf8f0e8803fa8b4c" kind="function"><name>Create</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a00f69412d0246a6a91d180a26f5859fe" kind="function"><name>Delete</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1ac49ba00b6e4a94777973c7f64490a414" kind="function"><name>Get</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1af441d2cdf0808d3395d1ee22fa2a5043" kind="function"><name>GetList</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a0996deaa9a22cc7e8ae6a9919855435d" kind="function"><name>GetPhoneId</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a45f46ae84daeb6292ac8936087902899" kind="function"><name>SetContent</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1ad96ab505d16574ffd1406924470f4b7a" kind="function"><name>SetContentFromRecording</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5ebd233179cb13d86e1385200c7f71d2" kind="function"><name>SetName</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a60cb9afca681eeb401f879ca8d3302b3" kind="function"><name>SetTags</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts" kind="class"><name>ThecallrApi::Services::Client::MediaService::NestedTts</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1afa1e3fba05b7ed0b6284771772eb3250" kind="variable"><name>Parent</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1aade3b9f883d2d39c3eb79892b2384719" kind="function"><name>NestedTts</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1ab82434078f5ce52c675dc95711203407" kind="function"><name>SetContent</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos" kind="class"><name>ThecallrApi::Objects::Misc::NumberInfos</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ae4ba0a4313475b612d4b5167f332eea9" kind="property"><name>Type</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ac6fb602f28b1dce10083f04ed472943a" kind="property"><name>CountryCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1aca1096c61e512e9d55171f0909d94e01" kind="property"><name>LocalNumber</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a427093687a02e4a7e5a363ff4c866920" kind="property"><name>IntlNumber</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ade28ebae679b2831bb3e7eb78beebe46" kind="property"><name>IntlCode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a6b96053704b6026f7886d019f303dbe5" kind="property"><name>IntlMinLength</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ad0a130d272762b15ea69711268dc2627" kind="property"><name>IntlMaxLength</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a48934ffd8f152c14a58c123ce24d8a16" kind="property"><name>LocalPrefix</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a70092e14f6adb050009573a4174f8fb2" kind="property"><name>Location</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ab7c2f3ff6512ea08bc2a2c23278fe960" kind="property"><name>IsValid</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a987a1e4de5b1af9b2b476dc285573345" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package" kind="class"><name>ThecallrApi::Objects::App::Package</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a4366fa87c76002ac7d586a021313f8f6" kind="property"><name>Name</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a63a019eaced5637657eb6482738e4537" kind="property"><name>Type</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1ac9476ed81b6fe1253a0a78344c0fbfa9" kind="property"><name>HasDid</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a494b808024d6f7c3a6e496ae22170c99" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id" kind="class"><name>ThecallrApi::Objects::Media::PhoneId</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id_1a55e03afd5bd25a240e3881b60397ab0e" kind="property"><name>Code</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id_1a34b68bec0423786e356ee0f1d0db1630" kind="property"><name>Number</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id_1ae89e41468645fa894e85ffa7b372e557" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" kind="class"><name>ThecallrApi::Objects::RealTime::RealTime</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a666f2857f9d7284203450cc9e5920d41" kind="property"><name>DataFormat</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a7f00ac41d231c5d758a5294cd7a2777c" kind="property"><name>Login</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a6a97a4668e19618e11cef48eb86e5f65" kind="property"><name>Password</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a33ab53bd6843893ad4fda5488e94b16d" kind="property"><name>Url</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a99e33578b5501668eeb600aa93026d2e" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options" kind="class"><name>ThecallrApi::Objects::RealTime::RealTimeCallOptions</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options_1a46e7363807c6216dd46bb2d3eb740706" kind="property"><name>cdr_field</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options_1a1f37dc77ec44c7d4e18d42dda83ceec4" kind="property"><name>cli</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses" kind="class"><name>ThecallrApi::Enums::RealTimeCallStatuses</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a2fa21c01eb5774fdca1926ac0ef2e3ed" kind="variable"><name>UP</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1ae24201e02f218bc7631bce651c157e47" kind="variable"><name>HANGUP</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a03bf2fef13e3e33775460a2628c7b102" kind="variable"><name>INCOMING_CALL</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a642bccd848cd472ec49804def25adb8b" kind="variable"><name>NOANSWER</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a90fa521e6b6b30224964a6ec5b2916e5" kind="variable"><name>CONGESTION</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1ad4610c363caf042a5db1bda99df00f77" kind="variable"><name>BUSY</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1acf41ea39537c7ce3c70f904a82baf242" kind="variable"><name>REJECTED</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_real_time_data_formats" kind="class"><name>ThecallrApi::Enums::RealTimeDataFormats</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_data_formats_1a34744e7cd7eb391bde28e4c620a0e880" kind="variable"><name>JSON</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kind="class"><name>ThecallrApi::Objects::RealTime::RealTimeResponse</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1a3ae9aaf8c52ce3ab15fdb9e7f3f7175e" kind="property"><name>CommandId</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1adae0ff55f74c467e335e2487d07dbe86" kind="property"><name>Command</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1ab2b41d0a7a68ec46295b7f1f86ce59fe" kind="property"><name>Params</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1ae5b9bace436c3c3e61e9a4cc1bef8ead" kind="property"><name>Variables</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1a566fcea5067602c09530218cfa6b5dbd" kind="function"><name>RealTimeResponse</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_real_time_ringtones" kind="class"><name>ThecallrApi::Enums::RealTimeRingtones</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_ringtones_1a02360b6e088121cccedf8029cc4f34db" kind="variable"><name>MUSIC</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_real_time_ringtones_1a43a87233424ba8e0a866dfb590e938f5" kind="variable"><name>RING</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service" kind="class"><name>ThecallrApi::Services::Server::RealTimeService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a84722e63cf2d110ec8679b6764a04e3a" kind="function"><name>Dialout</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a5a4dcc847bb702afce43876047507fe0" kind="function"><name>Hangup</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1ab7f2eada0f38e99b789af1e98b26b77e" kind="function"><name>Play</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1ae638ea9bbf631fda1281445ba73d7ce3" kind="function"><name>PlayRecord</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a532fa874454f105002b2b21d437dd5ea" kind="function"><name>Read</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a72d665b9e464c3a8fe992217efc4d945" kind="function"><name>Record</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a3ad6d4a674103c9f46b91616cbacdcf6" kind="function"><name>SendDtmf</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1accc4c5a802e762bc960c28f8eec7a369" kind="function"><name>Wait</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_1a437c92082a86f4dde2f02ea57b8a3bb7" kind="function"><name>WaitForSilence</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_exception_1_1_remote_api_exception" kind="class"><name>ThecallrApi::Exception::RemoteApiException</name>
+    <member refid="class_thecallr_api_1_1_exception_1_1_remote_api_exception_1a98ee175e64b922386380e6db9fc6520f" kind="property"><name>Error</name></member>
+    <member refid="class_thecallr_api_1_1_exception_1_1_remote_api_exception_1a0b3a337416ca07ab1059747e3c259bd8" kind="property"><name>Code</name></member>
+    <member refid="class_thecallr_api_1_1_exception_1_1_remote_api_exception_1aa68be744d43edaf81d2cc96b0391be3e" kind="function"><name>RemoteApiException</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request" kind="class"><name>ThecallrApi::Objects::RealTime::Request</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a3679a1e4a3a2cadd4cd9b120b508d701" kind="property"><name>app</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1ae9e65e0b9f9df536b066ef913f6fb687" kind="property"><name>callid</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1aaeadcbd8def6779be7f6765234c7fe1c" kind="property"><name>request_hash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a184d3472cbd338b6c58e98578727ee42" kind="property"><name>cli_name</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a2e1a6f9393fb53a7dfba2476408815da" kind="property"><name>cli_number</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a944c8d2e0794ccc9f2eab565194cc6d6" kind="property"><name>number</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1aab93436f8f9491a59ddae770cb418275" kind="property"><name>command</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a4d625a8e9e5b43dc7bcec57fac38eec9" kind="property"><name>command_id</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a8758947fb3991ef5faa67febed4f558d" kind="property"><name>command_result</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a882e151a5315eab6d4a15b63d434785c" kind="property"><name>command_error</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a679ba6811aae07b3dd93d91690b72005" kind="property"><name>call_status</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1afc3423f28ec2b5f75b5ba4f9919eb61b" kind="property"><name>variables</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_request_1a61d31ceb1bd9faa206feabc5dc28822c" kind="property"><name>date_started</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kind="class"><name>ThecallrApi::Objects::Sms::Sms</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a3514d7f34644b71999f47370e1679e6e" kind="property"><name>Type</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1afc7d55f40da0c17ad7a209af28e5bb23" kind="property"><name>Hash</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a9d38d772952e23c3bfd88913b181ee06" kind="property"><name>From</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aeb6c4f4712263abde25201997ca9952e" kind="property"><name>To</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a64da1b9a01370e919f60889bf2e057eb" kind="property"><name>Text</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a8f9ac62227f9244db992316c245e703b" kind="property"><name>Options</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1ad83d4b652366ee9a27466298a0b96b1f" kind="property"><name>BCustomerMode</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa00199af3aa282597a789f6f80ff809d" kind="property"><name>BCustomerDebit</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a5696eacf0b2b71e0e57ac1d5d8f4c5d5" kind="property"><name>Status</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a86b7454de956bf5f0ffb7408acfe0451" kind="property"><name>StatusError</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa5cd1ebfd79ee98aa22dbca23bb2b53f" kind="property"><name>DateCreation</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1afe96e975ed1571dd2f5de10febd5a4ea" kind="property"><name>DateUpdate</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa042a2a85dec93e3f22c5c36534d1dfe" kind="property"><name>DateSent</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa6845032ebb03aaa18b69d7fc5e87367" kind="property"><name>DateReceived</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1a6910e0004b98ac99d14f70217fc10c3e" kind="property"><name>Parts</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa9122320673a83b153a63008b0caa055" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options" kind="class"><name>ThecallrApi::Objects::Sms::SmsOptions</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options_1ad526cb3d8a75a16cfcd39968a51fd0d3" kind="property"><name>FlashMessage</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options_1a04da6f8bfa53adc91aaa1a7da20ac187" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service" kind="class"><name>ThecallrApi::Services::Client::SmsService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1a07f4ba5167b9fc91d173b3d600bdfe1a" kind="function"><name>SmsService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1affcea6a4058f3282593b099529b6cf27" kind="function"><name>SmsService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1ac6b2841312fb583b870d0581e430f9bc" kind="function"><name>Send</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1ae250c29e8143c86e1d7ed284c0234b84" kind="function"><name>Get</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1accf8d810353bcc318a2968368c56469b" kind="function"><name>GetInList</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1afdcc1c18751da21afca9d57483036a56" kind="function"><name>GetOutList</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_sms_statuses" kind="class"><name>ThecallrApi::Enums::SmsStatuses</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a8e7019846b3d92015facee4944b321c3" kind="variable"><name>CREATED</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1ad89da3ed031f386e36c7b65111dde8a5" kind="variable"><name>PENDING</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a68b357e5268bf4190e710b58ec6933a1" kind="variable"><name>SENT</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1aa1b958598287a5b712274d8072ae78db" kind="variable"><name>ERROR</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a03a61e95894452b78817d5ed98db3987" kind="variable"><name>RECEIVED</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a93f0a596405cc176e93926a0c71a3795" kind="variable"><name>REMOTE_QUEUED</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a512e7971623da6b4d0a089b4e29f6408" kind="variable"><name>EXPIRED</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_sms_types" kind="class"><name>ThecallrApi::Enums::SmsTypes</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_types_1a61e04fcd263d086f1da44556e3850c50" kind="variable"><name>IN</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_sms_types_1a6ad8f804cf375e4a5398b5cb468cb606" kind="variable"><name>OUT</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options" kind="class"><name>ThecallrApi::Objects::ClickToCall::StartOptions</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a337a4946d6d64829e547063aceb5b7e4" kind="property"><name>Schedule</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a8abb85d77f1a2d566a84518cb1e1a2d3" kind="property"><name>Cli</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a37c5fe3ec639c49e9bd39143f6d026d6" kind="property"><name>CdrField</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a64b5b09fd65d4347eb5e03a2a191d42e" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_services_1_1_client_1_1_system_service" kind="class"><name>ThecallrApi::Services::Client::SystemService</name>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_system_service_1a139f9329b6542e8ce9b321e5de0e4d0b" kind="function"><name>SystemService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_system_service_1a1a51979c0cde9bcc42e4989818e088dc" kind="function"><name>SystemService</name></member>
+    <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_system_service_1aa0009a453dd3a16b399e9adb4c5050c2" kind="function"><name>GetTimestamp</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kind="class"><name>ThecallrApi::Objects::Misc::Target</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target_1a78dc2541ddc3a5377bb1cb967c2750ce" kind="property"><name>Number</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target_1a437174a996cedda178c6520adb9bcd70" kind="property"><name>Timeout</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target_1a3a5a454a04c39c6863c39477997f3eb0" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" kind="class"><name>ThecallrApi::Objects::Misc::Timezone</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ab9adc22c5aa360444e0fb49ec606f3d8" kind="property"><name>Id</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1a1583c475af1c82150d387bff9ba98edb" kind="property"><name>Label</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ad8396fddbcc1b25bdf8bf4627c20fe4b" kind="property"><name>PhpName</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1ae3e2f8b72e80f993d35e7c6772d9b14b" kind="property"><name>Dst</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1a3edb8b95b32e89329ba93482b0abb2c7" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_helper_1_1_tools" kind="class"><name>ThecallrApi::Helper::Tools</name>
+    <member refid="class_thecallr_api_1_1_helper_1_1_tools_1add5533b4cfa3eb365c180099619a7d20" kind="variable"><name>DATETIME_FORMAT</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_tools_1a8c768f983b417a1c08462eb771076ddc" kind="function"><name>ObjectDump</name></member>
+    <member refid="class_thecallr_api_1_1_helper_1_1_tools_1aeeaedcccc0b6737a556ba5baa1cd5e92" kind="function"><name>UtcDateString</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options" kind="class"><name>ThecallrApi::Objects::Media::TtsOptions</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options_1a81d17f4f948622b47f5e10f8e1c09b85" kind="property"><name>Rate</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options_1a8c6d1e02931f86265ef1bdf3bbe9b154" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms" kind="class"><name>ThecallrApi::Objects::App::Param::Vms</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ac361875c2bbe9afb787095925fea6d58" kind="property"><name>Active</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1aa9fb2d9fe59dc28f3a8cb192f3af7be4" kind="property"><name>Intro</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ad6cfde4ca36277a2821d9194ab2063fc" kind="property"><name>FileFormat</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a24db06489db2f2a78cb9cf2325792787" kind="property"><name>FileName</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1aafb848d0bde7e20f2f6dbb8763697545" kind="property"><name>EmailTemplate</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a22fad0cb2e2243b2712445daf007a97c" kind="property"><name>Record</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ad443b458fb9fd27b6ac5b900d6ad284c" kind="property"><name>Timeout</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1af0d9b7c568758a880708e66aad5088da" kind="property"><name>Locale</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a9abf635b1d566fa90a73a857e42b0f30" kind="property"><name>Timezone</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1ab3e6a64404a32328cbd1675d7a775ed6" kind="property"><name>Emails</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a615f4c8d0771129b8223963919809b1c" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kind="class"><name>ThecallrApi::Objects::App::Param::VmsDetect</name>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a527c2a06b36239e17596985ce2800156" kind="property"><name>Active</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a193b79af662c3dfe40f97a8a96e9da8b" kind="property"><name>DtmfIterations</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a298062aebb728726f144584ac3e74a81" kind="property"><name>DtmfMedia</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a53e8d617ee0f2ec11d8558dc2281916f" kind="property"><name>DtmfTimeout</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a28bb04ac4daf562d199331ca3ca7d89a" kind="property"><name>Method</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a7bf53cbf9be9fc92cc236f75da7f0139" kind="property"><name>SilenceIterations</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1af0ccbdf3ad24b0e07f7846c32043b0c5" kind="property"><name>SilenceMedia</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a7731378e9d2b84dc901266a9d03639a5" kind="property"><name>SilenceMs</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a6c1c058d7dd3b3a64c70fee7e21e38a4" kind="property"><name>SilenceTimeout</name></member>
+    <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a9495a80eb8abbfcb54d6a72f61d617c4" kind="function"><name>InitFromDictionary</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods" kind="class"><name>ThecallrApi::Enums::VoicemailDetectMethods</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods_1ab29da67c0f9b6753e516e9108eb242b9" kind="variable"><name>SILENCE</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods_1ad24768d34fceca2bda25639045ee303a" kind="variable"><name>DTMF</name></member>
+  </compound>
+  <compound refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats" kind="class"><name>ThecallrApi::Enums::VoicemailFileFormats</name>
+    <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1abbe2acac23d510b41f5dbdff73e9c419" kind="variable"><name>WAV</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1abafb56d056f6b01b6c3e64986d5ee30f" kind="variable"><name>MP3</name></member>
+    <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1a5e997e403252d9e0a48a3f38e65e87a9" kind="variable"><name>SLN</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_script_1_1_serialization" kind="namespace"><name>System::Web::Script::Serialization</name>
+  </compound>
+  <compound refid="namespace_thecallr_api" kind="namespace"><name>ThecallrApi</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_enums" kind="namespace"><name>ThecallrApi::Enums</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_exception" kind="namespace"><name>ThecallrApi::Exception</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_helper" kind="namespace"><name>ThecallrApi::Helper</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_json" kind="namespace"><name>ThecallrApi::Json</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects" kind="namespace"><name>ThecallrApi::Objects</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_app" kind="namespace"><name>ThecallrApi::Objects::App</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_app_1_1_param" kind="namespace"><name>ThecallrApi::Objects::App::Param</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_call_tracking" kind="namespace"><name>ThecallrApi::Objects::CallTracking</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_cdr" kind="namespace"><name>ThecallrApi::Objects::Cdr</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_click_to_call" kind="namespace"><name>ThecallrApi::Objects::ClickToCall</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_did" kind="namespace"><name>ThecallrApi::Objects::Did</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_media" kind="namespace"><name>ThecallrApi::Objects::Media</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_misc" kind="namespace"><name>ThecallrApi::Objects::Misc</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_real_time" kind="namespace"><name>ThecallrApi::Objects::RealTime</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_objects_1_1_sms" kind="namespace"><name>ThecallrApi::Objects::Sms</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_services" kind="namespace"><name>ThecallrApi::Services</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_services_1_1_client" kind="namespace"><name>ThecallrApi::Services::Client</name>
+  </compound>
+  <compound refid="namespace_thecallr_api_1_1_services_1_1_server" kind="namespace"><name>ThecallrApi::Services::Server</name>
+  </compound>
+  <compound refid="_application_package_types_8cs" kind="file"><name>ApplicationPackageTypes.cs</name>
+  </compound>
+  <compound refid="_application_types_8cs" kind="file"><name>ApplicationTypes.cs</name>
+  </compound>
+  <compound refid="_billing_modes_8cs" kind="file"><name>BillingModes.cs</name>
+  </compound>
+  <compound refid="_cdr_hangup_sources_8cs" kind="file"><name>CdrHangupSources.cs</name>
+  </compound>
+  <compound refid="_cdr_types_8cs" kind="file"><name>CdrTypes.cs</name>
+  </compound>
+  <compound refid="_cli_auth_types_8cs" kind="file"><name>CliAuthTypes.cs</name>
+  </compound>
+  <compound refid="_click_to_call_call_statuses_8cs" kind="file"><name>ClickToCallCallStatuses.cs</name>
+  </compound>
+  <compound refid="_cli_presentations_8cs" kind="file"><name>CliPresentations.cs</name>
+  </compound>
+  <compound refid="_dial_statuses_8cs" kind="file"><name>DialStatuses.cs</name>
+  </compound>
+  <compound refid="_did_classes_8cs" kind="file"><name>DidClasses.cs</name>
+  </compound>
+  <compound refid="_did_types_8cs" kind="file"><name>DidTypes.cs</name>
+  </compound>
+  <compound refid="_media_email_templates_8cs" kind="file"><name>MediaEmailTemplates.cs</name>
+  </compound>
+  <compound refid="_media_library_categories_8cs" kind="file"><name>MediaLibraryCategories.cs</name>
+  </compound>
+  <compound refid="_media_statuses_8cs" kind="file"><name>MediaStatuses.cs</name>
+  </compound>
+  <compound refid="_media_tts_voices_8cs" kind="file"><name>MediaTtsVoices.cs</name>
+  </compound>
+  <compound refid="_real_time_call_statuses_8cs" kind="file"><name>RealTimeCallStatuses.cs</name>
+  </compound>
+  <compound refid="_real_time_data_formats_8cs" kind="file"><name>RealTimeDataFormats.cs</name>
+  </compound>
+  <compound refid="_real_time_ringtones_8cs" kind="file"><name>RealTimeRingtones.cs</name>
+  </compound>
+  <compound refid="_sms_statuses_8cs" kind="file"><name>SmsStatuses.cs</name>
+  </compound>
+  <compound refid="_sms_types_8cs" kind="file"><name>SmsTypes.cs</name>
+  </compound>
+  <compound refid="_voicemail_detect_methods_8cs" kind="file"><name>VoicemailDetectMethods.cs</name>
+  </compound>
+  <compound refid="_voicemail_file_formats_8cs" kind="file"><name>VoicemailFileFormats.cs</name>
+  </compound>
+  <compound refid="_local_api_exception_8cs" kind="file"><name>LocalApiException.cs</name>
+  </compound>
+  <compound refid="_remote_api_exception_8cs" kind="file"><name>RemoteApiException.cs</name>
+  </compound>
+  <compound refid="_base_class_java_script_converter_8cs" kind="file"><name>BaseClassJavaScriptConverter.cs</name>
+  </compound>
+  <compound refid="_converter_8cs" kind="file"><name>Converter.cs</name>
+  </compound>
+  <compound refid="_creator_8cs" kind="file"><name>Creator.cs</name>
+  </compound>
+  <compound refid="_dictionary_creator_8cs" kind="file"><name>DictionaryCreator.cs</name>
+  </compound>
+  <compound refid="_tools_8cs" kind="file"><name>Tools.cs</name>
+  </compound>
+  <compound refid="_json_error_8cs" kind="file"><name>JsonError.cs</name>
+  </compound>
+  <compound refid="_json_request_8cs" kind="file"><name>JsonRequest.cs</name>
+  </compound>
+  <compound refid="_json_response_8cs" kind="file"><name>JsonResponse.cs</name>
+  </compound>
+  <compound refid="_json_rpc_client_8cs" kind="file"><name>JsonRpcClient.cs</name>
+  </compound>
+  <compound refid="_app_8cs" kind="file"><name>App.cs</name>
+  </compound>
+  <compound refid="_app_for_stat_8cs" kind="file"><name>AppForStat.cs</name>
+  </compound>
+  <compound refid="_package_8cs" kind="file"><name>Package.cs</name>
+  </compound>
+  <compound refid="_vms_8cs" kind="file"><name>Vms.cs</name>
+  </compound>
+  <compound refid="_vms_detect_8cs" kind="file"><name>VmsDetect.cs</name>
+  </compound>
+  <compound refid="_base_class_8cs" kind="file"><name>BaseClass.cs</name>
+  </compound>
+  <compound refid="_call_tracking_8cs" kind="file"><name>CallTracking.cs</name>
+  </compound>
+  <compound refid="_call_tracking_media_8cs" kind="file"><name>CallTrackingMedia.cs</name>
+  </compound>
+  <compound refid="_call_tracking_options_8cs" kind="file"><name>CallTrackingOptions.cs</name>
+  </compound>
+  <compound refid="_g_a_8cs" kind="file"><name>GA.cs</name>
+  </compound>
+  <compound refid="_cdr_8cs" kind="file"><name>Cdr.cs</name>
+  </compound>
+  <compound refid="_cdr_in_8cs" kind="file"><name>CdrIn.cs</name>
+  </compound>
+  <compound refid="_cdr_out_8cs" kind="file"><name>CdrOut.cs</name>
+  </compound>
+  <compound refid="_call_8cs" kind="file"><name>Call.cs</name>
+  </compound>
+  <compound refid="_call_status_8cs" kind="file"><name>CallStatus.cs</name>
+  </compound>
+  <compound refid="_click_to_call_8cs" kind="file"><name>ClickToCall.cs</name>
+  </compound>
+  <compound refid="_click_to_call_media_8cs" kind="file"><name>ClickToCallMedia.cs</name>
+  </compound>
+  <compound refid="_click_to_call_options_8cs" kind="file"><name>ClickToCallOptions.cs</name>
+  </compound>
+  <compound refid="_start_options_8cs" kind="file"><name>StartOptions.cs</name>
+  </compound>
+  <compound refid="_did_8cs" kind="file"><name>Did.cs</name>
+  </compound>
+  <compound refid="_did_for_stat_8cs" kind="file"><name>DidForStat.cs</name>
+  </compound>
+  <compound refid="_email_template_8cs" kind="file"><name>EmailTemplate.cs</name>
+  </compound>
+  <compound refid="_media_library_8cs" kind="file"><name>MediaLibrary.cs</name>
+  </compound>
+  <compound refid="_phone_id_8cs" kind="file"><name>PhoneId.cs</name>
+  </compound>
+  <compound refid="_tts_options_8cs" kind="file"><name>TtsOptions.cs</name>
+  </compound>
+  <compound refid="_country_8cs" kind="file"><name>Country.cs</name>
+  </compound>
+  <compound refid="_customer_cli_8cs" kind="file"><name>CustomerCli.cs</name>
+  </compound>
+  <compound refid="_number_infos_8cs" kind="file"><name>NumberInfos.cs</name>
+  </compound>
+  <compound refid="_target_8cs" kind="file"><name>Target.cs</name>
+  </compound>
+  <compound refid="_timezone_8cs" kind="file"><name>Timezone.cs</name>
+  </compound>
+  <compound refid="_real_time_8cs" kind="file"><name>RealTime.cs</name>
+  </compound>
+  <compound refid="_real_time_call_options_8cs" kind="file"><name>RealTimeCallOptions.cs</name>
+  </compound>
+  <compound refid="_real_time_response_8cs" kind="file"><name>RealTimeResponse.cs</name>
+  </compound>
+  <compound refid="_request_8cs" kind="file"><name>Request.cs</name>
+  </compound>
+  <compound refid="_sms_8cs" kind="file"><name>Sms.cs</name>
+  </compound>
+  <compound refid="_sms_options_8cs" kind="file"><name>SmsOptions.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_apps_base_extended_service_8cs" kind="file"><name>AppsBaseExtendedService.cs</name>
+  </compound>
+  <compound refid="_apps_base_service_8cs" kind="file"><name>AppsBaseService.cs</name>
+  </compound>
+  <compound refid="_apps_service_8cs" kind="file"><name>AppsService.cs</name>
+  </compound>
+  <compound refid="_billing_service_8cs" kind="file"><name>BillingService.cs</name>
+  </compound>
+  <compound refid="_call_tracking_service_8cs" kind="file"><name>CallTrackingService.cs</name>
+  </compound>
+  <compound refid="_cdr_service_8cs" kind="file"><name>CdrService.cs</name>
+  </compound>
+  <compound refid="_click_to_call_service_8cs" kind="file"><name>ClickToCallService.cs</name>
+  </compound>
+  <compound refid="_client_base_service_8cs" kind="file"><name>ClientBaseService.cs</name>
+  </compound>
+  <compound refid="_dialr_service_8cs" kind="file"><name>DialrService.cs</name>
+  </compound>
+  <compound refid="_list_service_8cs" kind="file"><name>ListService.cs</name>
+  </compound>
+  <compound refid="_media_service_8cs" kind="file"><name>MediaService.cs</name>
+  </compound>
+  <compound refid="_sms_service_8cs" kind="file"><name>SmsService.cs</name>
+  </compound>
+  <compound refid="_system_service_8cs" kind="file"><name>SystemService.cs</name>
+  </compound>
+  <compound refid="_real_time_service_8cs" kind="file"><name>RealTimeService.cs</name>
+  </compound>
+  <compound refid="dir_3383517c8a1354d5f658d235ce178fe8" kind="dir"><name>Objects/App</name>
+  </compound>
+  <compound refid="dir_f2085a3156b9b6120c21b07bffb97bcf" kind="dir"><name>Objects/CallTracking</name>
+  </compound>
+  <compound refid="dir_fa2d29bf31eb5307ea5b88886b4aee23" kind="dir"><name>Objects/Cdr</name>
+  </compound>
+  <compound refid="dir_16d50167e3478e148a8f4be14cf403a6" kind="dir"><name>Objects/ClickToCall</name>
+  </compound>
+  <compound refid="dir_ff8f7db94faa7e5394fa6c86afe4f2d7" kind="dir"><name>Services/Client</name>
+  </compound>
+  <compound refid="dir_43b67361f22b5885ffd788f74f83984b" kind="dir"><name>Objects/Did</name>
+  </compound>
+  <compound refid="dir_edd932be5df0d8a454e649e2dbeabd5d" kind="dir"><name>Enums</name>
+  </compound>
+  <compound refid="dir_723d7fe5d6ff5943cb1202e9b3b398a3" kind="dir"><name>Exception</name>
+  </compound>
+  <compound refid="dir_b26faa4f0634c2b4c15a4cd1ba45f3c2" kind="dir"><name>Helper</name>
+  </compound>
+  <compound refid="dir_1461be47150aff16a081be733e8763ec" kind="dir"><name>Json</name>
+  </compound>
+  <compound refid="dir_f412ea81c27f49b97b375d737a745cb6" kind="dir"><name>Objects/Media</name>
+  </compound>
+  <compound refid="dir_3509b83a96bed4c4af371c54a440e1fa" kind="dir"><name>Objects/Misc</name>
+  </compound>
+  <compound refid="dir_5dafd4660615c7e05a84a5ee9d9fd12b" kind="dir"><name>Objects</name>
+  </compound>
+  <compound refid="dir_b0cd5963cf6abe2e12d69eb4f09df218" kind="dir"><name>Objects/App/Param</name>
+  </compound>
+  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>Properties</name>
+  </compound>
+  <compound refid="dir_3e2f745b7bf1b3cd56c4c0f6a59d4b86" kind="dir"><name>Objects/RealTime</name>
+  </compound>
+  <compound refid="dir_f767d2cfb42ab8e729a6a6f917f0e10c" kind="dir"><name>Services/Server</name>
+  </compound>
+  <compound refid="dir_d69fddb65e10ed1e1aad5b4f2a8c0135" kind="dir"><name>Services</name>
+  </compound>
+  <compound refid="dir_2911ab8941a712437eeafa826e717d21" kind="dir"><name>Objects/Sms</name>
+  </compound>
+</doxygenindex>

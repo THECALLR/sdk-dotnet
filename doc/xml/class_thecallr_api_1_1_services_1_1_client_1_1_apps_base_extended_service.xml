@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::AppsBaseExtendedService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.AppsBaseService</basecompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.AppsService</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.CallTrackingService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ae22f26bfe5fc700c722d3f07d3ca18af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.AppsBaseExtendedService.AppsBaseExtendedService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>AppsBaseExtendedService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" line="20" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a193070cf3cf51d8eb7e415d4a8504e40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.AppsBaseExtendedService.AppsBaseExtendedService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>AppsBaseExtendedService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a983c3162af3403a1193fb750eb3ce6b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.AppsBaseExtendedService.AssignDid</definition>
+        <argsstring>(string app, string did)</argsstring>
+        <name>AssignDid</name>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>did</declname>
+        </param>
+        <briefdescription>
+<para>This method assigns a DID to a Voice App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>App ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>did</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DID ID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" line="42" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ac6563145ea71814102717f99c34dd994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kindref="compound">Did</ref></type>
+        <definition>Did ThecallrApi.Services.Client.AppsBaseExtendedService.AssignFirstAvailableDid</definition>
+        <argsstring>(string app)</argsstring>
+        <name>AssignFirstAvailableDid</name>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+<para>This method assigns the first available DID to a Voice App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>App ID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kindref="compound">ThecallrApi.Objects.Did.Did</ref> object representing the associated DID, otherwise null if none was found.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kindref="compound">ThecallrApi.Objects.Did.Did</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" line="55" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a46c40a1972d8e7120dda4fc617c3faa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.AppsBaseExtendedService.RemoveDid</definition>
+        <argsstring>(string did)</argsstring>
+        <name>RemoveDid</name>
+        <param>
+          <type>string</type>
+          <declname>did</declname>
+        </param>
+        <briefdescription>
+<para>This method unassigns a DID from its Voice App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>did</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DID ID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" line="68" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a2afb0125e7204d6853142e8ffb016e80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kindref="compound">Did</ref> &gt;</type>
+        <definition>List&lt;Did&gt; ThecallrApi.Services.Client.AppsBaseExtendedService.GetDids</definition>
+        <argsstring>(bool only_available)</argsstring>
+        <name>GetDids</name>
+        <param>
+          <type>bool</type>
+          <declname>only_available</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves the list of (available) DIDs assigned to your account. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>only_available</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If <computeroutput>true</computeroutput>, return only available DIDs.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kindref="compound">ThecallrApi.Objects.Did.Did</ref> object list representing the list of DIDs assigned to your account.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kindref="compound">ThecallrApi.Objects.Did.Did</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" line="81" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" bodystart="81" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class acts as an extended base class for application services that adds Did manipulation. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="19">
+        <label>ThecallrApi.Services.Client.CallTrackingService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>ThecallrApi.Services.Client.AppsService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_service"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ThecallrApi.Services.Client.AppsBaseExtendedService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="20">
+        <label>ThecallrApi.Services.Client.AppsBaseExtendedService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/AppsBaseExtendedService.cs" bodystart="11" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ae22f26bfe5fc700c722d3f07d3ca18af" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>AppsBaseExtendedService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a193070cf3cf51d8eb7e415d4a8504e40" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>AppsBaseExtendedService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a39351754f1f49516bf45ad82621112e4" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a161cbc874b775a592fdfedd1903d353e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a983c3162af3403a1193fb750eb3ce6b7" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>AssignDid</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ac6563145ea71814102717f99c34dd994" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>AssignFirstAvailableDid</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a28330950bff9a8a9ba69773e5efbc69d" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>Create</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af50747d346b92754ffb83f17970dfda8" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>Delete</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a10db4e2eee56c8561b384fbc6d1c1f05" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>Edit</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a16eb4a94326a3092236c599d8c5445d2" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>Get</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af6caca8bc3d8db1bd4fe6f627dde7d8d" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>GetAuthorizedClis</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a2afb0125e7204d6853142e8ffb016e80" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>GetDids</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a46c40a1972d8e7120dda4fc617c3faa3" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::AppsBaseExtendedService</scope><name>RemoveDid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

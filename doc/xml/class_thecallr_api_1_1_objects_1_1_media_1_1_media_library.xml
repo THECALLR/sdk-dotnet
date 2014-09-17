@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Media::MediaLibrary</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a96225807000e05b1ba6726a8b8f4617e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Media.MediaLibrary.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a4d9c7a546db06d691af374470e7a83be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.MediaLibrary.Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> Hash ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1ac7d3e1a5654d0f64d19d680d0443a633" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.MediaLibrary.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a6dd097f204166d9489e5bd28d67849be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.MediaLibrary.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> text content if provided. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a9a4b62eb05010a5b2e277a17ff51eeb8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Media.MediaLibrary.Duration</definition>
+        <argsstring></argsstring>
+        <name>Duration</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> duration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a93fdc07d8cad82b6a52025e15783106c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.MediaLibrary.Voice</definition>
+        <argsstring></argsstring>
+        <name>Voice</name>
+        <briefdescription>
+<para>Text-to-Speech Voice ID (possible values are defined in ThecallrApi.Enums.MediaTtsVoices class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a241facca8ba1a21a3c3b6cf0ad116334" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.MediaLibrary.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> status (possible values are defined in ThecallrApi.Enums.MediaStatuses class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1aab1314d4f77d95a5257c3e7c1096d908" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ThecallrApi.Objects.Media.MediaLibrary.Language</definition>
+        <argsstring></argsstring>
+        <name>Language</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> languages. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="49" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a3f76165fd490356b94ce34cbb43cdbc3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ThecallrApi.Objects.Media.MediaLibrary.Category</definition>
+        <argsstring></argsstring>
+        <name>Category</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> categories (possible values are defined in ThecallrApi.Enums.MediaLibraryCategories class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a762c427c7906705923eb7d5ee5b6feb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, List&lt; string &gt; &gt;</type>
+        <definition>Dictionary&lt;string, List&lt;string&gt; &gt; ThecallrApi.Objects.Media.MediaLibrary.Tags</definition>
+        <argsstring></argsstring>
+        <name>Tags</name>
+        <briefdescription>
+<para>Dictionary (key/value) of tags. Key is the tag key (string). Value in an array of string (tag values). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="59" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1afe79591d315a5a0b69c908d176491b62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Media.MediaLibrary.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> MP3 URL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="64" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a50f729122a6bf39e5f776e01978ddf8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.Media.MediaLibrary.IsEditable</definition>
+        <argsstring></argsstring>
+        <name>IsEditable</name>
+        <briefdescription>
+<para>Is the media editable ? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="69" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a533f9580df9163ab2a17fd40ba75186a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Media.MediaLibrary.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="77" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="77" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a media library. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="237">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="236">
+        <label>ThecallrApi.Objects.Media.MediaLibrary</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="239">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="238">
+        <label>ThecallrApi.Objects.Media.MediaLibrary</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library"/>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/MediaLibrary.cs" bodystart="8" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a3f76165fd490356b94ce34cbb43cdbc3" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Category</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a6dd097f204166d9489e5bd28d67849be" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Content</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a9a4b62eb05010a5b2e277a17ff51eeb8" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Duration</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a4d9c7a546db06d691af374470e7a83be" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a96225807000e05b1ba6726a8b8f4617e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Id</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a533f9580df9163ab2a17fd40ba75186a" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a50f729122a6bf39e5f776e01978ddf8b" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>IsEditable</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1aab1314d4f77d95a5257c3e7c1096d908" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Language</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1ac7d3e1a5654d0f64d19d680d0443a633" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Name</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a241facca8ba1a21a3c3b6cf0ad116334" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Status</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a762c427c7906705923eb7d5ee5b6feb5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Tags</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1afe79591d315a5a0b69c908d176491b62" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Url</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a93fdc07d8cad82b6a52025e15783106c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::MediaLibrary</scope><name>Voice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

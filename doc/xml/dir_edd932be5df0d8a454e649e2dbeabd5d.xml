@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_edd932be5df0d8a454e649e2dbeabd5d" kind="dir">
+    <compoundname>Enums</compoundname>
+    <innerfile refid="_application_package_types_8cs">ApplicationPackageTypes.cs</innerfile>
+    <innerfile refid="_application_types_8cs">ApplicationTypes.cs</innerfile>
+    <innerfile refid="_billing_modes_8cs">BillingModes.cs</innerfile>
+    <innerfile refid="_cdr_hangup_sources_8cs">CdrHangupSources.cs</innerfile>
+    <innerfile refid="_cdr_types_8cs">CdrTypes.cs</innerfile>
+    <innerfile refid="_cli_auth_types_8cs">CliAuthTypes.cs</innerfile>
+    <innerfile refid="_click_to_call_call_statuses_8cs">ClickToCallCallStatuses.cs</innerfile>
+    <innerfile refid="_cli_presentations_8cs">CliPresentations.cs</innerfile>
+    <innerfile refid="_dial_statuses_8cs">DialStatuses.cs</innerfile>
+    <innerfile refid="_did_classes_8cs">DidClasses.cs</innerfile>
+    <innerfile refid="_did_types_8cs">DidTypes.cs</innerfile>
+    <innerfile refid="_media_email_templates_8cs">MediaEmailTemplates.cs</innerfile>
+    <innerfile refid="_media_library_categories_8cs">MediaLibraryCategories.cs</innerfile>
+    <innerfile refid="_media_statuses_8cs">MediaStatuses.cs</innerfile>
+    <innerfile refid="_media_tts_voices_8cs">MediaTtsVoices.cs</innerfile>
+    <innerfile refid="_real_time_call_statuses_8cs">RealTimeCallStatuses.cs</innerfile>
+    <innerfile refid="_real_time_data_formats_8cs">RealTimeDataFormats.cs</innerfile>
+    <innerfile refid="_real_time_ringtones_8cs">RealTimeRingtones.cs</innerfile>
+    <innerfile refid="_sms_statuses_8cs">SmsStatuses.cs</innerfile>
+    <innerfile refid="_sms_types_8cs">SmsTypes.cs</innerfile>
+    <innerfile refid="_voicemail_detect_methods_8cs">VoicemailDetectMethods.cs</innerfile>
+    <innerfile refid="_voicemail_file_formats_8cs">VoicemailFileFormats.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/"/>
+  </compounddef>
+</doxygen>

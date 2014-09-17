@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_billing_modes" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::BillingModes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_billing_modes_1a53a6c06253dd3fc297af784e38129abf" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.BillingModes.PREPAID</definition>
+        <argsstring></argsstring>
+        <name>PREPAID</name>
+        <initializer>= &quot;PREPAID&quot;</initializer>
+        <briefdescription>
+<para>Pre-paid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/BillingModes.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/BillingModes.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_billing_modes_1ad486bf0d0f26301b723882b018194237" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.BillingModes.POSTPAID</definition>
+        <argsstring></argsstring>
+        <name>POSTPAID</name>
+        <initializer>= &quot;POSTPAID&quot;</initializer>
+        <briefdescription>
+<para>Post-paid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/BillingModes.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/BillingModes.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the billing modes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/BillingModes.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/BillingModes.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_billing_modes_1ad486bf0d0f26301b723882b018194237" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::BillingModes</scope><name>POSTPAID</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_billing_modes_1a53a6c06253dd3fc297af784e38129abf" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::BillingModes</scope><name>PREPAID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

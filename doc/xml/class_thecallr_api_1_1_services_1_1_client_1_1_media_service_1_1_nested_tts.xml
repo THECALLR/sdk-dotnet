@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::MediaService::NestedTts</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1afa1e3fba05b7ed0b6284771772eb3250" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kindref="compound">MediaService</ref></type>
+        <definition>MediaService ThecallrApi.Services.Client.MediaService.NestedTts.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="259" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1aade3b9f883d2d39c3eb79892b2384719" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.MediaService.NestedTts.NestedTts</definition>
+        <argsstring>(MediaService parent)</argsstring>
+        <name>NestedTts</name>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kindref="compound">MediaService</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="264" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="264" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1ab82434078f5ce52c675dc95711203407" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.MediaService.NestedTts.SetContent</definition>
+        <argsstring>(int mediaId, string text, string voice, TtsOptions options)</argsstring>
+        <name>SetContent</name>
+        <param>
+          <type>int</type>
+          <declname>mediaId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>voice</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options" kindref="compound">TtsOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>This method sets MediaLibrary content with Text-to-Speech. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Media ID to change.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to say.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>voice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A voice (possibles values are defined in ThecallrApi.Enums.MediaTtsVoices class).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options" kindref="compound">ThecallrApi.Objects.Media.TtsOptions</ref> options.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options" kindref="compound">ThecallrApi.Objects.Media.TtsOptions</ref>, ThecallrApi.Enums.MediaTtsVoices</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="278" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="278" bodyend="283"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows Media tts management. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="258" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="257" bodyend="284"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1aade3b9f883d2d39c3eb79892b2384719" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedTts</scope><name>NestedTts</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1afa1e3fba05b7ed0b6284771772eb3250" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedTts</scope><name>Parent</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts_1ab82434078f5ce52c675dc95711203407" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedTts</scope><name>SetContent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

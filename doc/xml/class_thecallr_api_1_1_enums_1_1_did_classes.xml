@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_did_classes" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::DidClasses</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_classes_1abfe63c316fd59c092d56e56dd2e83a27" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidClasses.CLASSIC</definition>
+        <argsstring></argsstring>
+        <name>CLASSIC</name>
+        <initializer>= &quot;CLASSIC&quot;</initializer>
+        <briefdescription>
+<para>Classic DID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidClasses.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidClasses.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_classes_1a36821e9427e1052b310dcaa4c1226fe9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidClasses.GOLD</definition>
+        <argsstring></argsstring>
+        <name>GOLD</name>
+        <initializer>= &quot;GOLD&quot;</initializer>
+        <briefdescription>
+<para>Gold DID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidClasses.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidClasses.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all DID classes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidClasses.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidClasses.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_classes_1abfe63c316fd59c092d56e56dd2e83a27" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidClasses</scope><name>CLASSIC</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_classes_1a36821e9427e1052b310dcaa4c1226fe9" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidClasses</scope><name>GOLD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

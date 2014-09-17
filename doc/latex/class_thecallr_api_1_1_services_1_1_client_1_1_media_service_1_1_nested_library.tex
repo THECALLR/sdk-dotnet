@@ -1,0 +1,263 @@
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library}{\section{Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library Class Reference}
+\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library}\index{Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library@{Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library}}
+}
+
+
+This class allows Media library management.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5b71592adde74b2c74132e7d71ee9d93}{Nested\+Library} (\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service}{Media\+Service} parent)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5d90c3c7c3ab20fbcf8f0e8803fa8b4c}{Create} (string name)
+\begin{DoxyCompactList}\small\item\em This method creates a new Media\+Library. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a00f69412d0246a6a91d180a26f5859fe}{Delete} (int media\+Id)
+\begin{DoxyCompactList}\small\item\em This method deletes a Media in the Library. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_media_library}{Media\+Library} \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_ac49ba00b6e4a94777973c7f64490a414}{Get} (int media\+Id)
+\begin{DoxyCompactList}\small\item\em This method retrieves a specific Media\+Library. \end{DoxyCompactList}\item 
+Dictionary$<$ int, \hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_media_library}{Media\+Library} $>$ \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_af441d2cdf0808d3395d1ee22fa2a5043}{Get\+List} (List$<$ string $>$ categories)
+\begin{DoxyCompactList}\small\item\em This method retrieves a list of Medias available in the Library by categories. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id}{Phone\+Id} \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a0996deaa9a22cc7e8ae6a9919855435d}{Get\+Phone\+Id} (int media\+Id, string country\+Code)
+\begin{DoxyCompactList}\small\item\em This method retrieves a D\+T\+M\+F sequence \char`\"{}phone\+\_\+id\char`\"{} in order to record a Media\+Library by phone. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a45f46ae84daeb6292ac8936087902899}{Set\+Content} (int media\+Id, string text, string audio\+Data)
+\begin{DoxyCompactList}\small\item\em This method sets the Media\+Library content with your own file. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_ad96ab505d16574ffd1406924470f4b7a}{Set\+Content\+From\+Recording} (int media\+Id, string media\+File)
+\begin{DoxyCompactList}\small\item\em This method sets Media\+Library content from a recording previously created using Realtime command {\ttfamily record}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5ebd233179cb13d86e1385200c7f71d2}{Set\+Name} (int media\+Id, string name)
+\begin{DoxyCompactList}\small\item\em This method changes a Media\+Library name. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a60cb9afca681eeb401f879ca8d3302b3}{Set\+Tags} (int media\+\_\+id, Dictionary$<$ string, List$<$ string $>$$>$ tags)
+\begin{DoxyCompactList}\small\item\em This method sets Tags on a Media\+Library. You can set as many tags as you want. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class allows Media library management. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5b71592adde74b2c74132e7d71ee9d93}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Nested\+Library@{Nested\+Library}}
+\index{Nested\+Library@{Nested\+Library}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Nested\+Library}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Nested\+Library (
+\begin{DoxyParamCaption}
+\item[{{\bf Media\+Service}}]{parent}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5b71592adde74b2c74132e7d71ee9d93}
+
+
+Constructor. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5d90c3c7c3ab20fbcf8f0e8803fa8b4c}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Create@{Create}}
+\index{Create@{Create}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Create (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5d90c3c7c3ab20fbcf8f0e8803fa8b4c}
+
+
+This method creates a new Media\+Library. 
+
+\begin{DoxyReturn}{Returns}
+Int object representing the media I\+D.
+\end{DoxyReturn}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a00f69412d0246a6a91d180a26f5859fe}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Delete@{Delete}}
+\index{Delete@{Delete}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Delete}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Delete (
+\begin{DoxyParamCaption}
+\item[{int}]{media\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a00f69412d0246a6a91d180a26f5859fe}
+
+
+This method deletes a Media in the Library. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+Id} & The media I\+D of the Media\+Library to delete.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_ac49ba00b6e4a94777973c7f64490a414}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Get@{Get}}
+\index{Get@{Get}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Media\+Library} Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Get (
+\begin{DoxyParamCaption}
+\item[{int}]{media\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_ac49ba00b6e4a94777973c7f64490a414}
+
+
+This method retrieves a specific Media\+Library. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+Id} & Media I\+D.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_media_library}{Thecallr\+Api.\+Objects.\+Media.\+Media\+Library} object representing the media.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_media_library}{Thecallr\+Api.\+Objects.\+Media.\+Media\+Library}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_af441d2cdf0808d3395d1ee22fa2a5043}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Get\+List@{Get\+List}}
+\index{Get\+List@{Get\+List}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Get\+List}]{\setlength{\rightskip}{0pt plus 5cm}Dictionary$<$int, {\bf Media\+Library}$>$ Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Get\+List (
+\begin{DoxyParamCaption}
+\item[{List$<$ string $>$}]{categories}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_af441d2cdf0808d3395d1ee22fa2a5043}
+
+
+This method retrieves a list of Medias available in the Library by categories. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em categories} & Filter by categories (possibles values are defined in Thecallr\+Api.\+Enums.\+Media\+Library\+Categories class).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Dictionary (int key type, \hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_media_library}{Thecallr\+Api.\+Objects.\+Media.\+Media\+Library} value type) object representing the medias.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_media_library}{Thecallr\+Api.\+Objects.\+Media.\+Media\+Library}, Thecallr\+Api.\+Enums.\+Media\+Library\+Categories
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a0996deaa9a22cc7e8ae6a9919855435d}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Get\+Phone\+Id@{Get\+Phone\+Id}}
+\index{Get\+Phone\+Id@{Get\+Phone\+Id}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Get\+Phone\+Id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Phone\+Id} Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Get\+Phone\+Id (
+\begin{DoxyParamCaption}
+\item[{int}]{media\+Id, }
+\item[{string}]{country\+Code}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a0996deaa9a22cc7e8ae6a9919855435d}
+
+
+This method retrieves a D\+T\+M\+F sequence \char`\"{}phone\+\_\+id\char`\"{} in order to record a Media\+Library by phone. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+Id} & The Media I\+D your want to record by phone.\\
+\hline
+{\em country\+Code} & The country code you are in (we will give you a local phone number to call).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id}{Thecallr\+Api.\+Objects.\+Media.\+Phone\+Id} object representing the Phone I\+D (D\+T\+M\+F sequence + phone number).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id}{Thecallr\+Api.\+Objects.\+Media.\+Phone\+Id}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a45f46ae84daeb6292ac8936087902899}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Set\+Content@{Set\+Content}}
+\index{Set\+Content@{Set\+Content}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Set\+Content}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Set\+Content (
+\begin{DoxyParamCaption}
+\item[{int}]{media\+Id, }
+\item[{string}]{text, }
+\item[{string}]{audio\+Data}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a45f46ae84daeb6292ac8936087902899}
+
+
+This method sets the Media\+Library content with your own file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+Id} & The Media I\+D to change.\\
+\hline
+{\em text} & Text prompt (What is your Media saying?).\\
+\hline
+{\em audio\+Data} & base64 encoded audio data file. Currently the file M\+U\+S\+T B\+E \char`\"{}\+W\+A\+V\char`\"{} P\+C\+M encoded. 16 bit 48\+Khz mono is R\+E\+C\+O\+M\+M\+E\+N\+D\+E\+D.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_ad96ab505d16574ffd1406924470f4b7a}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Set\+Content\+From\+Recording@{Set\+Content\+From\+Recording}}
+\index{Set\+Content\+From\+Recording@{Set\+Content\+From\+Recording}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Set\+Content\+From\+Recording}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Set\+Content\+From\+Recording (
+\begin{DoxyParamCaption}
+\item[{int}]{media\+Id, }
+\item[{string}]{media\+File}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_ad96ab505d16574ffd1406924470f4b7a}
+
+
+This method sets Media\+Library content from a recording previously created using Realtime command {\ttfamily record}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+Id} & The Media I\+D to change.\\
+\hline
+{\em media\+File} & Recording path (M\+:\+Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Record).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5ebd233179cb13d86e1385200c7f71d2}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Set\+Name@{Set\+Name}}
+\index{Set\+Name@{Set\+Name}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Set\+Name}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Set\+Name (
+\begin{DoxyParamCaption}
+\item[{int}]{media\+Id, }
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a5ebd233179cb13d86e1385200c7f71d2}
+
+
+This method changes a Media\+Library name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+Id} & The Media I\+D to change.\\
+\hline
+{\em name} & The new media name.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a60cb9afca681eeb401f879ca8d3302b3}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}!Set\+Tags@{Set\+Tags}}
+\index{Set\+Tags@{Set\+Tags}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Media\+Service\+::\+Nested\+Library}}
+\subsubsection[{Set\+Tags}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Media\+Service.\+Nested\+Library.\+Set\+Tags (
+\begin{DoxyParamCaption}
+\item[{int}]{media\+\_\+id, }
+\item[{Dictionary$<$ string, List$<$ string $>$$>$}]{tags}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_a60cb9afca681eeb401f879ca8d3302b3}
+
+
+This method sets Tags on a Media\+Library. You can set as many tags as you want. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+\_\+id} & The unique media id to edit.\\
+\hline
+{\em tags} & The tags to apply. It will completely replace previously set tags. \\
+\hline
+\end{DoxyParams}
+Special tag names \+:
+\begin{DoxyItemize}
+\item C\+A\+T\+E\+G\+O\+R\+Y \+: if specified, values must be one of Thecallr\+Api.\+Enums.\+Media\+Library\+Categories class.
+\item L\+A\+N\+G\+U\+A\+G\+E \+: if specified, values must be in the form “en\+\_\+\+U\+S”, “en\+\_\+\+G\+B”, “fr\+\_\+\+F\+R”, etc. 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\+Client/Media\+Service.\+cs\end{DoxyCompactItemize}

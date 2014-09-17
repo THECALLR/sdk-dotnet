@@ -1,0 +1,176 @@
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service}{\section{Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service Class Reference}
+\label{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service}\index{Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service@{Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service}}
+}
+
+
+This class acts as an extended base class for application services that adds Did manipulation.  
+
+
+Inheritance diagram for Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.373494cm]{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_ae22f26bfe5fc700c722d3f07d3ca18af}{Apps\+Base\+Extended\+Service} (string url, string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a193070cf3cf51d8eb7e415d4a8504e40}{Apps\+Base\+Extended\+Service} (string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor with default A\+P\+I url. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a983c3162af3403a1193fb750eb3ce6b7}{Assign\+Did} (string app, string did)
+\begin{DoxyCompactList}\small\item\em This method assigns a D\+I\+D to a Voice App. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_did_1_1_did}{Did} \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_ac6563145ea71814102717f99c34dd994}{Assign\+First\+Available\+Did} (string app)
+\begin{DoxyCompactList}\small\item\em This method assigns the first available D\+I\+D to a Voice App. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a46c40a1972d8e7120dda4fc617c3faa3}{Remove\+Did} (string did)
+\begin{DoxyCompactList}\small\item\em This method unassigns a D\+I\+D from its Voice App. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_did_1_1_did}{Did} $>$ \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a2afb0125e7204d6853142e8ffb016e80}{Get\+Dids} (bool only\+\_\+available)
+\begin{DoxyCompactList}\small\item\em This method retrieves the list of (available) D\+I\+Ds assigned to your account. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class acts as an extended base class for application services that adds Did manipulation. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_ae22f26bfe5fc700c722d3f07d3ca18af}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}!Apps\+Base\+Extended\+Service@{Apps\+Base\+Extended\+Service}}
+\index{Apps\+Base\+Extended\+Service@{Apps\+Base\+Extended\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}}
+\subsubsection[{Apps\+Base\+Extended\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service.\+Apps\+Base\+Extended\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{url, }
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_ae22f26bfe5fc700c722d3f07d3ca18af}
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & A\+P\+I url.\\
+\hline
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a193070cf3cf51d8eb7e415d4a8504e40}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}!Apps\+Base\+Extended\+Service@{Apps\+Base\+Extended\+Service}}
+\index{Apps\+Base\+Extended\+Service@{Apps\+Base\+Extended\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}}
+\subsubsection[{Apps\+Base\+Extended\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service.\+Apps\+Base\+Extended\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a193070cf3cf51d8eb7e415d4a8504e40}
+
+
+Constructor with default A\+P\+I url. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a983c3162af3403a1193fb750eb3ce6b7}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}!Assign\+Did@{Assign\+Did}}
+\index{Assign\+Did@{Assign\+Did}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}}
+\subsubsection[{Assign\+Did}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service.\+Assign\+Did (
+\begin{DoxyParamCaption}
+\item[{string}]{app, }
+\item[{string}]{did}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a983c3162af3403a1193fb750eb3ce6b7}
+
+
+This method assigns a D\+I\+D to a Voice App. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em app} & App I\+D.\\
+\hline
+{\em did} & D\+I\+D I\+D.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_ac6563145ea71814102717f99c34dd994}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}!Assign\+First\+Available\+Did@{Assign\+First\+Available\+Did}}
+\index{Assign\+First\+Available\+Did@{Assign\+First\+Available\+Did}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}}
+\subsubsection[{Assign\+First\+Available\+Did}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Did} Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service.\+Assign\+First\+Available\+Did (
+\begin{DoxyParamCaption}
+\item[{string}]{app}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_ac6563145ea71814102717f99c34dd994}
+
+
+This method assigns the first available D\+I\+D to a Voice App. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em app} & App I\+D.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_did_1_1_did}{Thecallr\+Api.\+Objects.\+Did.\+Did} object representing the associated D\+I\+D, otherwise null if none was found.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_did_1_1_did}{Thecallr\+Api.\+Objects.\+Did.\+Did}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a2afb0125e7204d6853142e8ffb016e80}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}!Get\+Dids@{Get\+Dids}}
+\index{Get\+Dids@{Get\+Dids}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}}
+\subsubsection[{Get\+Dids}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Did}$>$ Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service.\+Get\+Dids (
+\begin{DoxyParamCaption}
+\item[{bool}]{only\+\_\+available}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a2afb0125e7204d6853142e8ffb016e80}
+
+
+This method retrieves the list of (available) D\+I\+Ds assigned to your account. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em only\+\_\+available} & If {\ttfamily true}, return only available D\+I\+Ds.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_did_1_1_did}{Thecallr\+Api.\+Objects.\+Did.\+Did} object list representing the list of D\+I\+Ds assigned to your account.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_did_1_1_did}{Thecallr\+Api.\+Objects.\+Did.\+Did}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a46c40a1972d8e7120dda4fc617c3faa3}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}!Remove\+Did@{Remove\+Did}}
+\index{Remove\+Did@{Remove\+Did}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Apps\+Base\+Extended\+Service}}
+\subsubsection[{Remove\+Did}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Apps\+Base\+Extended\+Service.\+Remove\+Did (
+\begin{DoxyParamCaption}
+\item[{string}]{did}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_a46c40a1972d8e7120dda4fc617c3faa3}
+
+
+This method unassigns a D\+I\+D from its Voice App. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em did} & D\+I\+D I\+D.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\+Client/Apps\+Base\+Extended\+Service.\+cs\end{DoxyCompactItemize}

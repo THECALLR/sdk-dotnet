@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_ff8f7db94faa7e5394fa6c86afe4f2d7" kind="dir">
+    <compoundname>Services/Client</compoundname>
+    <innerfile refid="_apps_base_extended_service_8cs">AppsBaseExtendedService.cs</innerfile>
+    <innerfile refid="_apps_base_service_8cs">AppsBaseService.cs</innerfile>
+    <innerfile refid="_apps_service_8cs">AppsService.cs</innerfile>
+    <innerfile refid="_billing_service_8cs">BillingService.cs</innerfile>
+    <innerfile refid="_call_tracking_service_8cs">CallTrackingService.cs</innerfile>
+    <innerfile refid="_cdr_service_8cs">CdrService.cs</innerfile>
+    <innerfile refid="_click_to_call_service_8cs">ClickToCallService.cs</innerfile>
+    <innerfile refid="_client_base_service_8cs">ClientBaseService.cs</innerfile>
+    <innerfile refid="_dialr_service_8cs">DialrService.cs</innerfile>
+    <innerfile refid="_list_service_8cs">ListService.cs</innerfile>
+    <innerfile refid="_media_service_8cs">MediaService.cs</innerfile>
+    <innerfile refid="_sms_service_8cs">SmsService.cs</innerfile>
+    <innerfile refid="_system_service_8cs">SystemService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/"/>
+  </compounddef>
+</doxygen>

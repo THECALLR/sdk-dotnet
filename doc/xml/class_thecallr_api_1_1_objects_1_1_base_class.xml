@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_base_class" kind="class" prot="public" abstract="yes">
+    <compoundname>ThecallrApi::Objects::BaseClass</compoundname>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat" prot="public" virt="non-virtual">ThecallrApi.Objects.App.AppForStat</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package" prot="public" virt="non-virtual">ThecallrApi.Objects.App.Package</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms" prot="public" virt="non-virtual">ThecallrApi.Objects.App.Param.Vms</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" prot="public" virt="non-virtual">ThecallrApi.Objects.App.Param.VmsDetect</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" prot="public" virt="non-virtual">ThecallrApi.Objects.CallTracking.CallTracking</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media" prot="public" virt="non-virtual">ThecallrApi.Objects.CallTracking.CallTrackingMedia</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options" prot="public" virt="non-virtual">ThecallrApi.Objects.CallTracking.CallTrackingOptions</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a" prot="public" virt="non-virtual">ThecallrApi.Objects.CallTracking.GA</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr" prot="public" virt="non-virtual">ThecallrApi.Objects.Cdr.Cdr</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" prot="public" virt="non-virtual">ThecallrApi.Objects.ClickToCall.Call</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status" prot="public" virt="non-virtual">ThecallrApi.Objects.ClickToCall.CallStatus</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" prot="public" virt="non-virtual">ThecallrApi.Objects.ClickToCall.ClickToCall</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media" prot="public" virt="non-virtual">ThecallrApi.Objects.ClickToCall.ClickToCallMedia</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options" prot="public" virt="non-virtual">ThecallrApi.Objects.ClickToCall.ClickToCallOptions</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options" prot="public" virt="non-virtual">ThecallrApi.Objects.ClickToCall.StartOptions</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat" prot="public" virt="non-virtual">ThecallrApi.Objects.Did.DidForStat</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template" prot="public" virt="non-virtual">ThecallrApi.Objects.Media.EmailTemplate</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" prot="public" virt="non-virtual">ThecallrApi.Objects.Media.MediaLibrary</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id" prot="public" virt="non-virtual">ThecallrApi.Objects.Media.PhoneId</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options" prot="public" virt="non-virtual">ThecallrApi.Objects.Media.TtsOptions</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" prot="public" virt="non-virtual">ThecallrApi.Objects.Misc.Country</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli" prot="public" virt="non-virtual">ThecallrApi.Objects.Misc.CustomerCli</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos" prot="public" virt="non-virtual">ThecallrApi.Objects.Misc.NumberInfos</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" prot="public" virt="non-virtual">ThecallrApi.Objects.Misc.Target</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" prot="public" virt="non-virtual">ThecallrApi.Objects.Misc.Timezone</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" prot="public" virt="non-virtual">ThecallrApi.Objects.RealTime.RealTime</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" prot="public" virt="non-virtual">ThecallrApi.Objects.Sms.Sms</derivedcompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options" prot="public" virt="non-virtual">ThecallrApi.Objects.Sms.SmsOptions</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void ThecallrApi.Objects.BaseClass.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options_1a04da6f8bfa53adc91aaa1a7da20ac187">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options_1a8c6d1e02931f86265ef1bdf3bbe9b154">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a_1a67873a01d68fd703fa349882846b7826">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options_1a8a8fd96ebca3d45ece5ea8a9b38c021b">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target_1a3a5a454a04c39c6863c39477997f3eb0">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id_1ae89e41468645fa894e85ffa7b372e557">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a9785b6f52acd7a85ae0724873aea9219">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a37072f4b63f9fb1d72bf2e63c94dcd16">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template_1a0439e8d3c5b13e544196073f798e8cab">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a586b03f0f32163303070c9f0d6ddb7aa">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a494b808024d6f7c3a6e496ae22170c99">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a64b5b09fd65d4347eb5e03a2a191d42e">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a82aa6494acdca5d63a2755b0cbb5781b">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_1a99e33578b5501668eeb600aa93026d2e">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone_1a3edb8b95b32e89329ba93482b0abb2c7">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1a8ebcd52fc677841a231e20c88e658fa5">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a63e7e5726b94528991ac03ad56ffa7c1">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status_1ab4286fd165183b5ff9449e2edea202bb">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a327298c791abec06fab4e425889aa320">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media_1af0c9f5035ded4624dbd9d6bc6f004fb3">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out_1aea66d434d7e9762633a0c59fd4837d2b">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1ab4bc886caf22406d3f0f27469a707ccc">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_1a5d9cf1642ef46b1be795443e0cdcf534">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a006d5cc3bccc77b67b8afb1018c15845">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a9495a80eb8abbfcb54d6a72f61d617c4">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a987a1e4de5b1af9b2b476dc285573345">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_1a615f4c8d0771129b8223963919809b1c">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library_1a533f9580df9163ab2a17fd40ba75186a">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a43d743a09581bded6e337c312400fede">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a7c6f63ce6878d406a608f431b9f917e2">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_1aa9122320673a83b153a63008b0caa055">InitFromDictionary</reimplementedby>
+        <reimplementedby refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1aace16753e6a3e13f8261c41a4b76a7b3">InitFromDictionary</reimplementedby>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/BaseClass.cs" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the base class for JSON received objects. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="60">
+        <label>ThecallrApi.Objects.Media.EmailTemplate</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_email_template"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>ThecallrApi.Objects.Cdr.CdrIn</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>ThecallrApi.Objects.RealTime.RealTime</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>ThecallrApi.Objects.Misc.Country</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>ThecallrApi.Objects.Media.TtsOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>ThecallrApi.Objects.Misc.Target</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>ThecallrApi.Objects.Sms.SmsOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>ThecallrApi.Objects.CallTracking.CallTrackingOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>ThecallrApi.Objects.Media.PhoneId</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>ThecallrApi.Objects.Misc.Timezone</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>ThecallrApi.Objects.Misc.NumberInfos</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>ThecallrApi.Objects.ClickToCall.StartOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>ThecallrApi.Objects.Did.Did</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>ThecallrApi.Objects.App.Package</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>ThecallrApi.Objects.Cdr.Cdr</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>ThecallrApi.Objects.Misc.CustomerCli</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCallMedia</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>ThecallrApi.Objects.ClickToCall.CallStatus</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>ThecallrApi.Objects.Cdr.CdrOut</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>ThecallrApi.Objects.App.AppForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>ThecallrApi.Objects.CallTracking.CallTrackingMedia</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_media"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>ThecallrApi.Objects.Media.MediaLibrary</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>ThecallrApi.Objects.ClickToCall.Call</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>ThecallrApi.Objects.BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="56">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCallOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCall</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>ThecallrApi.Objects.CallTracking.CallTracking</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>ThecallrApi.Objects.App.Param.VmsDetect</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>ThecallrApi.Objects.Did.DidForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>ThecallrApi.Objects.App.Param.Vms</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>ThecallrApi.Objects.Sms.Sms</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>ThecallrApi.Objects.App.App</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>ThecallrApi.Objects.CallTracking.GA</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/BaseClass.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/BaseClass.cs" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2" prot="public" virt="pure-virtual"><scope>ThecallrApi::Objects::BaseClass</scope><name>InitFromDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

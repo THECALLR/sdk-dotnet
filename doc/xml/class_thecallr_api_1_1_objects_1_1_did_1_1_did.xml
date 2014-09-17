@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Did::Did</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat" prot="public" virt="non-virtual">ThecallrApi.Objects.Did.DidForStat</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1a2e04ceee55d81776b998e3ecbe50de7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Did.Did.Class</definition>
+        <argsstring></argsstring>
+        <name>Class</name>
+        <briefdescription>
+<para>DID class (possible values are defined in ThecallrApi.Enums.DidClasses class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ad2c75fcb5993b346a96bb04b94f1f0e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Did.Did.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>DID type (possible values are defined in ThecallrApi.Enums.DidTypes class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ad7ac5466b3ef000462a712b9ab826204" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Did.Did.CountryCode</definition>
+        <argsstring></argsstring>
+        <name>CountryCode</name>
+        <briefdescription>
+<para>DID country code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ac3096be5d44e343cc14e19c83389e9cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Did.Did.App</definition>
+        <argsstring></argsstring>
+        <name>App</name>
+        <briefdescription>
+<para>Voice app ID assigned to the DID (null if no app assigned). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1a8ebcd52fc677841a231e20c88e658fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Did.Did.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a DID. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="197">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="195">
+        <label>ThecallrApi.Objects.Did.Did</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>DidForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat"/>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="200">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="198">
+        <label>ThecallrApi.Objects.Did.Did</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>DidForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Did/Did.cs" bodystart="8" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ac3096be5d44e343cc14e19c83389e9cc" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>App</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1a2e04ceee55d81776b998e3ecbe50de7d" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>Class</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ad7ac5466b3ef000462a712b9ab826204" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>CountryCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1aaa2e445523c301391033d410b1384e89" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1a8ebcd52fc677841a231e20c88e658fa5" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1af122d6765d9204d750df5099eb8891e6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>IntlNumber</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_for_stat_1a2f40a26d299bc9950802443410c90bba" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>LocalNumber</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did_1ad2c75fcb5993b346a96bb04b94f1f0e3" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Did::Did</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

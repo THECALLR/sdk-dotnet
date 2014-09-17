@@ -1,0 +1,149 @@
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service}{\section{Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service Class Reference}
+\label{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service}\index{Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service@{Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service}}
+}
+
+
+This class allows C\+D\+R management.  
+
+
+Inheritance diagram for Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_adab14d3ad6bf022e62612d9224a35ed1}{Cdr\+Service} (string url, string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_aeb5d25c9b53e011c26c1a57ddb87f35e}{Cdr\+Service} (string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor with default A\+P\+I url. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in}{Cdr\+In} $>$ \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_a8d3a3be9079ca5b31c0c393e663c090e}{Get\+Inbound\+Cdrs} (Date\+Time from, Date\+Time to, string app=null, string number=null)
+\begin{DoxyCompactList}\small\item\em This method retrieves inbound C\+D\+R. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out}{Cdr\+Out} $>$ \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_aac8d6b7689fcbd3987ae4a6de6753c49}{Get\+Outbound\+Cdrs} (Date\+Time from, Date\+Time to, string app=null, string number=null)
+\begin{DoxyCompactList}\small\item\em This method retrieves outbound C\+D\+R. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class allows C\+D\+R management. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_adab14d3ad6bf022e62612d9224a35ed1}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}!Cdr\+Service@{Cdr\+Service}}
+\index{Cdr\+Service@{Cdr\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}}
+\subsubsection[{Cdr\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service.\+Cdr\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{url, }
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_adab14d3ad6bf022e62612d9224a35ed1}
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & A\+P\+I url.\\
+\hline
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_aeb5d25c9b53e011c26c1a57ddb87f35e}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}!Cdr\+Service@{Cdr\+Service}}
+\index{Cdr\+Service@{Cdr\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}}
+\subsubsection[{Cdr\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service.\+Cdr\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_aeb5d25c9b53e011c26c1a57ddb87f35e}
+
+
+Constructor with default A\+P\+I url. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_a8d3a3be9079ca5b31c0c393e663c090e}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}!Get\+Inbound\+Cdrs@{Get\+Inbound\+Cdrs}}
+\index{Get\+Inbound\+Cdrs@{Get\+Inbound\+Cdrs}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}}
+\subsubsection[{Get\+Inbound\+Cdrs}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Cdr\+In}$>$ Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service.\+Get\+Inbound\+Cdrs (
+\begin{DoxyParamCaption}
+\item[{Date\+Time}]{from, }
+\item[{Date\+Time}]{to, }
+\item[{string}]{app = {\ttfamily null}, }
+\item[{string}]{number = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_a8d3a3be9079ca5b31c0c393e663c090e}
+
+
+This method retrieves inbound C\+D\+R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & Retrieve from this date (inclusive). \\
+\hline
+{\em to} & Retrive to this date (inclusive).\\
+\hline
+{\em app} & (Optional) Filter C\+D\+Rs with this Voice App.\\
+\hline
+{\em number} & (Optional) Filter C\+D\+Rs with D\+I\+D.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in}{Thecallr\+Api.\+Objects.\+Cdr.\+Cdr\+In} object list.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in}{Thecallr\+Api.\+Objects.\+Cdr.\+Cdr\+In}, Thecallr\+Api.\+Enums.\+Cdr\+Types
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_aac8d6b7689fcbd3987ae4a6de6753c49}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}!Get\+Outbound\+Cdrs@{Get\+Outbound\+Cdrs}}
+\index{Get\+Outbound\+Cdrs@{Get\+Outbound\+Cdrs}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Cdr\+Service}}
+\subsubsection[{Get\+Outbound\+Cdrs}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Cdr\+Out}$>$ Thecallr\+Api.\+Services.\+Client.\+Cdr\+Service.\+Get\+Outbound\+Cdrs (
+\begin{DoxyParamCaption}
+\item[{Date\+Time}]{from, }
+\item[{Date\+Time}]{to, }
+\item[{string}]{app = {\ttfamily null}, }
+\item[{string}]{number = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_aac8d6b7689fcbd3987ae4a6de6753c49}
+
+
+This method retrieves outbound C\+D\+R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & Retrieve from this date (inclusive). \\
+\hline
+{\em to} & Retrive to this date (inclusive).\\
+\hline
+{\em app} & (Optional) Filter C\+D\+Rs with this Voice App.\\
+\hline
+{\em number} & (Optional) Filter C\+D\+Rs with D\+I\+D.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out}{Thecallr\+Api.\+Objects.\+Cdr.\+Cdr\+Out} object list.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out}{Thecallr\+Api.\+Objects.\+Cdr.\+Cdr\+Out}, Thecallr\+Api.\+Enums.\+Cdr\+Types
+
+
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\+Client/Cdr\+Service.\+cs\end{DoxyCompactItemize}

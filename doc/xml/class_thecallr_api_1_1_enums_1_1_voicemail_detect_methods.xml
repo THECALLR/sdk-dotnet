@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::VoicemailDetectMethods</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods_1ab29da67c0f9b6753e516e9108eb242b9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.VoicemailDetectMethods.SILENCE</definition>
+        <argsstring></argsstring>
+        <name>SILENCE</name>
+        <initializer>= &quot;SILENCE&quot;</initializer>
+        <briefdescription>
+<para>Silence detection. If we do not detect silence, it is probably a voicemail prompt. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailDetectMethods.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailDetectMethods.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods_1ad24768d34fceca2bda25639045ee303a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.VoicemailDetectMethods.DTMF</definition>
+        <argsstring></argsstring>
+        <name>DTMF</name>
+        <initializer>= &quot;DTMF&quot;</initializer>
+        <briefdescription>
+<para>The callee has to press a key to say &quot;Hey I am here!&quot;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailDetectMethods.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailDetectMethods.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all outbound voicemail detection methods. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailDetectMethods.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailDetectMethods.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods_1ad24768d34fceca2bda25639045ee303a" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::VoicemailDetectMethods</scope><name>DTMF</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods_1ab29da67c0f9b6753e516e9108eb242b9" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::VoicemailDetectMethods</scope><name>SILENCE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

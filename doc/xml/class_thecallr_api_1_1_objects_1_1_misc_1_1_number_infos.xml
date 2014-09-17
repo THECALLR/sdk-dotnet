@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Misc::NumberInfos</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ae4ba0a4313475b612d4b5167f332eea9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.NumberInfos.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>Phone number type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ac6fb602f28b1dce10083f04ed472943a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.NumberInfos.CountryCode</definition>
+        <argsstring></argsstring>
+        <name>CountryCode</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref> code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1aca1096c61e512e9d55171f0909d94e01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.NumberInfos.LocalNumber</definition>
+        <argsstring></argsstring>
+        <name>LocalNumber</name>
+        <briefdescription>
+<para>Phone number in local format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a427093687a02e4a7e5a363ff4c866920" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.NumberInfos.IntlNumber</definition>
+        <argsstring></argsstring>
+        <name>IntlNumber</name>
+        <briefdescription>
+<para>Phone number in international format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ade28ebae679b2831bb3e7eb78beebe46" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.NumberInfos.IntlCode</definition>
+        <argsstring></argsstring>
+        <name>IntlCode</name>
+        <briefdescription>
+<para>International dial code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a6b96053704b6026f7886d019f303dbe5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Misc.NumberInfos.IntlMinLength</definition>
+        <argsstring></argsstring>
+        <name>IntlMinLength</name>
+        <briefdescription>
+<para>Phone number minimum length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ad0a130d272762b15ea69711268dc2627" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Misc.NumberInfos.IntlMaxLength</definition>
+        <argsstring></argsstring>
+        <name>IntlMaxLength</name>
+        <briefdescription>
+<para>Phone number maxmimum length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a48934ffd8f152c14a58c123ce24d8a16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.NumberInfos.LocalPrefix</definition>
+        <argsstring></argsstring>
+        <name>LocalPrefix</name>
+        <briefdescription>
+<para>Local (in country) dial prefix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="49" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a70092e14f6adb050009573a4174f8fb2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.NumberInfos.Location</definition>
+        <argsstring></argsstring>
+        <name>Location</name>
+        <briefdescription>
+<para>Phone number location. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ab7c2f3ff6512ea08bc2a2c23278fe960" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.Misc.NumberInfos.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <briefdescription>
+<para>Indicate if the phone number is correctly formatted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="59" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a987a1e4de5b1af9b2b476dc285573345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Misc.NumberInfos.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="67" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents number informations. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="259">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="258">
+        <label>ThecallrApi.Objects.Misc.NumberInfos</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="261">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="260">
+        <label>ThecallrApi.Objects.Misc.NumberInfos</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/NumberInfos.cs" bodystart="8" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ac6fb602f28b1dce10083f04ed472943a" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>CountryCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a987a1e4de5b1af9b2b476dc285573345" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ade28ebae679b2831bb3e7eb78beebe46" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>IntlCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ad0a130d272762b15ea69711268dc2627" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>IntlMaxLength</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a6b96053704b6026f7886d019f303dbe5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>IntlMinLength</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a427093687a02e4a7e5a363ff4c866920" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>IntlNumber</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ab7c2f3ff6512ea08bc2a2c23278fe960" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>IsValid</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1aca1096c61e512e9d55171f0909d94e01" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>LocalNumber</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a48934ffd8f152c14a58c123ce24d8a16" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>LocalPrefix</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1a70092e14f6adb050009573a4174f8fb2" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>Location</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos_1ae4ba0a4313475b612d4b5167f332eea9" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::NumberInfos</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

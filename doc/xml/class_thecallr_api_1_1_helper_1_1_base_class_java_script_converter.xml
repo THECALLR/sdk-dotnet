@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter" kind="class" prot="package">
+    <compoundname>ThecallrApi::Helper::BaseClassJavaScriptConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JavaScriptConverter</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a13401f07f75372db21f0069820c6e29c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override IEnumerable&lt; Type &gt;</type>
+        <definition>override IEnumerable&lt;Type&gt; ThecallrApi.Helper.BaseClassJavaScriptConverter.SupportedTypes</definition>
+        <argsstring></argsstring>
+        <name>SupportedTypes</name>
+        <briefdescription>
+<para>Property that defines converter class supported types. </para>        </briefdescription>
+        <detaileddescription>
+<para>In our case, we only support BaseClass class.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" line="27" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a30b70acc0090fbebe348df6647a6ca69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override object</type>
+        <definition>override object ThecallrApi.Helper.BaseClassJavaScriptConverter.Deserialize</definition>
+        <argsstring>(IDictionary&lt; string, object &gt; dictionary, Type type, JavaScriptSerializer serializer)</argsstring>
+        <name>Deserialize</name>
+        <param>
+          <type>IDictionary&lt; string, object &gt;</type>
+          <declname>dictionary</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>JavaScriptSerializer</type>
+          <declname>serializer</declname>
+        </param>
+        <briefdescription>
+<para>This method converts the provided dictionary into an object of the specified type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dictionary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An instance of property data stored as name/value pairs.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the resulting object.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>serializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The System.Web.Script.Serialization.JavaScriptSerializer instance.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The deserialized object.</para></simplesect>
+</para><para>We do not need to implement this method for our converter.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" line="42" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a3f39427b30c4949078e8799749ef0cc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override IDictionary&lt; string, object &gt;</type>
+        <definition>override IDictionary&lt;string, object&gt; ThecallrApi.Helper.BaseClassJavaScriptConverter.Serialize</definition>
+        <argsstring>(object obj, JavaScriptSerializer serializer)</argsstring>
+        <name>Serialize</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>JavaScriptSerializer</type>
+          <declname>serializer</declname>
+        </param>
+        <briefdescription>
+<para>This method builds a dictionary of name/value pairs. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to serialize.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>serializer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object that is responsible for the serialization.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An object that contains key/value pairs that represent the object’s data.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" line="53" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" bodystart="53" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1aefbc2b7c760c48c9ab1c08ff67366c07" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ThecallrApi.Helper.BaseClassJavaScriptConverter.GetJsonPropertyName</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>GetJsonPropertyName</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>This method transfors PascalCase string to &quot;pascal_case&quot; string. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PascalCase string.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The string in &quot;pascal_case&quot; format.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" line="79" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" bodystart="79" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is a converter for BaseClass objects. </para>    </briefdescription>
+    <detaileddescription>
+<para>A conversion is made :<itemizedlist>
+<listitem><para>to change DateTime output during serialization</para></listitem><listitem><para>to change BaseClass obect property names in the JSON serialized object </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="74">
+        <label>JavaScriptConverter</label>
+      </node>
+      <node id="73">
+        <label>ThecallrApi.Helper.BaseClassJavaScriptConverter</label>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="76">
+        <label>JavaScriptConverter</label>
+      </node>
+      <node id="75">
+        <label>ThecallrApi.Helper.BaseClassJavaScriptConverter</label>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" line="21" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/BaseClassJavaScriptConverter.cs" bodystart="20" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a30b70acc0090fbebe348df6647a6ca69" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::BaseClassJavaScriptConverter</scope><name>Deserialize</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1aefbc2b7c760c48c9ab1c08ff67366c07" prot="private" virt="non-virtual"><scope>ThecallrApi::Helper::BaseClassJavaScriptConverter</scope><name>GetJsonPropertyName</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a3f39427b30c4949078e8799749ef0cc5" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::BaseClassJavaScriptConverter</scope><name>Serialize</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_base_class_java_script_converter_1a13401f07f75372db21f0069820c6e29c" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::BaseClassJavaScriptConverter</scope><name>SupportedTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

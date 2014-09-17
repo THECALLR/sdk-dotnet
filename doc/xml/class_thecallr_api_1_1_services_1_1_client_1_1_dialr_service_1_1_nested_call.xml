@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::DialrService::NestedCall</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1aef4e83d79b06c09a0d8399bb18f30175" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service" kindref="compound">DialrService</ref></type>
+        <definition>DialrService ThecallrApi.Services.Client.DialrService.NestedCall.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="61" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1ab0b84272ec929aba1a07328107d9279d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.DialrService.NestedCall.NestedCall</definition>
+        <argsstring>(DialrService parent)</argsstring>
+        <name>NestedCall</name>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service" kindref="compound">DialrService</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="68" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1a44dd5aa924d28b77ccbedc8761672176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ThecallrApi.Services.Client.DialrService.NestedCall.RealTime</definition>
+        <argsstring>(string app, Target target, RealTimeCallOptions options)</argsstring>
+        <name>RealTime</name>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">Target</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options" kindref="compound">RealTimeCallOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>This methods starts an outbound call on multiple targets. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voice App ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The phone number to call <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">ThecallrApi.Objects.Misc.Target</ref>.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Call options (CLI, CDR field...) <ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options" kindref="compound">ThecallrApi.Objects.RealTime.RealTimeCallOptions</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">ThecallrApi.Objects.Misc.Target</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="82" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows Media email management. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" line="59" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/DialrService.cs" bodystart="58" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1ab0b84272ec929aba1a07328107d9279d" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService::NestedCall</scope><name>NestedCall</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1aef4e83d79b06c09a0d8399bb18f30175" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService::NestedCall</scope><name>Parent</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_dialr_service_1_1_nested_call_1a44dd5aa924d28b77ccbedc8761672176" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::DialrService::NestedCall</scope><name>RealTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

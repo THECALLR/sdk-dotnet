@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a18020bbe178aa228739f72ff272d294c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.ClickToCallOptions.A_attempts</definition>
+        <argsstring></argsstring>
+        <name>A_attempts</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> attempts. Must be between 1 and 5. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a47a08184c5029968eeb0e2101ea5ac32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.ClickToCallOptions.A_retrypause</definition>
+        <argsstring></argsstring>
+        <name>A_retrypause</name>
+        <briefdescription>
+<para>Pause between attempts. Must be between 30 and 300. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" line="20" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a21d86e0a6155d85c43a58cb3f036d848" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kindref="compound">VmsDetect</ref></type>
+        <definition>VmsDetect ThecallrApi.Objects.ClickToCall.ClickToCallOptions.A_vms_detect</definition>
+        <argsstring></argsstring>
+        <name>A_vms_detect</name>
+        <briefdescription>
+<para>Outbound voicemail detection on A. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" line="25" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a152d2e17b82893a32cb9dc9c37056321" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kindref="compound">VmsDetect</ref></type>
+        <definition>VmsDetect ThecallrApi.Objects.ClickToCall.ClickToCallOptions.B_vms_detect</definition>
+        <argsstring></argsstring>
+        <name>B_vms_detect</name>
+        <briefdescription>
+<para>Outbound voicemail detection on B. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" line="30" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1af5d2a462fe9021bf9401acf1bd14f542" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.ClickToCall.ClickToCallOptions.RecordCalls</definition>
+        <argsstring></argsstring>
+        <name>RecordCalls</name>
+        <briefdescription>
+<para>Active call recording. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" line="35" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1ab4bc886caf22406d3f0f27469a707ccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.ClickToCall.ClickToCallOptions.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" line="43" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents Click-to-Call options. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="150">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="149">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCallOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="152">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="151">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCallOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs" bodystart="9" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a18020bbe178aa228739f72ff272d294c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</scope><name>A_attempts</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a47a08184c5029968eeb0e2101ea5ac32" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</scope><name>A_retrypause</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a21d86e0a6155d85c43a58cb3f036d848" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</scope><name>A_vms_detect</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1a152d2e17b82893a32cb9dc9c37056321" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</scope><name>B_vms_detect</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1ab4bc886caf22406d3f0f27469a707ccc" prot="public" virt="virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options_1af5d2a462fe9021bf9401acf1bd14f542" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallOptions</scope><name>RecordCalls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

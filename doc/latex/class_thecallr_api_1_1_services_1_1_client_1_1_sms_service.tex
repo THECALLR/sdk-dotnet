@@ -1,0 +1,198 @@
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service}{\section{Thecallr\+Api.\+Services.\+Client.\+Sms\+Service Class Reference}
+\label{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service}\index{Thecallr\+Api.\+Services.\+Client.\+Sms\+Service@{Thecallr\+Api.\+Services.\+Client.\+Sms\+Service}}
+}
+
+
+This class allows S\+M\+S manipulation.  
+
+
+Inheritance diagram for Thecallr\+Api.\+Services.\+Client.\+Sms\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_a07f4ba5167b9fc91d173b3d600bdfe1a}{Sms\+Service} (string url, string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_affcea6a4058f3282593b099529b6cf27}{Sms\+Service} (string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor with default A\+P\+I url. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_ac6b2841312fb583b870d0581e430f9bc}{Send} (string from, string to, string text, \hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options}{Sms\+Options} options=null)
+\begin{DoxyCompactList}\small\item\em This method sends a text message. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Sms} \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_ae250c29e8143c86e1d7ed284c0234b84}{Get} (string id)
+\begin{DoxyCompactList}\small\item\em This method gets more informations on a specific S\+M\+S. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Sms} $>$ \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_accf8d810353bcc318a2968368c56469b}{Get\+In\+List} (Date\+Time from, Date\+Time to)
+\begin{DoxyCompactList}\small\item\em This method retrieves the list of your inbound S\+M\+S. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Sms} $>$ \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_afdcc1c18751da21afca9d57483036a56}{Get\+Out\+List} (Date\+Time from, Date\+Time to)
+\begin{DoxyCompactList}\small\item\em This method retrieves the list of your outbound S\+M\+S. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class allows S\+M\+S manipulation. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_a07f4ba5167b9fc91d173b3d600bdfe1a}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}!Sms\+Service@{Sms\+Service}}
+\index{Sms\+Service@{Sms\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}}
+\subsubsection[{Sms\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Sms\+Service.\+Sms\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{url, }
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_a07f4ba5167b9fc91d173b3d600bdfe1a}
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & A\+P\+I url.\\
+\hline
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_affcea6a4058f3282593b099529b6cf27}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}!Sms\+Service@{Sms\+Service}}
+\index{Sms\+Service@{Sms\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}}
+\subsubsection[{Sms\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Sms\+Service.\+Sms\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_affcea6a4058f3282593b099529b6cf27}
+
+
+Constructor with default A\+P\+I url. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_ae250c29e8143c86e1d7ed284c0234b84}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}!Get@{Get}}
+\index{Get@{Get}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}}
+\subsubsection[{Get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sms} Thecallr\+Api.\+Services.\+Client.\+Sms\+Service.\+Get (
+\begin{DoxyParamCaption}
+\item[{string}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_ae250c29e8143c86e1d7ed284c0234b84}
+
+
+This method gets more informations on a specific S\+M\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & S\+M\+S identifier.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Thecallr\+Api.\+Objects.\+Sms.\+Sms} object representing the S\+M\+S.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Thecallr\+Api.\+Objects.\+Sms.\+Sms}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_accf8d810353bcc318a2968368c56469b}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}!Get\+In\+List@{Get\+In\+List}}
+\index{Get\+In\+List@{Get\+In\+List}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}}
+\subsubsection[{Get\+In\+List}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Sms}$>$ Thecallr\+Api.\+Services.\+Client.\+Sms\+Service.\+Get\+In\+List (
+\begin{DoxyParamCaption}
+\item[{Date\+Time}]{from, }
+\item[{Date\+Time}]{to}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_accf8d810353bcc318a2968368c56469b}
+
+
+This method retrieves the list of your inbound S\+M\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & Retrieve from date.\\
+\hline
+{\em to} & Retrieve to date.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Thecallr\+Api.\+Objects.\+Sms.\+Sms} object list.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Thecallr\+Api.\+Objects.\+Sms.\+Sms}, Thecallr\+Api.\+Enums.\+Sms\+Types
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_afdcc1c18751da21afca9d57483036a56}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}!Get\+Out\+List@{Get\+Out\+List}}
+\index{Get\+Out\+List@{Get\+Out\+List}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}}
+\subsubsection[{Get\+Out\+List}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Sms}$>$ Thecallr\+Api.\+Services.\+Client.\+Sms\+Service.\+Get\+Out\+List (
+\begin{DoxyParamCaption}
+\item[{Date\+Time}]{from, }
+\item[{Date\+Time}]{to}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_afdcc1c18751da21afca9d57483036a56}
+
+
+This method retrieves the list of your outbound S\+M\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & Retrieve from date.\\
+\hline
+{\em to} & Retrieve to date. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Thecallr\+Api.\+Objects.\+Sms.\+Sms} object list.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms}{Thecallr\+Api.\+Objects.\+Sms.\+Sms}, Thecallr\+Api.\+Enums.\+Sms\+Types
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_ac6b2841312fb583b870d0581e430f9bc}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}!Send@{Send}}
+\index{Send@{Send}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Sms\+Service}}
+\subsubsection[{Send}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Services.\+Client.\+Sms\+Service.\+Send (
+\begin{DoxyParamCaption}
+\item[{string}]{from, }
+\item[{string}]{to, }
+\item[{string}]{text, }
+\item[{{\bf Sms\+Options}}]{options = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_ac6b2841312fb583b870d0581e430f9bc}
+
+
+This method sends a text message. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & The S\+M\+S sender. Must be alphanumeric (at least one character -\/ cannot be digits only). Max length = 11 characters.\\
+\hline
+{\em to} & The S\+M\+S recipient.\\
+\hline
+{\em text} & Text message.\\
+\hline
+{\em options} & \hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options}{Thecallr\+Api.\+Objects.\+Sms.\+Sms\+Options} options.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String object representing the identifier you can use to get detailed sms status.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options}{Thecallr\+Api.\+Objects.\+Sms.\+Sms\+Options}
+
+
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\+Client/Sms\+Service.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Cdr::CdrIn</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr" prot="public" virt="non-virtual">ThecallrApi.Objects.Cdr.Cdr</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a9a877205a0b724cc3864a3f3350f1c71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Cdr.CdrIn.DidIntlNumber</definition>
+        <argsstring></argsstring>
+        <name>DidIntlNumber</name>
+        <briefdescription>
+<para>DID number Format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a7dbf57d93e1de425a7b111a51d6b2a59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Cdr.CdrIn.DidHash</definition>
+        <argsstring></argsstring>
+        <name>DidHash</name>
+        <briefdescription>
+<para>DID unique ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a9337ea2117de747a64a1c4e4051469c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Cdr.CdrIn.CliCountryCode</definition>
+        <argsstring></argsstring>
+        <name>CliCountryCode</name>
+        <briefdescription>
+<para>CLI country code if available, ISO 3166-1 alpha-2 country code (eg “FR” for France). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a73d9fda683eda52039acecd97aa96053" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Cdr.CdrIn.CliNumberType</definition>
+        <argsstring></argsstring>
+        <name>CliNumberType</name>
+        <briefdescription>
+<para>CLI number type if available. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a327298c791abec06fab4e425889aa320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Cdr.CdrIn.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1aace16753e6a3e13f8261c41a4b76a7b3">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents an Inbound Call Detail Records. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="121">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="119">
+        <label>ThecallrApi.Objects.Cdr.CdrIn</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>Cdr</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="122">
+        <label>ThecallrApi.Objects.Cdr.CdrIn</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>Cdr</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Cdr/CdrIn.cs" bodystart="8" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a792393dfcf53621bc1afe4c196bb8125" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>Answer</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a92ae341a1305c1d65c441342ec766eb5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>BillingCustomerCostLabel</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a29dc8be3313a08b1688ae89dc00f1960" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>BillingCustomerCreditEur</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a28797a072690e3cfb74df18d75e3df13" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>BillingCustomerDebitEur</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a52478907d35ef1b6206c04e5301fa660" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>Callid</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a9337ea2117de747a64a1c4e4051469c6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>CliCountryCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a087b06034c7d5f67bcc4ea1239998f52" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>CliName</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a6b34d157641041475dd36cfcb8264dd0" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>CliNumber</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a73d9fda683eda52039acecd97aa96053" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>CliNumberType</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1af269ebba752eaae2d7ce48ff1816a990" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>CliPres</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1ac7353fb9e4082e4666e0dda7073744e4" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>CustomerField</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a7dbf57d93e1de425a7b111a51d6b2a59" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>DidHash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a9a877205a0b724cc3864a3f3350f1c71" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>DidIntlNumber</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1ad0320e61db4b940615d5e14605e50bc8" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>Duration</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a81c5af1816a5aa69e050ca01e8080edc" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>DurationAnswered</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a289efda31c58ea9d18f5710486bd67f5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>DurationBilled</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1ad8e4ffb8e2851da0211728bb14d5b483" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>Hangup</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1aa3bfc9609582e77e9093b0834996cd91" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>Hangupcause</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a2d51198b5beb2aa54dea66ef3f79c9b6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>Hangupsource</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in_1a327298c791abec06fab4e425889aa320" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1aaf35fd3a4fd477b805ac88c16a00273d" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>PackageName</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a31530558154022c2b05e71e521b8ff13" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>ScenarioHash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a0d4841f02ac250c0da0a3e724b3e3aec" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>ScenarioName</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_1a6c88b0e698d2f4bb2f10a44d21bc0d4d" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Cdr::CdrIn</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

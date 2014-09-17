@@ -13,7 +13,6 @@
 x64/
 build/
 bld/
-[Bb]in/
 [Oo]bj/
 
 # MSTest test Results
@@ -36,7 +35,6 @@ dlldata.c
 *.meta
 *.obj
 *.pch
-*.pdb
 *.pgc
 *.pgd
 *.rsp

@@ -1,0 +1,289 @@
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service}{\section{Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service Class Reference}
+\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service}\index{Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service@{Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service}}
+}
+
+
+This class allows you to control phone calls in real-\/time.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a84722e63cf2d110ec8679b6764a04e3a}{Dialout} (string cdr\+Field, string cli, string ringtone, List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_misc_1_1_target}{Target} $>$ targets, string whisper)
+\begin{DoxyCompactList}\small\item\em This method makes another call, and bridges the call on answer. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a5a4dcc847bb702afce43876047507fe0}{Hangup} ()
+\begin{DoxyCompactList}\small\item\em This method hangs up the call. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_ab7f2eada0f38e99b789af1e98b26b77e}{Play} (string media\+Id)
+\begin{DoxyCompactList}\small\item\em This method plays a Media.\+Library or say something with the Text-\/to-\/\+Speech. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_ae638ea9bbf631fda1281445ba73d7ce3}{Play\+Record} (string media\+File)
+\begin{DoxyCompactList}\small\item\em This method plays a recording recorded with the \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a72d665b9e464c3a8fe992217efc4d945}{Record} command. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a532fa874454f105002b2b21d437dd5ea}{Read} (int attempts, int max\+Digits, string media\+Id, int timeout\+Ms)
+\begin{DoxyCompactList}\small\item\em This method plays a Media and wait for a D\+T\+M\+F input at the same time. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a72d665b9e464c3a8fe992217efc4d945}{Record} (int max\+Duration, int silence)
+\begin{DoxyCompactList}\small\item\em This method records the user. The recording can be stopped by pressing the hash key '\#', when silence is detected, or when maximum recording duration is reached. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a3ad6d4a674103c9f46b91616cbacdcf6}{Send\+Dtmf} (string digits, int duration\+Ms, int timeout\+Ms)
+\begin{DoxyCompactList}\small\item\em This method sends D\+T\+M\+F digits. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_accc4c5a802e762bc960c28f8eec7a369}{Wait} (int wait)
+\begin{DoxyCompactList}\small\item\em This method waits for a few seconds. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Real\+Time\+Response} \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a437c92082a86f4dde2f02ea57b8a3bb7}{Wait\+For\+Silence} (int iterations, int silence\+Ms, int timeout)
+\begin{DoxyCompactList}\small\item\em This method waits until silence is detected, or timeout is reached. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class allows you to control phone calls in real-\/time. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a84722e63cf2d110ec8679b6764a04e3a}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Dialout@{Dialout}}
+\index{Dialout@{Dialout}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Dialout}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Dialout (
+\begin{DoxyParamCaption}
+\item[{string}]{cdr\+Field, }
+\item[{string}]{cli, }
+\item[{string}]{ringtone, }
+\item[{List$<$ {\bf Target} $>$}]{targets, }
+\item[{string}]{whisper}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a84722e63cf2d110ec8679b6764a04e3a}
+
+
+This method makes another call, and bridges the call on answer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cdr\+Field} & Value written in the C\+D\+R.\\
+\hline
+{\em cli} & Outbound Caller I\+D.\\
+\hline
+{\em ringtone} & Plays music or classic ringtone (possible values are defined in Thecallr\+Api.\+Enums.\+Real\+Time\+Ringtones class).\\
+\hline
+{\em targets} & Phone numbers called sequentially until one answers.\\
+\hline
+{\em whisper} & Callee whispering Media.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Thecallr\+Api.\+Enums.\+Real\+Time\+Ringtones, \hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a5a4dcc847bb702afce43876047507fe0}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Hangup@{Hangup}}
+\index{Hangup@{Hangup}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Hangup}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Hangup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a5a4dcc847bb702afce43876047507fe0}
+
+
+This method hangs up the call. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_ab7f2eada0f38e99b789af1e98b26b77e}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Play@{Play}}
+\index{Play@{Play}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Play}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Play (
+\begin{DoxyParamCaption}
+\item[{string}]{media\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_ab7f2eada0f38e99b789af1e98b26b77e}
+
+
+This method plays a Media.\+Library or say something with the Text-\/to-\/\+Speech. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+Id} & Media I\+D or Text to say.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_ae638ea9bbf631fda1281445ba73d7ce3}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Play\+Record@{Play\+Record}}
+\index{Play\+Record@{Play\+Record}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Play\+Record}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Play\+Record (
+\begin{DoxyParamCaption}
+\item[{string}]{media\+File}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_ae638ea9bbf631fda1281445ba73d7ce3}
+
+
+This method plays a recording recorded with the \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a72d665b9e464c3a8fe992217efc4d945}{Record} command. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em media\+File} & Temporary file name.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}, \hyperlink{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a72d665b9e464c3a8fe992217efc4d945}{Record}
+
+
+\end{DoxySeeAlso}
+/$>$ \hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a532fa874454f105002b2b21d437dd5ea}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Read@{Read}}
+\index{Read@{Read}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Read}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Read (
+\begin{DoxyParamCaption}
+\item[{int}]{attempts, }
+\item[{int}]{max\+Digits, }
+\item[{string}]{media\+Id, }
+\item[{int}]{timeout\+Ms}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a532fa874454f105002b2b21d437dd5ea}
+
+
+This method plays a Media and wait for a D\+T\+M\+F input at the same time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em attempts} & Maximum attempts. min\+:1 max\+:10.\\
+\hline
+{\em max\+Digits} & Maximum digits. min\+:1 max\+:20.\\
+\hline
+{\em media\+Id} & Prompt message.\\
+\hline
+{\em timeout\+Ms} & Input timeout in milliseconds. min\+:100 max\+:30000.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a72d665b9e464c3a8fe992217efc4d945}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Record@{Record}}
+\index{Record@{Record}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Record}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Record (
+\begin{DoxyParamCaption}
+\item[{int}]{max\+Duration, }
+\item[{int}]{silence}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a72d665b9e464c3a8fe992217efc4d945}
+
+
+This method records the user. The recording can be stopped by pressing the hash key '\#', when silence is detected, or when maximum recording duration is reached. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em max\+Duration} & (seconds) Maximum recording duration. Min\+:0 (disabled), Max\+:300.\\
+\hline
+{\em silence} & (seconds) Stop recording on silence. Min\+:0 (disabled), Max\+:20.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a3ad6d4a674103c9f46b91616cbacdcf6}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Send\+Dtmf@{Send\+Dtmf}}
+\index{Send\+Dtmf@{Send\+Dtmf}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Send\+Dtmf}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Send\+Dtmf (
+\begin{DoxyParamCaption}
+\item[{string}]{digits, }
+\item[{int}]{duration\+Ms, }
+\item[{int}]{timeout\+Ms}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a3ad6d4a674103c9f46b91616cbacdcf6}
+
+
+This method sends D\+T\+M\+F digits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em digits} & Digits to send (0-\/9, , \#). Example \+: \char`\"{}123\#\char`\"{}.\\
+\hline
+{\em duration\+Ms} & (milliseconds) Duration of each digit. Min\+: 1, Max\+: 5000.\\
+\hline
+{\em timeout\+Ms} & (milliseconds) Amount of time between tones. Min\+: 0, Max\+: 10000.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_accc4c5a802e762bc960c28f8eec7a369}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Wait@{Wait}}
+\index{Wait@{Wait}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Wait}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Wait (
+\begin{DoxyParamCaption}
+\item[{int}]{wait}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_accc4c5a802e762bc960c28f8eec7a369}
+
+
+This method waits for a few seconds. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wait} & (seconds) Time to wait. Min\+:1, Max\+: 30.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a437c92082a86f4dde2f02ea57b8a3bb7}{\index{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}!Wait\+For\+Silence@{Wait\+For\+Silence}}
+\index{Wait\+For\+Silence@{Wait\+For\+Silence}!Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service@{Thecallr\+Api\+::\+Services\+::\+Server\+::\+Real\+Time\+Service}}
+\subsubsection[{Wait\+For\+Silence}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Real\+Time\+Response} Thecallr\+Api.\+Services.\+Server.\+Real\+Time\+Service.\+Wait\+For\+Silence (
+\begin{DoxyParamCaption}
+\item[{int}]{iterations, }
+\item[{int}]{silence\+Ms, }
+\item[{int}]{timeout}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service_a437c92082a86f4dde2f02ea57b8a3bb7}
+
+
+This method waits until silence is detected, or timeout is reached. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iterations} & Number of times to try. Min\+:1, Max\+:10.\\
+\hline
+{\em silence\+Ms} & (milliseconds) Minimum silence duration. Min\+:1, Max\+:5000.\\
+\hline
+{\em timeout} & (seconds) Global timeout if silence is not detected. Min\+:0 (disabled), Max\+:300.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response} object representing the real-\/time response.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response}{Thecallr\+Api.\+Objects.\+Real\+Time.\+Real\+Time\+Response}
+
+
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\+Server/Real\+Time\+Service.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_app_1_1_package" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::App::Package</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a4366fa87c76002ac7d586a021313f8f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Package.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package" kindref="compound">Package</ref> name (possible values are defined in ThecallrApi.Enums.ApplicationTypes class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a63a019eaced5637657eb6482738e4537" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Package.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package" kindref="compound">Package</ref> type (possible values are defined in ThecallrApi.Enums.ApplicationPackageTypes class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1ac9476ed81b6fe1253a0a78344c0fbfa9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.App.Package.HasDid</definition>
+        <argsstring></argsstring>
+        <name>HasDid</name>
+        <briefdescription>
+<para>Determines if the Voice <ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref> can be assigned a DID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a494b808024d6f7c3a6e496ae22170c99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.App.Package.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class reresents a voice app package. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="263">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="262">
+        <label>ThecallrApi.Objects.App.Package</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package"/>
+        <childnode refid="263" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="265">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="264">
+        <label>ThecallrApi.Objects.App.Package</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package"/>
+        <childnode refid="265" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Package.cs" bodystart="8" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1ac9476ed81b6fe1253a0a78344c0fbfa9" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Package</scope><name>HasDid</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a494b808024d6f7c3a6e496ae22170c99" prot="public" virt="virtual"><scope>ThecallrApi::Objects::App::Package</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a4366fa87c76002ac7d586a021313f8f6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Package</scope><name>Name</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package_1a63a019eaced5637657eb6482738e4537" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Package</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

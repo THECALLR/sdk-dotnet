@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::ClickToCallService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.AppsBaseService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1adbf749e9f86a567ab83e4e2a0176ed81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.ClickToCallService.ClickToCallService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>ClickToCallService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1ab05ce3979d1621442892ab4380e0e5d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.ClickToCallService.ClickToCallService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>ClickToCallService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="33" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1aa802eeadd15f02633eaa5ad0dd6ee775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref></type>
+        <definition>App ThecallrApi.Services.Client.ClickToCallService.Create</definition>
+        <argsstring>(string name, ClickToCall ctc=null)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ClickToCall</ref></type>
+          <declname>ctc</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>This method creates a new Click-To-Call App, and optionally configure it at the same time. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Click-To-Call App name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ctc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Click-To-Call App parameters (Optional).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref> object representing the new Click-To-Call App.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ThecallrApi.Objects.ClickToCall.ClickToCall</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="48" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1af618a38f22756fcb2fba6b4123877694" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref></type>
+        <definition>App ThecallrApi.Services.Client.ClickToCallService.Edit</definition>
+        <argsstring>(string app, string name, ClickToCall ctc)</argsstring>
+        <name>Edit</name>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ClickToCall</ref></type>
+          <declname>ctc</declname>
+        </param>
+        <briefdescription>
+<para>This method edits a Click-To-Call App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Click-To-Call App ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The App name. Send <computeroutput>null</computeroutput> if you do not want to edit the name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ctc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Click-To-Call object containing the parameters you want to edit.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref> object representing the edited Click-To-Call App.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ThecallrApi.Objects.ClickToCall.ClickToCall</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="62" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1aa5b46e4936b757775282c794905835a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.ClickToCallService.CancelCall</definition>
+        <argsstring>(string call)</argsstring>
+        <name>CancelCall</name>
+        <param>
+          <type>string</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>This method cancels a scheduled call. You cannot cancel a call that has already started. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The call identifier of the call to cancel.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="72" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1a7771eb29926fc182005351d22a2fa233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> &gt;</type>
+        <definition>List&lt;Call&gt; ThecallrApi.Services.Client.ClickToCallService.GetCallList</definition>
+        <argsstring>(string app, DateTime from, DateTime to)</argsstring>
+        <name>GetCallList</name>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>This method lists calls for a specific Voice App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voice App ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List calls between this date (inclusive).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>And this date (inclusive).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">ThecallrApi.Objects.ClickToCall.Call</ref> object list.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">ThecallrApi.Objects.ClickToCall.Call</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="87" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1ae24fd30da5c02c1f9d9c3eb4d0cf9ba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref></type>
+        <definition>Call ThecallrApi.Services.Client.ClickToCallService.GetCallStatus</definition>
+        <argsstring>(string hash)</argsstring>
+        <name>GetCallStatus</name>
+        <param>
+          <type>string</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>This method gets a call status. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Call identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">ThecallrApi.Objects.ClickToCall.Call</ref> object.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">ThecallrApi.Objects.ClickToCall.Call</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="100" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1a4122c61ebaf50e0d62047c89201c5e51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ThecallrApi.Services.Client.ClickToCallService.Start2Calls</definition>
+        <argsstring>(string app, List&lt; Target &gt; a_targets, List&lt; Target &gt; b_targets, StartOptions options)</argsstring>
+        <name>Start2Calls</name>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">Target</ref> &gt;</type>
+          <declname>a_targets</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">Target</ref> &gt;</type>
+          <declname>b_targets</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options" kindref="compound">StartOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>This method starts 2 calls (party A, party B). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Click-to-Call Voice App ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>a_targets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Party A targets.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b_targets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Party B targets.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Options.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The Call identifier.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">ThecallrApi.Objects.Misc.Target</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options" kindref="compound">ThecallrApi.Objects.ClickToCall.StartOptions</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="117" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="117" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows Click-To-Call manipulation. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="155">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="153">
+        <label>ThecallrApi.Services.Client.ClickToCallService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="158">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="156">
+        <label>ThecallrApi.Services.Client.ClickToCallService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service"/>
+        <childnode refid="157" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" line="16" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/ClickToCallService.cs" bodystart="15" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a39351754f1f49516bf45ad82621112e4" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a161cbc874b775a592fdfedd1903d353e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1aa5b46e4936b757775282c794905835a6" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>CancelCall</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1adbf749e9f86a567ab83e4e2a0176ed81" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>ClickToCallService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1ab05ce3979d1621442892ab4380e0e5d0" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>ClickToCallService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1aa802eeadd15f02633eaa5ad0dd6ee775" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>Create</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a28330950bff9a8a9ba69773e5efbc69d" prot="protected" virt="non-virtual" ambiguityscope="ThecallrApi::Services::Client::AppsBaseService."><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>Create</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af50747d346b92754ffb83f17970dfda8" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>Delete</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1af618a38f22756fcb2fba6b4123877694" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>Edit</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a10db4e2eee56c8561b384fbc6d1c1f05" prot="protected" virt="non-virtual" ambiguityscope="ThecallrApi::Services::Client::AppsBaseService."><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>Edit</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a16eb4a94326a3092236c599d8c5445d2" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>Get</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af6caca8bc3d8db1bd4fe6f627dde7d8d" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>GetAuthorizedClis</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1a7771eb29926fc182005351d22a2fa233" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>GetCallList</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1ae24fd30da5c02c1f9d9c3eb4d0cf9ba9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>GetCallStatus</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_1a4122c61ebaf50e0d62047c89201c5e51" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::ClickToCallService</scope><name>Start2Calls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

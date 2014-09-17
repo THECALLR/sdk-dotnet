@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_2911ab8941a712437eeafa826e717d21" kind="dir">
+    <compoundname>Objects/Sms</compoundname>
+    <innerfile refid="_sms_8cs">Sms.cs</innerfile>
+    <innerfile refid="_sms_options_8cs">SmsOptions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Sms/"/>
+  </compounddef>
+</doxygen>

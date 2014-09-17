@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::RealTimeCallStatuses</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a2fa21c01eb5774fdca1926ac0ef2e3ed" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeCallStatuses.UP</definition>
+        <argsstring></argsstring>
+        <name>UP</name>
+        <initializer>= &quot;UP&quot;</initializer>
+        <briefdescription>
+<para>The call is live. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1ae24201e02f218bc7631bce651c157e47" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeCallStatuses.HANGUP</definition>
+        <argsstring></argsstring>
+        <name>HANGUP</name>
+        <initializer>= &quot;HANGUP&quot;</initializer>
+        <briefdescription>
+<para>The call just hung up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a03bf2fef13e3e33775460a2628c7b102" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeCallStatuses.INCOMING_CALL</definition>
+        <argsstring></argsstring>
+        <name>INCOMING_CALL</name>
+        <initializer>= &quot;INCOMING_CALL&quot;</initializer>
+        <briefdescription>
+<para>Incoming call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a642bccd848cd472ec49804def25adb8b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeCallStatuses.NOANSWER</definition>
+        <argsstring></argsstring>
+        <name>NOANSWER</name>
+        <initializer>= &quot;NOANSWER&quot;</initializer>
+        <briefdescription>
+<para>The call was not answered during given time. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a90fa521e6b6b30224964a6ec5b2916e5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeCallStatuses.CONGESTION</definition>
+        <argsstring></argsstring>
+        <name>CONGESTION</name>
+        <initializer>= &quot;CONGESTION&quot;</initializer>
+        <briefdescription>
+<para>The call was refused by a carrier (not us). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1ad4610c363caf042a5db1bda99df00f77" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeCallStatuses.BUSY</definition>
+        <argsstring></argsstring>
+        <name>BUSY</name>
+        <initializer>= &quot;BUSY&quot;</initializer>
+        <briefdescription>
+<para>The target number is busy (not us). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1acf41ea39537c7ce3c70f904a82baf242" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeCallStatuses.REJECTED</definition>
+        <argsstring></argsstring>
+        <name>REJECTED</name>
+        <initializer>= &quot;REJECTED&quot;</initializer>
+        <briefdescription>
+<para>Our system rejected the call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the Real Time call statuses. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeCallStatuses.cs" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1ad4610c363caf042a5db1bda99df00f77" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeCallStatuses</scope><name>BUSY</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a90fa521e6b6b30224964a6ec5b2916e5" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeCallStatuses</scope><name>CONGESTION</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1ae24201e02f218bc7631bce651c157e47" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeCallStatuses</scope><name>HANGUP</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a03bf2fef13e3e33775460a2628c7b102" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeCallStatuses</scope><name>INCOMING_CALL</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a642bccd848cd472ec49804def25adb8b" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeCallStatuses</scope><name>NOANSWER</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1acf41ea39537c7ce3c70f904a82baf242" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeCallStatuses</scope><name>REJECTED</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses_1a2fa21c01eb5774fdca1926ac0ef2e3ed" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeCallStatuses</scope><name>UP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

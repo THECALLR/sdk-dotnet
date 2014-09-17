@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Misc::CustomerCli</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a24427299f59afd644d2d3d68f8516da3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.CustomerCli.Cli</definition>
+        <argsstring></argsstring>
+        <name>Cli</name>
+        <briefdescription>
+<para>Phone number/SMS Sender authorized. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a7a499a1a059a4c49fca2ce8164a67d98" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.CustomerCli.Comment</definition>
+        <argsstring></argsstring>
+        <name>Comment</name>
+        <briefdescription>
+<para>Custom comment. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a1bda330a9e54b4ce6f863104fb7fced8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.CustomerCli.Label</definition>
+        <argsstring></argsstring>
+        <name>Label</name>
+        <briefdescription>
+<para>Custom label. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a37072f4b63f9fb1d72bf2e63c94dcd16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Misc.CustomerCli.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents authorized Customer CLI. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="184">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="183">
+        <label>ThecallrApi.Objects.Misc.CustomerCli</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="186">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="185">
+        <label>ThecallrApi.Objects.Misc.CustomerCli</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/CustomerCli.cs" bodystart="8" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a24427299f59afd644d2d3d68f8516da3" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::CustomerCli</scope><name>Cli</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a7a499a1a059a4c49fca2ce8164a67d98" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::CustomerCli</scope><name>Comment</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a37072f4b63f9fb1d72bf2e63c94dcd16" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Misc::CustomerCli</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli_1a1bda330a9e54b4ce6f863104fb7fced8" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::CustomerCli</scope><name>Label</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

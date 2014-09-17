@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_media_statuses" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::MediaStatuses</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_statuses_1ae5082080fd593037e22c8ce62b6768a9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaStatuses.READY</definition>
+        <argsstring></argsstring>
+        <name>READY</name>
+        <initializer>= &quot;READY&quot;</initializer>
+        <briefdescription>
+<para>Media ready. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_statuses_1a9416956829d688d60288ee38b558eb38" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaStatuses.PENDING_CONTENT</definition>
+        <argsstring></argsstring>
+        <name>PENDING_CONTENT</name>
+        <initializer>= &quot;PENDING_CONTENT&quot;</initializer>
+        <briefdescription>
+<para>Media is empty, pending content. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_statuses_1a06f0fb1670b290bf500d4eccbe6758fd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaStatuses.PENDING_CONVERSION</definition>
+        <argsstring></argsstring>
+        <name>PENDING_CONVERSION</name>
+        <initializer>= &quot;PENDING_CONVERSION&quot;</initializer>
+        <briefdescription>
+<para>Content is set, pending conversion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_statuses_1a33d78e96f6c9a30e5643c9831db23f5c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaStatuses.ERROR</definition>
+        <argsstring></argsstring>
+        <name>ERROR</name>
+        <initializer>= &quot;ERROR&quot;</initializer>
+        <briefdescription>
+<para>An error occured while processing the media. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" line="27" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_statuses_1af6543fa40eb2ba28bb44c2ade3159196" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaStatuses.PROCESSING</definition>
+        <argsstring></argsstring>
+        <name>PROCESSING</name>
+        <initializer>= &quot;PROCESSING&quot;</initializer>
+        <briefdescription>
+<para>Processing the media into internal formats. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all Media Library/Recording Statuses. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaStatuses.cs" bodystart="7" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1a33d78e96f6c9a30e5643c9831db23f5c" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaStatuses</scope><name>ERROR</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1a9416956829d688d60288ee38b558eb38" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaStatuses</scope><name>PENDING_CONTENT</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1a06f0fb1670b290bf500d4eccbe6758fd" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaStatuses</scope><name>PENDING_CONVERSION</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1af6543fa40eb2ba28bb44c2ade3159196" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaStatuses</scope><name>PROCESSING</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_statuses_1ae5082080fd593037e22c8ce62b6768a9" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaStatuses</scope><name>READY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

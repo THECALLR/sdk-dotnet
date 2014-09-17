@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_objects_1_1_misc" kind="namespace">
+    <compoundname>ThecallrApi::Objects::Misc</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" prot="public">ThecallrApi::Objects::Misc::Country</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_customer_cli" prot="public">ThecallrApi::Objects::Misc::CustomerCli</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_number_infos" prot="public">ThecallrApi::Objects::Misc::NumberInfos</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" prot="public">ThecallrApi::Objects::Misc::Target</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_timezone" prot="public">ThecallrApi::Objects::Misc::Timezone</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

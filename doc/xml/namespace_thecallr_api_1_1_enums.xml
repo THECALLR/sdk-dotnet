@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_enums" kind="namespace">
+    <compoundname>ThecallrApi::Enums</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_application_package_types" prot="public">ThecallrApi::Enums::ApplicationPackageTypes</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_application_types" prot="public">ThecallrApi::Enums::ApplicationTypes</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_billing_modes" prot="public">ThecallrApi::Enums::BillingModes</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_cdr_hangup_sources" prot="public">ThecallrApi::Enums::CdrHangupSources</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_cdr_types" prot="public">ThecallrApi::Enums::CdrTypes</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_cli_auth_types" prot="public">ThecallrApi::Enums::CliAuthTypes</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses" prot="public">ThecallrApi::Enums::ClickToCallCallStatuses</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_cli_presentations" prot="public">ThecallrApi::Enums::CliPresentations</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_dial_statuses" prot="public">ThecallrApi::Enums::DialStatuses</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_did_classes" prot="public">ThecallrApi::Enums::DidClasses</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_did_types" prot="public">ThecallrApi::Enums::DidTypes</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_media_email_templates" prot="public">ThecallrApi::Enums::MediaEmailTemplates</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_media_library_categories" prot="public">ThecallrApi::Enums::MediaLibraryCategories</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_media_statuses" prot="public">ThecallrApi::Enums::MediaStatuses</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices" prot="public">ThecallrApi::Enums::MediaTtsVoices</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_real_time_call_statuses" prot="public">ThecallrApi::Enums::RealTimeCallStatuses</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_real_time_data_formats" prot="public">ThecallrApi::Enums::RealTimeDataFormats</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_real_time_ringtones" prot="public">ThecallrApi::Enums::RealTimeRingtones</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_sms_statuses" prot="public">ThecallrApi::Enums::SmsStatuses</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_sms_types" prot="public">ThecallrApi::Enums::SmsTypes</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_voicemail_detect_methods" prot="public">ThecallrApi::Enums::VoicemailDetectMethods</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats" prot="public">ThecallrApi::Enums::VoicemailFileFormats</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ApplicationPackageTypes.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

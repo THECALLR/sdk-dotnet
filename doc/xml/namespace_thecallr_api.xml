@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api" kind="namespace">
+    <compoundname>ThecallrApi</compoundname>
+    <innernamespace refid="namespace_thecallr_api_1_1_enums">ThecallrApi::Enums</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_exception">ThecallrApi::Exception</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_helper">ThecallrApi::Helper</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_json">ThecallrApi::Json</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects">ThecallrApi::Objects</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_services">ThecallrApi::Services</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::ClickToCallCallStatuses</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1a51710148a2c324bdda172801901e488d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ClickToCallCallStatuses.NOANSWER</definition>
+        <argsstring></argsstring>
+        <name>NOANSWER</name>
+        <initializer>= &quot;NOANSWER&quot;</initializer>
+        <briefdescription>
+<para>No answer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ab9e17e60f79c282510f6a98b7bd001fb" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ClickToCallCallStatuses.ANSWER</definition>
+        <argsstring></argsstring>
+        <name>ANSWER</name>
+        <initializer>= &quot;ANSWER&quot;</initializer>
+        <briefdescription>
+<para>The call was answered. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1abb11fdf75a5a66c19baa5dd00d4420b1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ClickToCallCallStatuses.VOICEMAIL_DETECTED</definition>
+        <argsstring></argsstring>
+        <name>VOICEMAIL_DETECTED</name>
+        <initializer>= &quot;VOICEMAIL_DETECTED&quot;</initializer>
+        <briefdescription>
+<para>Voicemail detected. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ae3967e40a1bcb69b6dd90da49f617c47" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ClickToCallCallStatuses.HANGUP</definition>
+        <argsstring></argsstring>
+        <name>HANGUP</name>
+        <initializer>= &quot;HANGUP&quot;</initializer>
+        <briefdescription>
+<para>The call was hangup. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ab8d48f35774d3eac7a18f2e88c3208c3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ClickToCallCallStatuses.ABORTED</definition>
+        <argsstring></argsstring>
+        <name>ABORTED</name>
+        <initializer>= &quot;ABORTED&quot;</initializer>
+        <briefdescription>
+<para>The call was aborted because the other party hung up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ac775547730e2a5c584eb987a64ab4694" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.ClickToCallCallStatuses.DIALING</definition>
+        <argsstring></argsstring>
+        <name>DIALING</name>
+        <initializer>= &quot;DIALING&quot;</initializer>
+        <briefdescription>
+<para>The call is being dialed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the Click-To-Call call statuses. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/ClickToCallCallStatuses.cs" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ab8d48f35774d3eac7a18f2e88c3208c3" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ClickToCallCallStatuses</scope><name>ABORTED</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ab9e17e60f79c282510f6a98b7bd001fb" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ClickToCallCallStatuses</scope><name>ANSWER</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ac775547730e2a5c584eb987a64ab4694" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ClickToCallCallStatuses</scope><name>DIALING</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1ae3967e40a1bcb69b6dd90da49f617c47" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ClickToCallCallStatuses</scope><name>HANGUP</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1a51710148a2c324bdda172801901e488d" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ClickToCallCallStatuses</scope><name>NOANSWER</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_click_to_call_call_statuses_1abb11fdf75a5a66c19baa5dd00d4420b1" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::ClickToCallCallStatuses</scope><name>VOICEMAIL_DETECTED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::SmsService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.ClientBaseService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1a07f4ba5167b9fc91d173b3d600bdfe1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.SmsService.SmsService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>SmsService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" line="23" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1affcea6a4058f3282593b099529b6cf27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.SmsService.SmsService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>SmsService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1ac6b2841312fb583b870d0581e430f9bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ThecallrApi.Services.Client.SmsService.Send</definition>
+        <argsstring>(string from, string to, string text, SmsOptions options=null)</argsstring>
+        <name>Send</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options" kindref="compound">SmsOptions</ref></type>
+          <declname>options</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>This method sends a text message. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SMS sender. Must be alphanumeric (at least one character - cannot be digits only). Max length = 11 characters.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SMS recipient.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Text message.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options" kindref="compound">ThecallrApi.Objects.Sms.SmsOptions</ref> options.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String object representing the identifier you can use to get detailed sms status.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms_options" kindref="compound">ThecallrApi.Objects.Sms.SmsOptions</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" line="47" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1ae250c29e8143c86e1d7ed284c0234b84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">Sms</ref></type>
+        <definition>Sms ThecallrApi.Services.Client.SmsService.Get</definition>
+        <argsstring>(string id)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>This method gets more informations on a specific SMS. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SMS identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">ThecallrApi.Objects.Sms.Sms</ref> object representing the SMS.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">ThecallrApi.Objects.Sms.Sms</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" line="60" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1accf8d810353bcc318a2968368c56469b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">Sms</ref> &gt;</type>
+        <definition>List&lt;Sms&gt; ThecallrApi.Services.Client.SmsService.GetInList</definition>
+        <argsstring>(DateTime from, DateTime to)</argsstring>
+        <name>GetInList</name>
+        <param>
+          <type>DateTime</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves the list of your inbound SMS. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrieve from date.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrieve to date.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">ThecallrApi.Objects.Sms.Sms</ref> object list.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">ThecallrApi.Objects.Sms.Sms</ref>, ThecallrApi.Enums.SmsTypes</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" line="75" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1afdcc1c18751da21afca9d57483036a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">Sms</ref> &gt;</type>
+        <definition>List&lt;Sms&gt; ThecallrApi.Services.Client.SmsService.GetOutList</definition>
+        <argsstring>(DateTime from, DateTime to)</argsstring>
+        <name>GetOutList</name>
+        <param>
+          <type>DateTime</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves the list of your outbound SMS. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrieve from date.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrieve to date. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">ThecallrApi.Objects.Sms.Sms</ref> object list.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_sms_1_1_sms" kindref="compound">ThecallrApi.Objects.Sms.Sms</ref>, ThecallrApi.Enums.SmsTypes</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" line="90" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" bodystart="90" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows SMS manipulation. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="300">
+        <label>ThecallrApi.Services.Client.SmsService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="302">
+        <label>ThecallrApi.Services.Client.SmsService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service"/>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/SmsService.cs" bodystart="14" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1ae250c29e8143c86e1d7ed284c0234b84" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>Get</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1accf8d810353bcc318a2968368c56469b" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>GetInList</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1afdcc1c18751da21afca9d57483036a56" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>GetOutList</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1ac6b2841312fb583b870d0581e430f9bc" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>Send</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1a07f4ba5167b9fc91d173b3d600bdfe1a" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>SmsService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_sms_service_1affcea6a4058f3282593b099529b6cf27" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::SmsService</scope><name>SmsService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

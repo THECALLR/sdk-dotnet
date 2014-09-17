@@ -1,0 +1,139 @@
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect}{\section{Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect Class Reference}
+\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect}\index{Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect@{Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect}}
+}
+
+
+This class represents Outbound Voicemail Detection.  
+
+
+Inheritance diagram for Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a9495a80eb8abbfcb54d6a72f61d617c4}{Init\+From\+Dictionary} (Dictionary$<$ string, object $>$ dico)
+\begin{DoxyCompactList}\small\item\em This method initializes object properties from the parameter dictionary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a527c2a06b36239e17596985ce2800156}{Active}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Active ? \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a193b79af662c3dfe40f97a8a96e9da8b}{Dtmf\+Iterations}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When using the D\+T\+M\+F method, how many times do we try to have a D\+T\+M\+F ? (default\+: 2). \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a298062aebb728726f144584ac3e74a81}{Dtmf\+Media}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When using the D\+T\+M\+F method, \hyperlink{namespace_thecallr_api_1_1_objects_1_1_media}{Media} played before detection (default\+: 0). \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a53e8d617ee0f2ec11d8558dc2281916f}{Dtmf\+Timeout}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When using the D\+T\+M\+F method, how long do we wait for a D\+T\+M\+F to be sent ? (default\+: 2). \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a28bb04ac4daf562d199331ca3ca7d89a}{Method}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Detection method (possible values are defined in Thecallr\+Api.\+Enums.\+Voicemail\+Detect\+Methods class). \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a7bf53cbf9be9fc92cc236f75da7f0139}{Silence\+Iterations}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When using the S\+I\+L\+E\+N\+C\+E method, how many times do we try ? (default\+: 1, min\+: 1, max\+: 30). \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_af0ccbdf3ad24b0e07f7846c32043b0c5}{Silence\+Media}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When using the S\+I\+L\+E\+N\+C\+E method, \hyperlink{namespace_thecallr_api_1_1_objects_1_1_media}{Media} played before detection (default\+: 0). \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a7731378e9d2b84dc901266a9d03639a5}{Silence\+Ms}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When using the S\+I\+L\+E\+N\+C\+E method, how long must be the silence in milliseconds ? (default\+: 1800, min\+: 50, max\+: 10000). \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a6c1c058d7dd3b3a64c70fee7e21e38a4}{Silence\+Timeout}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em When using the S\+I\+L\+E\+N\+C\+E method, how long do we try to detect silence ? (default\+: 3, min\+: 0, max\+: 120). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents Outbound Voicemail Detection. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a9495a80eb8abbfcb54d6a72f61d617c4}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Init\+From\+Dictionary@{Init\+From\+Dictionary}}
+\index{Init\+From\+Dictionary@{Init\+From\+Dictionary}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Init\+From\+Dictionary}]{\setlength{\rightskip}{0pt plus 5cm}override void Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Init\+From\+Dictionary (
+\begin{DoxyParamCaption}
+\item[{Dictionary$<$ string, object $>$}]{dico}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a9495a80eb8abbfcb54d6a72f61d617c4}
+
+
+This method initializes object properties from the parameter dictionary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dico} & Dictionary.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{class_thecallr_api_1_1_objects_1_1_base_class_a77680f2cb89665fe65039581c7d907d2}{Thecallr\+Api.\+Objects.\+Base\+Class}.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a527c2a06b36239e17596985ce2800156}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Active@{Active}}
+\index{Active@{Active}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Active}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Active\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a527c2a06b36239e17596985ce2800156}
+
+
+Active ? 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a193b79af662c3dfe40f97a8a96e9da8b}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Dtmf\+Iterations@{Dtmf\+Iterations}}
+\index{Dtmf\+Iterations@{Dtmf\+Iterations}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Dtmf\+Iterations}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Dtmf\+Iterations\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a193b79af662c3dfe40f97a8a96e9da8b}
+
+
+When using the D\+T\+M\+F method, how many times do we try to have a D\+T\+M\+F ? (default\+: 2). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a298062aebb728726f144584ac3e74a81}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Dtmf\+Media@{Dtmf\+Media}}
+\index{Dtmf\+Media@{Dtmf\+Media}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Dtmf\+Media}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Dtmf\+Media\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a298062aebb728726f144584ac3e74a81}
+
+
+When using the D\+T\+M\+F method, \hyperlink{namespace_thecallr_api_1_1_objects_1_1_media}{Media} played before detection (default\+: 0). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a53e8d617ee0f2ec11d8558dc2281916f}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Dtmf\+Timeout@{Dtmf\+Timeout}}
+\index{Dtmf\+Timeout@{Dtmf\+Timeout}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Dtmf\+Timeout}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Dtmf\+Timeout\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a53e8d617ee0f2ec11d8558dc2281916f}
+
+
+When using the D\+T\+M\+F method, how long do we wait for a D\+T\+M\+F to be sent ? (default\+: 2). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a28bb04ac4daf562d199331ca3ca7d89a}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Method@{Method}}
+\index{Method@{Method}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Method}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Method\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a28bb04ac4daf562d199331ca3ca7d89a}
+
+
+Detection method (possible values are defined in Thecallr\+Api.\+Enums.\+Voicemail\+Detect\+Methods class). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a7bf53cbf9be9fc92cc236f75da7f0139}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Silence\+Iterations@{Silence\+Iterations}}
+\index{Silence\+Iterations@{Silence\+Iterations}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Silence\+Iterations}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Silence\+Iterations\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a7bf53cbf9be9fc92cc236f75da7f0139}
+
+
+When using the S\+I\+L\+E\+N\+C\+E method, how many times do we try ? (default\+: 1, min\+: 1, max\+: 30). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_af0ccbdf3ad24b0e07f7846c32043b0c5}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Silence\+Media@{Silence\+Media}}
+\index{Silence\+Media@{Silence\+Media}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Silence\+Media}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Silence\+Media\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_af0ccbdf3ad24b0e07f7846c32043b0c5}
+
+
+When using the S\+I\+L\+E\+N\+C\+E method, \hyperlink{namespace_thecallr_api_1_1_objects_1_1_media}{Media} played before detection (default\+: 0). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a7731378e9d2b84dc901266a9d03639a5}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Silence\+Ms@{Silence\+Ms}}
+\index{Silence\+Ms@{Silence\+Ms}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Silence\+Ms}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Silence\+Ms\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a7731378e9d2b84dc901266a9d03639a5}
+
+
+When using the S\+I\+L\+E\+N\+C\+E method, how long must be the silence in milliseconds ? (default\+: 1800, min\+: 50, max\+: 10000). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a6c1c058d7dd3b3a64c70fee7e21e38a4}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}!Silence\+Timeout@{Silence\+Timeout}}
+\index{Silence\+Timeout@{Silence\+Timeout}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms\+Detect}}
+\subsubsection[{Silence\+Timeout}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+Detect.\+Silence\+Timeout\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_a6c1c058d7dd3b3a64c70fee7e21e38a4}
+
+
+When using the S\+I\+L\+E\+N\+C\+E method, how long do we try to detect silence ? (default\+: 3, min\+: 0, max\+: 120). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Objects/\+App/\+Param/Vms\+Detect.\+cs\end{DoxyCompactItemize}

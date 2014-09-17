@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::RealTime::RealTimeCallOptions</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options_1a46e7363807c6216dd46bb2d3eb740706" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.RealTimeCallOptions.cdr_field</definition>
+        <argsstring></argsstring>
+        <name>cdr_field</name>
+        <briefdescription>
+<para>Custom field written in the CDR. Format: cdr_customer_field (32 alphanumeric characters maximum) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeCallOptions.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeCallOptions.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options_1a1f37dc77ec44c7d4e18d42dda83ceec4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.RealTimeCallOptions.cli</definition>
+        <argsstring></argsstring>
+        <name>cli</name>
+        <briefdescription>
+<para>Calling Line Identification. Can be &quot;BLOCKED&quot;, any DID you have on your account, or any phone number we have authorized on your account. Format: cli_phone_number (International E.164 format &quot;+CCNSN&quot;. Example: &quot;+33123456789&quot; or &quot;BLOCKED&quot;) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeCallOptions.cs" line="21" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeCallOptions.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeCallOptions.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeCallOptions.cs" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options_1a46e7363807c6216dd46bb2d3eb740706" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTimeCallOptions</scope><name>cdr_field</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_call_options_1a1f37dc77ec44c7d4e18d42dda83ceec4" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTimeCallOptions</scope><name>cli</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::CallTracking::CallTrackingOptions</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options_1a9da9a39ec1dfd7699966699da95c920f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.CallTracking.CallTrackingOptions.RecordCalls</definition>
+        <argsstring></argsstring>
+        <name>RecordCalls</name>
+        <briefdescription>
+<para>Activate call recording. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTrackingOptions.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTrackingOptions.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options_1a8a8fd96ebca3d45ece5ea8a9b38c021b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.CallTracking.CallTrackingOptions.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTrackingOptions.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTrackingOptions.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents Call Tracking options. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="100">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="99">
+        <label>ThecallrApi.Objects.CallTracking.CallTrackingOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="102">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="101">
+        <label>ThecallrApi.Objects.CallTracking.CallTrackingOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTrackingOptions.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/CallTrackingOptions.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options_1a8a8fd96ebca3d45ece5ea8a9b38c021b" prot="public" virt="virtual"><scope>ThecallrApi::Objects::CallTracking::CallTrackingOptions</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking_options_1a9da9a39ec1dfd7699966699da95c920f" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::CallTracking::CallTrackingOptions</scope><name>RecordCalls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

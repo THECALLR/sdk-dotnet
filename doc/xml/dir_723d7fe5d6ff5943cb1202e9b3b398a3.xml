@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_723d7fe5d6ff5943cb1202e9b3b398a3" kind="dir">
+    <compoundname>Exception</compoundname>
+    <innerfile refid="_local_api_exception_8cs">LocalApiException.cs</innerfile>
+    <innerfile refid="_remote_api_exception_8cs">RemoteApiException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Exception/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_16d50167e3478e148a8f4be14cf403a6" kind="dir">
+    <compoundname>Objects/ClickToCall</compoundname>
+    <innerfile refid="_call_8cs">Call.cs</innerfile>
+    <innerfile refid="_call_status_8cs">CallStatus.cs</innerfile>
+    <innerfile refid="_click_to_call_8cs">ClickToCall.cs</innerfile>
+    <innerfile refid="_click_to_call_media_8cs">ClickToCallMedia.cs</innerfile>
+    <innerfile refid="_click_to_call_options_8cs">ClickToCallOptions.cs</innerfile>
+    <innerfile refid="_start_options_8cs">StartOptions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/"/>
+  </compounddef>
+</doxygen>

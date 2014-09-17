@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_sms_statuses" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::SmsStatuses</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a8e7019846b3d92015facee4944b321c3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsStatuses.CREATED</definition>
+        <argsstring></argsstring>
+        <name>CREATED</name>
+        <initializer>= &quot;CREATED&quot;</initializer>
+        <briefdescription>
+<para>Message created on our side. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_statuses_1ad89da3ed031f386e36c7b65111dde8a5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsStatuses.PENDING</definition>
+        <argsstring></argsstring>
+        <name>PENDING</name>
+        <initializer>= &quot;PENDING&quot;</initializer>
+        <briefdescription>
+<para>Message is being sent. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a68b357e5268bf4190e710b58ec6933a1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsStatuses.SENT</definition>
+        <argsstring></argsstring>
+        <name>SENT</name>
+        <initializer>= &quot;SENT&quot;</initializer>
+        <briefdescription>
+<para>Message sent, but not received. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_statuses_1aa1b958598287a5b712274d8072ae78db" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsStatuses.ERROR</definition>
+        <argsstring></argsstring>
+        <name>ERROR</name>
+        <initializer>= &quot;ERROR&quot;</initializer>
+        <briefdescription>
+<para>Generic error. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="27" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a03a61e95894452b78817d5ed98db3987" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsStatuses.RECEIVED</definition>
+        <argsstring></argsstring>
+        <name>RECEIVED</name>
+        <initializer>= &quot;RECEIVED&quot;</initializer>
+        <briefdescription>
+<para>Message received. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a93f0a596405cc176e93926a0c71a3795" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsStatuses.REMOTE_QUEUED</definition>
+        <argsstring></argsstring>
+        <name>REMOTE_QUEUED</name>
+        <initializer>= &quot;REMOTE_QUEUED&quot;</initializer>
+        <briefdescription>
+<para>Message is being delivered. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a512e7971623da6b4d0a089b4e29f6408" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.SmsStatuses.EXPIRED</definition>
+        <argsstring></argsstring>
+        <name>EXPIRED</name>
+        <initializer>= &quot;EXPIRED&quot;</initializer>
+        <briefdescription>
+<para>Message timed out. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="42" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the SMS statuses. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/SmsStatuses.cs" bodystart="7" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a8e7019846b3d92015facee4944b321c3" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsStatuses</scope><name>CREATED</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1aa1b958598287a5b712274d8072ae78db" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsStatuses</scope><name>ERROR</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a512e7971623da6b4d0a089b4e29f6408" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsStatuses</scope><name>EXPIRED</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1ad89da3ed031f386e36c7b65111dde8a5" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsStatuses</scope><name>PENDING</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a03a61e95894452b78817d5ed98db3987" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsStatuses</scope><name>RECEIVED</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a93f0a596405cc176e93926a0c71a3795" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsStatuses</scope><name>REMOTE_QUEUED</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_sms_statuses_1a68b357e5268bf4190e710b58ec6933a1" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::SmsStatuses</scope><name>SENT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

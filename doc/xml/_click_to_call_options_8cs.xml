@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_click_to_call_options_8cs" kind="file">
+    <compoundname>ClickToCallOptions.cs</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options" prot="public">ThecallrApi::Objects::ClickToCall::ClickToCallOptions</innerclass>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_click_to_call">ThecallrApi::Objects::ClickToCall</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_thecallr_api" kindref="compound">ThecallrApi</ref>.<ref refid="namespace_thecallr_api_1_1_objects" kindref="compound">Objects</ref>.<ref refid="namespace_thecallr_api_1_1_objects_1_1_app" kindref="compound">App</ref>.<ref refid="namespace_thecallr_api_1_1_objects_1_1_app_1_1_param" kindref="compound">Param</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_thecallr_api" kindref="compound">ThecallrApi</ref>.Objects.ClickToCall</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options" kindref="compound">ClickToCallOptions</ref><sp/>:<sp/><ref refid="class_thecallr_api_1_1_objects_1_1_base_class" kindref="compound">BaseClass</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Member<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>A_attempts<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>A_retrypause<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kindref="compound">VmsDetect</ref><sp/>A_vms_detect<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kindref="compound">VmsDetect</ref><sp/>B_vms_detect<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RecordCalls<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Public<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitFromDictionary(Dictionary&lt;string,<sp/>object&gt;<sp/>dico)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.A_attempts<sp/>=<sp/>Helper.Converter&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;.ToObject(dico,<sp/></highlight><highlight class="stringliteral">&quot;A_attempts&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.A_retrypause<sp/>=<sp/>Helper.Converter&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;.ToObject(dico,<sp/></highlight><highlight class="stringliteral">&quot;A_retrypause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.A_vms_detect<sp/>=<sp/>Helper.Creator&lt;<ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kindref="compound">VmsDetect</ref>&gt;.Object(dico,<sp/></highlight><highlight class="stringliteral">&quot;A_vms_detect&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.B_vms_detect<sp/>=<sp/>Helper.Creator&lt;<ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kindref="compound">VmsDetect</ref>&gt;.Object(dico,<sp/></highlight><highlight class="stringliteral">&quot;B_vms_detect&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.RecordCalls<sp/>=<sp/>Helper.Converter&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;.ToObject(dico,<sp/></highlight><highlight class="stringliteral">&quot;record_calls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallOptions.cs"/>
+  </compounddef>
+</doxygen>

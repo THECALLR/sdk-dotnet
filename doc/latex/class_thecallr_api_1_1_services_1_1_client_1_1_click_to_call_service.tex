@@ -1,0 +1,254 @@
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service}{\section{Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service Class Reference}
+\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service}\index{Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service@{Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service}}
+}
+
+
+This class allows Click-\/\+To-\/\+Call manipulation.  
+
+
+Inheritance diagram for Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_adbf749e9f86a567ab83e4e2a0176ed81}{Click\+To\+Call\+Service} (string url, string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_ab05ce3979d1621442892ab4380e0e5d0}{Click\+To\+Call\+Service} (string login, string password)
+\begin{DoxyCompactList}\small\item\em Constructor with default A\+P\+I url. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_app}{App} \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_aa802eeadd15f02633eaa5ad0dd6ee775}{Create} (string name, \hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call}{Click\+To\+Call} ctc=null)
+\begin{DoxyCompactList}\small\item\em This method creates a new Click-\/\+To-\/\+Call App, and optionally configure it at the same time. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_app}{App} \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_af618a38f22756fcb2fba6b4123877694}{Edit} (string app, string name, \hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call}{Click\+To\+Call} ctc)
+\begin{DoxyCompactList}\small\item\em This method edits a Click-\/\+To-\/\+Call App. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_aa5b46e4936b757775282c794905835a6}{Cancel\+Call} (string call)
+\begin{DoxyCompactList}\small\item\em This method cancels a scheduled call. You cannot cancel a call that has already started. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call}{Call} $>$ \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_a7771eb29926fc182005351d22a2fa233}{Get\+Call\+List} (string app, Date\+Time from, Date\+Time to)
+\begin{DoxyCompactList}\small\item\em This method lists calls for a specific Voice App. \end{DoxyCompactList}\item 
+\hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call}{Call} \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_ae24fd30da5c02c1f9d9c3eb4d0cf9ba9}{Get\+Call\+Status} (string hash)
+\begin{DoxyCompactList}\small\item\em This method gets a call status. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_a4122c61ebaf50e0d62047c89201c5e51}{Start2\+Calls} (string app, List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_misc_1_1_target}{Target} $>$ a\+\_\+targets, List$<$ \hyperlink{class_thecallr_api_1_1_objects_1_1_misc_1_1_target}{Target} $>$ b\+\_\+targets, \hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options}{Start\+Options} options)
+\begin{DoxyCompactList}\small\item\em This method starts 2 calls (party A, party B). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class allows Click-\/\+To-\/\+Call manipulation. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_adbf749e9f86a567ab83e4e2a0176ed81}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Click\+To\+Call\+Service@{Click\+To\+Call\+Service}}
+\index{Click\+To\+Call\+Service@{Click\+To\+Call\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Click\+To\+Call\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Click\+To\+Call\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{url, }
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_adbf749e9f86a567ab83e4e2a0176ed81}
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & A\+P\+I url.\\
+\hline
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_ab05ce3979d1621442892ab4380e0e5d0}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Click\+To\+Call\+Service@{Click\+To\+Call\+Service}}
+\index{Click\+To\+Call\+Service@{Click\+To\+Call\+Service}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Click\+To\+Call\+Service}]{\setlength{\rightskip}{0pt plus 5cm}Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Click\+To\+Call\+Service (
+\begin{DoxyParamCaption}
+\item[{string}]{login, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_ab05ce3979d1621442892ab4380e0e5d0}
+
+
+Constructor with default A\+P\+I url. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em login} & Login.\\
+\hline
+{\em password} & Password.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_aa5b46e4936b757775282c794905835a6}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Cancel\+Call@{Cancel\+Call}}
+\index{Cancel\+Call@{Cancel\+Call}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Cancel\+Call}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Cancel\+Call (
+\begin{DoxyParamCaption}
+\item[{string}]{call}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_aa5b46e4936b757775282c794905835a6}
+
+
+This method cancels a scheduled call. You cannot cancel a call that has already started. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em call} & The call identifier of the call to cancel.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily true}, throws an \hyperlink{namespace_thecallr_api_1_1_exception}{Exception} otherwise.
+\end{DoxyReturn}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_aa802eeadd15f02633eaa5ad0dd6ee775}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Create@{Create}}
+\index{Create@{Create}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf App} Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Create (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{{\bf Click\+To\+Call}}]{ctc = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_aa802eeadd15f02633eaa5ad0dd6ee775}
+
+
+This method creates a new Click-\/\+To-\/\+Call App, and optionally configure it at the same time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Click-\/\+To-\/\+Call App name.\\
+\hline
+{\em ctc} & Click-\/\+To-\/\+Call App parameters (Optional).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_app}{Thecallr\+Api.\+Objects.\+App.\+App} object representing the new Click-\/\+To-\/\+Call App.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_app}{Thecallr\+Api.\+Objects.\+App.\+App}, \hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call}{Thecallr\+Api.\+Objects.\+Click\+To\+Call.\+Click\+To\+Call}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_af618a38f22756fcb2fba6b4123877694}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Edit@{Edit}}
+\index{Edit@{Edit}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Edit}]{\setlength{\rightskip}{0pt plus 5cm}{\bf App} Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Edit (
+\begin{DoxyParamCaption}
+\item[{string}]{app, }
+\item[{string}]{name, }
+\item[{{\bf Click\+To\+Call}}]{ctc}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_af618a38f22756fcb2fba6b4123877694}
+
+
+This method edits a Click-\/\+To-\/\+Call App. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em app} & Click-\/\+To-\/\+Call App I\+D.\\
+\hline
+{\em name} & The App name. Send {\ttfamily null} if you do not want to edit the name.\\
+\hline
+{\em ctc} & A Click-\/\+To-\/\+Call object containing the parameters you want to edit.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_app}{Thecallr\+Api.\+Objects.\+App.\+App} object representing the edited Click-\/\+To-\/\+Call App.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_app}{Thecallr\+Api.\+Objects.\+App.\+App}, \hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call}{Thecallr\+Api.\+Objects.\+Click\+To\+Call.\+Click\+To\+Call}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_a7771eb29926fc182005351d22a2fa233}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Get\+Call\+List@{Get\+Call\+List}}
+\index{Get\+Call\+List@{Get\+Call\+List}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Get\+Call\+List}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Call}$>$ Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Get\+Call\+List (
+\begin{DoxyParamCaption}
+\item[{string}]{app, }
+\item[{Date\+Time}]{from, }
+\item[{Date\+Time}]{to}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_a7771eb29926fc182005351d22a2fa233}
+
+
+This method lists calls for a specific Voice App. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em app} & Voice App I\+D.\\
+\hline
+{\em from} & List calls between this date (inclusive).\\
+\hline
+{\em to} & And this date (inclusive).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call}{Thecallr\+Api.\+Objects.\+Click\+To\+Call.\+Call} object list.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call}{Thecallr\+Api.\+Objects.\+Click\+To\+Call.\+Call}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_ae24fd30da5c02c1f9d9c3eb4d0cf9ba9}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Get\+Call\+Status@{Get\+Call\+Status}}
+\index{Get\+Call\+Status@{Get\+Call\+Status}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Get\+Call\+Status}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Call} Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Get\+Call\+Status (
+\begin{DoxyParamCaption}
+\item[{string}]{hash}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_ae24fd30da5c02c1f9d9c3eb4d0cf9ba9}
+
+
+This method gets a call status. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Call identifier.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call}{Thecallr\+Api.\+Objects.\+Click\+To\+Call.\+Call} object.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call}{Thecallr\+Api.\+Objects.\+Click\+To\+Call.\+Call}
+
+
+\end{DoxySeeAlso}
+\hypertarget{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_a4122c61ebaf50e0d62047c89201c5e51}{\index{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}!Start2\+Calls@{Start2\+Calls}}
+\index{Start2\+Calls@{Start2\+Calls}!Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service@{Thecallr\+Api\+::\+Services\+::\+Client\+::\+Click\+To\+Call\+Service}}
+\subsubsection[{Start2\+Calls}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Services.\+Client.\+Click\+To\+Call\+Service.\+Start2\+Calls (
+\begin{DoxyParamCaption}
+\item[{string}]{app, }
+\item[{List$<$ {\bf Target} $>$}]{a\+\_\+targets, }
+\item[{List$<$ {\bf Target} $>$}]{b\+\_\+targets, }
+\item[{{\bf Start\+Options}}]{options}
+\end{DoxyParamCaption}
+)}}\label{class_thecallr_api_1_1_services_1_1_client_1_1_click_to_call_service_a4122c61ebaf50e0d62047c89201c5e51}
+
+
+This method starts 2 calls (party A, party B). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em app} & The Click-\/to-\/\+Call Voice App I\+D.\\
+\hline
+{\em a\+\_\+targets} & Party A targets.\\
+\hline
+{\em b\+\_\+targets} & Party B targets.\\
+\hline
+{\em options} & Options.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Call identifier.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_thecallr_api_1_1_objects_1_1_misc_1_1_target}{Thecallr\+Api.\+Objects.\+Misc.\+Target}, \hyperlink{class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options}{Thecallr\+Api.\+Objects.\+Click\+To\+Call.\+Start\+Options}
+
+
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\+Client/Click\+To\+Call\+Service.\+cs\end{DoxyCompactItemize}

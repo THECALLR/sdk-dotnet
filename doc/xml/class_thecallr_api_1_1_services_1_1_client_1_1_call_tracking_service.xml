@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::CallTrackingService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.AppsBaseExtendedService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1aeb6a8618a7f57e4db5ac04ddb2769f87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.CallTrackingService.CallTrackingService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>CallTrackingService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1a943d1050964d33e7fd55646999e218c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.CallTrackingService.CallTrackingService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>CallTrackingService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" line="28" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1a0a687d6a2f4135f53792a4b5e6733203" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref></type>
+        <definition>App ThecallrApi.Services.Client.CallTrackingService.Create</definition>
+        <argsstring>(string name, CallTracking ct=null)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">CallTracking</ref></type>
+          <declname>ct</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>This method creates a new CallTracking App, and optionally configure it at the same time. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CallTracking App name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CallTracking App parameters (Optional).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref> object representing the new CallTracking App.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">ThecallrApi.Objects.CallTracking.CallTracking</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" line="43" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1add0083efd720abdc246b1ada3507853c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref></type>
+        <definition>App ThecallrApi.Services.Client.CallTrackingService.Edit</definition>
+        <argsstring>(string app, string name, CallTracking ct)</argsstring>
+        <name>Edit</name>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">CallTracking</ref></type>
+          <declname>ct</declname>
+        </param>
+        <briefdescription>
+<para>This method edits a CallTracking App. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CallTracking App ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The App name. Send <computeroutput>null</computeroutput> if you do not want to edit the name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A CallTracking object containing the parameters you want to edit.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref> object representing the edited CallTracking App.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">ThecallrApi.Objects.App.App</ref>, <ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">ThecallrApi.Objects.CallTracking.CallTracking</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" line="57" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows CallTracking management. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="103">
+        <label>ThecallrApi.Services.Client.CallTrackingService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>AppsBaseExtendedService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="107">
+        <label>ThecallrApi.Services.Client.CallTrackingService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>AppsBaseExtendedService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>AppsBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" line="11" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CallTrackingService.cs" bodystart="10" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ae22f26bfe5fc700c722d3f07d3ca18af" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>AppsBaseExtendedService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a193070cf3cf51d8eb7e415d4a8504e40" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>AppsBaseExtendedService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a39351754f1f49516bf45ad82621112e4" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a161cbc874b775a592fdfedd1903d353e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>AppsBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a983c3162af3403a1193fb750eb3ce6b7" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>AssignDid</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1ac6563145ea71814102717f99c34dd994" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>AssignFirstAvailableDid</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1aeb6a8618a7f57e4db5ac04ddb2769f87" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>CallTrackingService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1a943d1050964d33e7fd55646999e218c9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>CallTrackingService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1a0a687d6a2f4135f53792a4b5e6733203" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>Create</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a28330950bff9a8a9ba69773e5efbc69d" prot="protected" virt="non-virtual" ambiguityscope="ThecallrApi::Services::Client::AppsBaseExtendedService."><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>Create</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af50747d346b92754ffb83f17970dfda8" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>Delete</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_call_tracking_service_1add0083efd720abdc246b1ada3507853c" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>Edit</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a10db4e2eee56c8561b384fbc6d1c1f05" prot="protected" virt="non-virtual" ambiguityscope="ThecallrApi::Services::Client::AppsBaseExtendedService."><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>Edit</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1a16eb4a94326a3092236c599d8c5445d2" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>Get</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_service_1af6caca8bc3d8db1bd4fe6f627dde7d8d" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>GetAuthorizedClis</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a2afb0125e7204d6853142e8ffb016e80" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>GetDids</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_apps_base_extended_service_1a46c40a1972d8e7120dda4fc617c3faa3" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CallTrackingService</scope><name>RemoveDid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_objects" kind="namespace">
+    <compoundname>ThecallrApi::Objects</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public">ThecallrApi::Objects::BaseClass</innerclass>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_app">ThecallrApi::Objects::App</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_call_tracking">ThecallrApi::Objects::CallTracking</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_cdr">ThecallrApi::Objects::Cdr</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_click_to_call">ThecallrApi::Objects::ClickToCall</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_did">ThecallrApi::Objects::Did</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_media">ThecallrApi::Objects::Media</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_misc">ThecallrApi::Objects::Misc</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_real_time">ThecallrApi::Objects::RealTime</innernamespace>
+    <innernamespace refid="namespace_thecallr_api_1_1_objects_1_1_sms">ThecallrApi::Objects::Sms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

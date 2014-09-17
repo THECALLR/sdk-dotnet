@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_thecallr_api_1_1_services_1_1_server" kind="namespace">
+    <compoundname>ThecallrApi::Services::Server</compoundname>
+    <innerclass refid="class_thecallr_api_1_1_services_1_1_server_1_1_real_time_service" prot="public">ThecallrApi::Services::Server::RealTimeService</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Server/RealTimeService.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

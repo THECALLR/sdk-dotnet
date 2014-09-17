@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Media::TtsOptions</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options_1a81d17f4f948622b47f5e10f8e1c09b85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Media.TtsOptions.Rate</definition>
+        <argsstring></argsstring>
+        <name>Rate</name>
+        <briefdescription>
+<para>Speech rate. min:0 max:100 default:50. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/TtsOptions.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/TtsOptions.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options_1a8c6d1e02931f86265ef1bdf3bbe9b154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Media.TtsOptions.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/TtsOptions.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/TtsOptions.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents <ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> Text-to-Speech Options. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="327">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="326">
+        <label>ThecallrApi.Objects.Media.TtsOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options"/>
+        <childnode refid="327" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="329">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="328">
+        <label>ThecallrApi.Objects.Media.TtsOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/TtsOptions.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/TtsOptions.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options_1a8c6d1e02931f86265ef1bdf3bbe9b154" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Media::TtsOptions</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_media_1_1_tts_options_1a81d17f4f948622b47f5e10f8e1c09b85" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Media::TtsOptions</scope><name>Rate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

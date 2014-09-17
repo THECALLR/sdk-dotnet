@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_1461be47150aff16a081be733e8763ec" kind="dir">
+    <compoundname>Json</compoundname>
+    <innerfile refid="_json_error_8cs">JsonError.cs</innerfile>
+    <innerfile refid="_json_request_8cs">JsonRequest.cs</innerfile>
+    <innerfile refid="_json_response_8cs">JsonResponse.cs</innerfile>
+    <innerfile refid="_json_rpc_client_8cs">JsonRpcClient.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Json/"/>
+  </compounddef>
+</doxygen>

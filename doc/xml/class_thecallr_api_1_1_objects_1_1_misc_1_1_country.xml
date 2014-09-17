@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::Misc::Country</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ae5472779a7e2e53b6340faa3e8fca171" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CapitalCode</definition>
+        <argsstring></argsstring>
+        <name>CapitalCode</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Capital 3-letter code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ad53605ad72d876c812539599fddee9a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryCode</definition>
+        <argsstring></argsstring>
+        <name>CountryCode</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a720ea690f46e37e46d7174eb634778da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryFrLabel</definition>
+        <argsstring></argsstring>
+        <name>CountryFrLabel</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref> name (uppercase) in French. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a7cdc50ff26233fdb7d3bf0d1c5f217bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryEnLabel</definition>
+        <argsstring></argsstring>
+        <name>CountryEnLabel</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref> name (uppercase) in English. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a243dc036f1c7e06c7e5cf5cc8aa81011" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryLabel</definition>
+        <argsstring></argsstring>
+        <name>CountryLabel</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref> name (lowercase) in English. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a4c1b15a803f665cc4613caa1d4a23dc4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.ContinentCode</definition>
+        <argsstring></argsstring>
+        <name>ContinentCode</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Continent 3-letter code </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a4d6c39835cde4c1ba5f6f965bb7f50fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CurrencyCode</definition>
+        <argsstring></argsstring>
+        <name>CurrencyCode</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Currency. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a16fc0547d9f55b21c13c190f2dea6325" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryTld</definition>
+        <argsstring></argsstring>
+        <name>CountryTld</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Top Level Domain (TLD). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="49" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1afa4bcb2e1475731e0f8a52cbdd4bc587" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryLanguages</definition>
+        <argsstring></argsstring>
+        <name>CountryLanguages</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Languages. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ae82d3d4498f1d42d328170943a50ade3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryNeighbours</definition>
+        <argsstring></argsstring>
+        <name>CountryNeighbours</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Neighbours comma separated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="59" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1acf631d893a02b4f081522c6522d2dde2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal ThecallrApi.Objects.Misc.Country.CountryLongitude</definition>
+        <argsstring></argsstring>
+        <name>CountryLongitude</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Longitude. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="64" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a685dc4405582869d93d7af0b59078e1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal ThecallrApi.Objects.Misc.Country.CountryLatitude</definition>
+        <argsstring></argsstring>
+        <name>CountryLatitude</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Latitude. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="69" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a8589fecc9228607d3eb57a33c0ba350f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryDialcode</definition>
+        <argsstring></argsstring>
+        <name>CountryDialcode</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s E.164 Dialcode. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="74" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a37f44dc37a8d928d89903f5f6e09ecad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.Misc.Country.CountryLocalcode</definition>
+        <argsstring></argsstring>
+        <name>CountryLocalcode</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Local code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="79" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ab0e2b34c8e39eb40e9ae4cbfad2f5810" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.Misc.Country.CountryNumberLength</definition>
+        <argsstring></argsstring>
+        <name>CountryNumberLength</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country" kindref="compound">Country</ref>&apos;s Phone Numbers Length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="84" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a7c6f63ce6878d406a608f431b9f917e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.Misc.Country.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="92" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="92" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a country. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="178">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="177">
+        <label>ThecallrApi.Objects.Misc.Country</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="180">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="179">
+        <label>ThecallrApi.Objects.Misc.Country</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Misc/Country.cs" bodystart="8" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ae5472779a7e2e53b6340faa3e8fca171" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CapitalCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a4c1b15a803f665cc4613caa1d4a23dc4" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>ContinentCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ad53605ad72d876c812539599fddee9a3" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a8589fecc9228607d3eb57a33c0ba350f" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryDialcode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a7cdc50ff26233fdb7d3bf0d1c5f217bf" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryEnLabel</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a720ea690f46e37e46d7174eb634778da" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryFrLabel</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a243dc036f1c7e06c7e5cf5cc8aa81011" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryLabel</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1afa4bcb2e1475731e0f8a52cbdd4bc587" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryLanguages</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a685dc4405582869d93d7af0b59078e1e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryLatitude</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a37f44dc37a8d928d89903f5f6e09ecad" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryLocalcode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1acf631d893a02b4f081522c6522d2dde2" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryLongitude</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ae82d3d4498f1d42d328170943a50ade3" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryNeighbours</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1ab0e2b34c8e39eb40e9ae4cbfad2f5810" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryNumberLength</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a16fc0547d9f55b21c13c190f2dea6325" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CountryTld</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a4d6c39835cde4c1ba5f6f965bb7f50fb" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>CurrencyCode</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_country_1a7c6f63ce6878d406a608f431b9f917e2" prot="public" virt="virtual"><scope>ThecallrApi::Objects::Misc::Country</scope><name>InitFromDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

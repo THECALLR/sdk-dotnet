@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::ClickToCall::ClickToCall</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a5397b5ba57e9f6babdbeb7471aeb5149" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media" kindref="compound">ClickToCallMedia</ref></type>
+        <definition>ClickToCallMedia ThecallrApi.Objects.ClickToCall.ClickToCall.Medias</definition>
+        <argsstring></argsstring>
+        <name>Medias</name>
+        <briefdescription>
+<para>Medias. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a870e36287a1dc95d3dd8da8da568f47e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_options" kindref="compound">ClickToCallOptions</ref></type>
+        <definition>ClickToCallOptions ThecallrApi.Objects.ClickToCall.ClickToCall.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <briefdescription>
+<para>Options. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" line="20" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1acd7e771b8815dfcad1bf20f9f2418e46" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms" kindref="compound">Vms</ref></type>
+        <definition>Vms ThecallrApi.Objects.ClickToCall.ClickToCall.Vms</definition>
+        <argsstring></argsstring>
+        <name>Vms</name>
+        <briefdescription>
+<para>Voicemail for A if B does not answer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" line="25" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a82aa6494acdca5d63a2755b0cbb5781b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.ClickToCall.ClickToCall.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" line="33" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Click-to-Call with dynamic A/B parties. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="140">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="139">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCall</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="142">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="141">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCall</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCall.cs" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a82aa6494acdca5d63a2755b0cbb5781b" prot="public" virt="virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCall</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a5397b5ba57e9f6babdbeb7471aeb5149" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCall</scope><name>Medias</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1a870e36287a1dc95d3dd8da8da568f47e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCall</scope><name>Options</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_1acd7e771b8815dfcad1bf20f9f2418e46" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCall</scope><name>Vms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

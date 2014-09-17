@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_helper_1_1_dictionary_creator_3_01_k_00_01_t_01_4" kind="class" prot="package">
+    <compoundname>ThecallrApi::Helper::DictionaryCreator&lt; K, T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_dictionary_creator_3_01_k_00_01_t_01_4_1a378db2cbf9e8bfe8ec71ca00237c2993" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; K, T &gt;</type>
+        <definition>static Dictionary&lt;K, T&gt; ThecallrApi.Helper.DictionaryCreator&lt; K, T &gt;.Object</definition>
+        <argsstring>(object obj, string property)</argsstring>
+        <name>Object</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+<para>This method returns an object value dictionary casted in the expected type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object to cast.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property name (used in case of error).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A dictionary of key/value pairs of type K/T corresponding to the key associted value, otherwise the Dictionary with key / value pairs K / T type default value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/DictionaryCreator.cs" line="21" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/DictionaryCreator.cs" bodystart="21" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows you to create a dictonary of objects in their internal types. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>K</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dictionary key type (must be string or int).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dictionary value type.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/DictionaryCreator.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/DictionaryCreator.cs" bodystart="12" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_helper_1_1_dictionary_creator_3_01_k_00_01_t_01_4_1a378db2cbf9e8bfe8ec71ca00237c2993" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::DictionaryCreator&lt; K, T &gt;</scope><name>Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

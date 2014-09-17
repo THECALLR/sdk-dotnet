@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::ClickToCall::Call</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1ace27f663f3517ef92de5931bbd1bda82" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status" kindref="compound">CallStatus</ref></type>
+        <definition>CallStatus ThecallrApi.Objects.ClickToCall.Call.AStatus</definition>
+        <argsstring></argsstring>
+        <name>AStatus</name>
+        <briefdescription>
+<para>Party A call status. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="16" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a0ceeac33bdae976a1e9f6297a23abb92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">Target</ref> &gt;</type>
+        <definition>List&lt;Target&gt; ThecallrApi.Objects.ClickToCall.Call.ATargets</definition>
+        <argsstring></argsstring>
+        <name>ATargets</name>
+        <briefdescription>
+<para>Targets called first (&quot;A&quot;). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="21" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a9d0ad80b98dab88fb386637ff668480e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App.App</ref></type>
+        <definition>App.App ThecallrApi.Objects.ClickToCall.Call.App</definition>
+        <argsstring></argsstring>
+        <name>App</name>
+        <briefdescription>
+<para>Voice <ref refid="namespace_thecallr_api_1_1_objects_1_1_app" kindref="compound">App</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="26" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a1643f0e3b3669473ceb72c9914eeb390" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_status" kindref="compound">CallStatus</ref></type>
+        <definition>CallStatus ThecallrApi.Objects.ClickToCall.Call.BStatus</definition>
+        <argsstring></argsstring>
+        <name>BStatus</name>
+        <briefdescription>
+<para>Party B call status. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="31" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1ac7f3758f766a089e1907c7c7e299afbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_misc_1_1_target" kindref="compound">Target</ref> &gt;</type>
+        <definition>List&lt;Target&gt; ThecallrApi.Objects.ClickToCall.Call.BTargets</definition>
+        <argsstring></argsstring>
+        <name>BTargets</name>
+        <briefdescription>
+<para>Targets called second (&quot;B&quot;). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="36" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a5678a023993d4aebb7c436a9d60d1def" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.ClickToCall.Call.CdrField</definition>
+        <argsstring></argsstring>
+        <name>CdrField</name>
+        <briefdescription>
+<para>Custom CDR field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="41" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1af2650b6ee1f0fe07a4afb29904e8812c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.ClickToCall.Call.Cli</definition>
+        <argsstring></argsstring>
+        <name>Cli</name>
+        <briefdescription>
+<para>CLI presented to party A. Party B will see the party A target number that answered the call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="46" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a31aa6c9e2ee7c732832eed6dea689c1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.ClickToCall.Call.DateCreation</definition>
+        <argsstring></argsstring>
+        <name>DateCreation</name>
+        <briefdescription>
+<para>Date and time of creation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="51" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a239f72ff8873cc6357ea09f6f21639f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.ClickToCall.Call.DateScheduled</definition>
+        <argsstring></argsstring>
+        <name>DateScheduled</name>
+        <briefdescription>
+<para>Date and time scheduled. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="56" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a2c41253671e6e7e7f642179509e090c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.ClickToCall.Call.DateStarted</definition>
+        <argsstring></argsstring>
+        <name>DateStarted</name>
+        <briefdescription>
+<para>Date and time started. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="61" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1af8adadac38937aac089a05dff4db6efd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.ClickToCall.Call.DateUpdate</definition>
+        <argsstring></argsstring>
+        <name>DateUpdate</name>
+        <briefdescription>
+<para>Date and time of last update. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="66" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a3c29cf89b24f37e9c754a85a5df800aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.ClickToCall.Call.Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> unique ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="71" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a43d743a09581bded6e337c312400fede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.ClickToCall.Call.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="79" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="79" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Click-to-Call <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="83">
+        <label>ThecallrApi.Objects.ClickToCall.Call</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="85">
+        <label>ThecallrApi.Objects.ClickToCall.Call</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" line="11" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/Call.cs" bodystart="10" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a9d0ad80b98dab88fb386637ff668480e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>App</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1ace27f663f3517ef92de5931bbd1bda82" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>AStatus</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a0ceeac33bdae976a1e9f6297a23abb92" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>ATargets</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a1643f0e3b3669473ceb72c9914eeb390" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>BStatus</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1ac7f3758f766a089e1907c7c7e299afbb" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>BTargets</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a5678a023993d4aebb7c436a9d60d1def" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>CdrField</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1af2650b6ee1f0fe07a4afb29904e8812c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>Cli</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a31aa6c9e2ee7c732832eed6dea689c1d" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>DateCreation</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a239f72ff8873cc6357ea09f6f21639f1" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>DateScheduled</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a2c41253671e6e7e7f642179509e090c2" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>DateStarted</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1af8adadac38937aac089a05dff4db6efd" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>DateUpdate</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a3c29cf89b24f37e9c754a85a5df800aa" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call_1a43d743a09581bded6e337c312400fede" prot="public" virt="virtual"><scope>ThecallrApi::Objects::ClickToCall::Call</scope><name>InitFromDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

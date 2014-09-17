@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::CallTracking::GA</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a_1a139a813922b509a8d633c8ff47f89578" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.CallTracking.GA.Ua</definition>
+        <argsstring></argsstring>
+        <name>Ua</name>
+        <briefdescription>
+<para>Google Analytics Web Property ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/GA.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/GA.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a_1a67873a01d68fd703fa349882846b7826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.CallTracking.GA.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/GA.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/GA.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a <ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">CallTracking</ref> Google Analytics. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="215">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="214">
+        <label>ThecallrApi.Objects.CallTracking.GA</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="217">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="216">
+        <label>ThecallrApi.Objects.CallTracking.GA</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/GA.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/CallTracking/GA.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a_1a67873a01d68fd703fa349882846b7826" prot="public" virt="virtual"><scope>ThecallrApi::Objects::CallTracking::GA</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_g_a_1a139a813922b509a8d633c8ff47f89578" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::CallTracking::GA</scope><name>Ua</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

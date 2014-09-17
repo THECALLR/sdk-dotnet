@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_did_types" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::DidTypes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_types_1a27138e5bb03baf6834994f6bf2821091" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidTypes.GEOGRAPHIC</definition>
+        <argsstring></argsstring>
+        <name>GEOGRAPHIC</name>
+        <initializer>= &quot;GEOGRAPHIC&quot;</initializer>
+        <briefdescription>
+<para>Geographic. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_types_1a11ce8600f52790d9cc0548c500efa099" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidTypes.PERSONAL</definition>
+        <argsstring></argsstring>
+        <name>PERSONAL</name>
+        <initializer>= &quot;PERSONAL&quot;</initializer>
+        <briefdescription>
+<para>Personal. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_types_1a3ab140fa9235842748c10f847400ebaf" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidTypes.TOLLFREE</definition>
+        <argsstring></argsstring>
+        <name>TOLLFREE</name>
+        <initializer>= &quot;TOLLFREE&quot;</initializer>
+        <briefdescription>
+<para>Toll-free. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_types_1ae27c6651a7d677f0b003d7b779f4546e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidTypes.SHAREDCOST</definition>
+        <argsstring></argsstring>
+        <name>SHAREDCOST</name>
+        <initializer>= &quot;SHAREDCOST&quot;</initializer>
+        <briefdescription>
+<para>Shared Cost. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" line="27" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_types_1a949051e4efb9ce05784608ca7164add9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidTypes.SHAREDREVENUE</definition>
+        <argsstring></argsstring>
+        <name>SHAREDREVENUE</name>
+        <initializer>= &quot;SHAREDREVENUE&quot;</initializer>
+        <briefdescription>
+<para>Shared Revenue. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" line="32" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_did_types_1a6df275779fd733a2145f16de12136500" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.DidTypes.SPECIAL</definition>
+        <argsstring></argsstring>
+        <name>SPECIAL</name>
+        <initializer>= &quot;SPECIAL&quot;</initializer>
+        <briefdescription>
+<para>Special. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all DID types. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/DidTypes.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a27138e5bb03baf6834994f6bf2821091" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidTypes</scope><name>GEOGRAPHIC</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a11ce8600f52790d9cc0548c500efa099" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidTypes</scope><name>PERSONAL</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1ae27c6651a7d677f0b003d7b779f4546e" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidTypes</scope><name>SHAREDCOST</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a949051e4efb9ce05784608ca7164add9" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidTypes</scope><name>SHAREDREVENUE</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a6df275779fd733a2145f16de12136500" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidTypes</scope><name>SPECIAL</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_did_types_1a3ab140fa9235842748c10f847400ebaf" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::DidTypes</scope><name>TOLLFREE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

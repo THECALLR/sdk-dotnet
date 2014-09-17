@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_f412ea81c27f49b97b375d737a745cb6" kind="dir">
+    <compoundname>Objects/Media</compoundname>
+    <innerfile refid="_email_template_8cs">EmailTemplate.cs</innerfile>
+    <innerfile refid="_media_library_8cs">MediaLibrary.cs</innerfile>
+    <innerfile refid="_phone_id_8cs">PhoneId.cs</innerfile>
+    <innerfile refid="_tts_options_8cs">TtsOptions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/Media/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::MediaService::NestedLibrary</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1af2c4a7089e404e3ffc788d2b74439649" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kindref="compound">MediaService</ref></type>
+        <definition>MediaService ThecallrApi.Services.Client.MediaService.NestedLibrary.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="116" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5b71592adde74b2c74132e7d71ee9d93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.MediaService.NestedLibrary.NestedLibrary</definition>
+        <argsstring>(MediaService parent)</argsstring>
+        <name>NestedLibrary</name>
+        <param>
+          <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kindref="compound">MediaService</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="121" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5d90c3c7c3ab20fbcf8f0e8803fa8b4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ThecallrApi.Services.Client.MediaService.NestedLibrary.Create</definition>
+        <argsstring>(string name)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>This method creates a new MediaLibrary. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Int object representing the media ID.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="129" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="129" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a00f69412d0246a6a91d180a26f5859fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.MediaService.NestedLibrary.Delete</definition>
+        <argsstring>(int mediaId)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>int</type>
+          <declname>mediaId</declname>
+        </param>
+        <briefdescription>
+<para>This method deletes a Media in the Library. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The media ID of the MediaLibrary to delete.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="141" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="141" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1ac49ba00b6e4a94777973c7f64490a414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kindref="compound">MediaLibrary</ref></type>
+        <definition>MediaLibrary ThecallrApi.Services.Client.MediaService.NestedLibrary.Get</definition>
+        <argsstring>(int mediaId)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>int</type>
+          <declname>mediaId</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves a specific MediaLibrary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Media ID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kindref="compound">ThecallrApi.Objects.Media.MediaLibrary</ref> object representing the media.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kindref="compound">ThecallrApi.Objects.Media.MediaLibrary</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="154" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="154" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1af441d2cdf0808d3395d1ee22fa2a5043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; int, <ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kindref="compound">MediaLibrary</ref> &gt;</type>
+        <definition>Dictionary&lt;int, MediaLibrary&gt; ThecallrApi.Services.Client.MediaService.NestedLibrary.GetList</definition>
+        <argsstring>(List&lt; string &gt; categories)</argsstring>
+        <name>GetList</name>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>categories</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves a list of Medias available in the Library by categories. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>categories</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filter by categories (possibles values are defined in ThecallrApi.Enums.MediaLibraryCategories class).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dictionary (int key type, <ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kindref="compound">ThecallrApi.Objects.Media.MediaLibrary</ref> value type) object representing the medias.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_media_library" kindref="compound">ThecallrApi.Objects.Media.MediaLibrary</ref>, ThecallrApi.Enums.MediaLibraryCategories</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="168" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="168" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a0996deaa9a22cc7e8ae6a9919855435d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id" kindref="compound">PhoneId</ref></type>
+        <definition>PhoneId ThecallrApi.Services.Client.MediaService.NestedLibrary.GetPhoneId</definition>
+        <argsstring>(int mediaId, string countryCode)</argsstring>
+        <name>GetPhoneId</name>
+        <param>
+          <type>int</type>
+          <declname>mediaId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>countryCode</declname>
+        </param>
+        <briefdescription>
+<para>This method retrieves a DTMF sequence &quot;phone_id&quot; in order to record a MediaLibrary by phone. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Media ID your want to record by phone.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>countryCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The country code you are in (we will give you a local phone number to call).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id" kindref="compound">ThecallrApi.Objects.Media.PhoneId</ref> object representing the Phone ID (DTMF sequence + phone number).</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_media_1_1_phone_id" kindref="compound">ThecallrApi.Objects.Media.PhoneId</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="182" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="182" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a45f46ae84daeb6292ac8936087902899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.MediaService.NestedLibrary.SetContent</definition>
+        <argsstring>(int mediaId, string text, string audioData)</argsstring>
+        <name>SetContent</name>
+        <param>
+          <type>int</type>
+          <declname>mediaId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>audioData</declname>
+        </param>
+        <briefdescription>
+<para>This method sets the MediaLibrary content with your own file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Media ID to change.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Text prompt (What is your Media saying?).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>audioData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>base64 encoded audio data file. Currently the file MUST BE &quot;WAV&quot; PCM encoded. 16 bit 48Khz mono is RECOMMENDED.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="196" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="196" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1ad96ab505d16574ffd1406924470f4b7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.MediaService.NestedLibrary.SetContentFromRecording</definition>
+        <argsstring>(int mediaId, string mediaFile)</argsstring>
+        <name>SetContentFromRecording</name>
+        <param>
+          <type>int</type>
+          <declname>mediaId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mediaFile</declname>
+        </param>
+        <briefdescription>
+<para>This method sets MediaLibrary content from a recording previously created using Realtime command <computeroutput>record</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Media ID to change.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mediaFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Recording path (M:ThecallrApi.Services.Server.RealTimeService.Record).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="209" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="209" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5ebd233179cb13d86e1385200c7f71d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.MediaService.NestedLibrary.SetName</definition>
+        <argsstring>(int mediaId, string name)</argsstring>
+        <name>SetName</name>
+        <param>
+          <type>int</type>
+          <declname>mediaId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>This method changes a MediaLibrary name. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Media ID to change.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new media name.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="222" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="222" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a60cb9afca681eeb401f879ca8d3302b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Services.Client.MediaService.NestedLibrary.SetTags</definition>
+        <argsstring>(int media_id, Dictionary&lt; string, List&lt; string &gt;&gt; tags)</argsstring>
+        <name>SetTags</name>
+        <param>
+          <type>int</type>
+          <declname>media_id</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, List&lt; string &gt;&gt;</type>
+          <declname>tags</declname>
+        </param>
+        <briefdescription>
+<para>This method sets Tags on a MediaLibrary. You can set as many tags as you want. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>media_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique media id to edit.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tags to apply. It will completely replace previously set tags. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Special tag names :<itemizedlist>
+<listitem><para>CATEGORY : if specified, values must be one of ThecallrApi.Enums.MediaLibraryCategories class.</para></listitem><listitem><para>LANGUAGE : if specified, values must be in the form “en_US”, “en_GB”, “fr_FR”, etc. </para></listitem></itemizedlist>
+</para><para><simplesect kind="return"><para>Always <computeroutput>true</computeroutput>, throws an <ref refid="namespace_thecallr_api_1_1_exception" kindref="compound">Exception</ref> otherwise.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="244" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="244" bodyend="249"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows Media library management. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="115" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="114" bodyend="250"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5d90c3c7c3ab20fbcf8f0e8803fa8b4c" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>Create</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a00f69412d0246a6a91d180a26f5859fe" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>Delete</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1ac49ba00b6e4a94777973c7f64490a414" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>Get</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1af441d2cdf0808d3395d1ee22fa2a5043" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>GetList</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a0996deaa9a22cc7e8ae6a9919855435d" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>GetPhoneId</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5b71592adde74b2c74132e7d71ee9d93" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>NestedLibrary</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1af2c4a7089e404e3ffc788d2b74439649" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>Parent</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a45f46ae84daeb6292ac8936087902899" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>SetContent</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1ad96ab505d16574ffd1406924470f4b7a" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>SetContentFromRecording</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a5ebd233179cb13d86e1385200c7f71d2" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>SetName</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library_1a60cb9afca681eeb401f879ca8d3302b3" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService::NestedLibrary</scope><name>SetTags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

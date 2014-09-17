@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::VoicemailFileFormats</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1abbe2acac23d510b41f5dbdff73e9c419" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.VoicemailFileFormats.WAV</definition>
+        <argsstring></argsstring>
+        <name>WAV</name>
+        <initializer>= &quot;wav&quot;</initializer>
+        <briefdescription>
+<para>WAVE/Waveform Audio File Format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1abafb56d056f6b01b6c3e64986d5ee30f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.VoicemailFileFormats.MP3</definition>
+        <argsstring></argsstring>
+        <name>MP3</name>
+        <initializer>= &quot;mp3&quot;</initializer>
+        <briefdescription>
+<para>MP3/MPEG-2 Audio Layer III. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1a5e997e403252d9e0a48a3f38e65e87a9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.VoicemailFileFormats.SLN</definition>
+        <argsstring></argsstring>
+        <name>SLN</name>
+        <initializer>= &quot;sln&quot;</initializer>
+        <briefdescription>
+<para>SLN/Signed Linear PCM. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all Voicemail Recording File Formats. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/VoicemailFileFormats.cs" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1abafb56d056f6b01b6c3e64986d5ee30f" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::VoicemailFileFormats</scope><name>MP3</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1a5e997e403252d9e0a48a3f38e65e87a9" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::VoicemailFileFormats</scope><name>SLN</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_voicemail_file_formats_1abbe2acac23d510b41f5dbdff73e9c419" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::VoicemailFileFormats</scope><name>WAV</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

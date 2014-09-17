@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_helper_1_1_tools" kind="class" prot="public">
+    <compoundname>ThecallrApi::Helper::Tools</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_helper_1_1_tools_1add5533b4cfa3eb365c180099619a7d20" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Helper.Tools.DATETIME_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>DATETIME_FORMAT</name>
+        <initializer>= &quot;yyyy-MM-dd HH:mm:ss&quot;</initializer>
+        <briefdescription>
+<para>Date and Time format used by the API. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_tools_1a8c768f983b417a1c08462eb771076ddc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ThecallrApi.Helper.Tools.ObjectDump</definition>
+        <argsstring>(object obj, int depth=0)</argsstring>
+        <name>ObjectDump</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This method lets you display an object content. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to display.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>depth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current depth of recursion.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A string containing the object dump.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" line="25" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" bodystart="25" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_tools_1aeeaedcccc0b6737a556ba5baa1cd5e92" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ThecallrApi.Helper.Tools.UtcDateString</definition>
+        <argsstring>(DateTime date)</argsstring>
+        <name>UtcDateString</name>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>This method returns the date in UTC and API waiting format string. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The date to convert.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The date in UTC and API waiting format string.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" line="91" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class gives usefull helpers. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" line="13" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Tools.cs" bodystart="12" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_helper_1_1_tools_1add5533b4cfa3eb365c180099619a7d20" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::Tools</scope><name>DATETIME_FORMAT</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_tools_1a8c768f983b417a1c08462eb771076ddc" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::Tools</scope><name>ObjectDump</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_tools_1aeeaedcccc0b6737a556ba5baa1cd5e92" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::Tools</scope><name>UtcDateString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

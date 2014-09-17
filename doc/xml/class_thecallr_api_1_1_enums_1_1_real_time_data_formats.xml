@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_real_time_data_formats" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::RealTimeDataFormats</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_real_time_data_formats_1a34744e7cd7eb391bde28e4c620a0e880" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.RealTimeDataFormats.JSON</definition>
+        <argsstring></argsstring>
+        <name>JSON</name>
+        <initializer>= &quot;JSON&quot;</initializer>
+        <briefdescription>
+<para>JSON format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeDataFormats.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeDataFormats.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the formats used in realtime exchanges. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeDataFormats.cs" line="8" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/RealTimeDataFormats.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_real_time_data_formats_1a34744e7cd7eb391bde28e4c620a0e880" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::RealTimeDataFormats</scope><name>JSON</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

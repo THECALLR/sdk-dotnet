@@ -1,0 +1,148 @@
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms}{\section{Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms Class Reference}
+\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms}\index{Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms@{Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms}}
+}
+
+
+This class represents a Voicemail  
+
+
+Inheritance diagram for Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a615f4c8d0771129b8223963919809b1c}{Init\+From\+Dictionary} (Dictionary$<$ string, object $>$ dico)
+\begin{DoxyCompactList}\small\item\em This method initializes object properties from the parameter dictionary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ac361875c2bbe9afb787095925fea6d58}{Active}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em If not activated, the call is hang up. \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_aa9fb2d9fe59dc28f3a8cb192f3af7be4}{Intro}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em \hyperlink{namespace_thecallr_api_1_1_objects_1_1_media}{Media} prompt. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ad6cfde4ca36277a2821d9194ab2063fc}{File\+Format}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em File attachment format (possible values are defined in Thecallr\+Api.\+Enums.\+Voicemail\+File\+Formats class). \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a24db06489db2f2a78cb9cf2325792787}{File\+Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em File attachment name. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_aafb848d0bde7e20f2f6dbb8763697545}{Email\+Template}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Email template. \end{DoxyCompactList}\item 
+bool \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a22fad0cb2e2243b2712445daf007a97c}{Record}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em If {\ttfamily false}, the call is hang up after playing the prompt. \end{DoxyCompactList}\item 
+int \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ad443b458fb9fd27b6ac5b900d6ad284c}{Timeout}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Max recording length in seconds. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_af0d9b7c568758a880708e66aad5088da}{Locale}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Locale used for date/time formatting. \end{DoxyCompactList}\item 
+string \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a9abf635b1d566fa90a73a857e42b0f30}{Timezone}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Timezone I\+A\+N\+A name. \end{DoxyCompactList}\item 
+List$<$ string $>$ \hyperlink{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ab3e6a64404a32328cbd1675d7a775ed6}{Emails}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Email recipients. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents a Voicemail 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a615f4c8d0771129b8223963919809b1c}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Init\+From\+Dictionary@{Init\+From\+Dictionary}}
+\index{Init\+From\+Dictionary@{Init\+From\+Dictionary}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Init\+From\+Dictionary}]{\setlength{\rightskip}{0pt plus 5cm}override void Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Init\+From\+Dictionary (
+\begin{DoxyParamCaption}
+\item[{Dictionary$<$ string, object $>$}]{dico}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a615f4c8d0771129b8223963919809b1c}
+
+
+This method initializes object properties from the parameter dictionary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dico} & Dictionary.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{class_thecallr_api_1_1_objects_1_1_base_class_a77680f2cb89665fe65039581c7d907d2}{Thecallr\+Api.\+Objects.\+Base\+Class}.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ac361875c2bbe9afb787095925fea6d58}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Active@{Active}}
+\index{Active@{Active}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Active}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Active\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ac361875c2bbe9afb787095925fea6d58}
+
+
+If not activated, the call is hang up. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ab3e6a64404a32328cbd1675d7a775ed6}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Emails@{Emails}}
+\index{Emails@{Emails}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Emails}]{\setlength{\rightskip}{0pt plus 5cm}List$<$string$>$ Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Emails\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ab3e6a64404a32328cbd1675d7a775ed6}
+
+
+Email recipients. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_aafb848d0bde7e20f2f6dbb8763697545}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Email\+Template@{Email\+Template}}
+\index{Email\+Template@{Email\+Template}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Email\+Template}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Email\+Template\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_aafb848d0bde7e20f2f6dbb8763697545}
+
+
+Email template. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ad6cfde4ca36277a2821d9194ab2063fc}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!File\+Format@{File\+Format}}
+\index{File\+Format@{File\+Format}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{File\+Format}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+File\+Format\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ad6cfde4ca36277a2821d9194ab2063fc}
+
+
+File attachment format (possible values are defined in Thecallr\+Api.\+Enums.\+Voicemail\+File\+Formats class). 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a24db06489db2f2a78cb9cf2325792787}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!File\+Name@{File\+Name}}
+\index{File\+Name@{File\+Name}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{File\+Name}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+File\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a24db06489db2f2a78cb9cf2325792787}
+
+
+File attachment name. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_aa9fb2d9fe59dc28f3a8cb192f3af7be4}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Intro@{Intro}}
+\index{Intro@{Intro}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Intro}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Intro\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_aa9fb2d9fe59dc28f3a8cb192f3af7be4}
+
+
+\hyperlink{namespace_thecallr_api_1_1_objects_1_1_media}{Media} prompt. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_af0d9b7c568758a880708e66aad5088da}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Locale@{Locale}}
+\index{Locale@{Locale}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Locale}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Locale\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_af0d9b7c568758a880708e66aad5088da}
+
+
+Locale used for date/time formatting. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a22fad0cb2e2243b2712445daf007a97c}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Record@{Record}}
+\index{Record@{Record}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Record}]{\setlength{\rightskip}{0pt plus 5cm}bool Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Record\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a22fad0cb2e2243b2712445daf007a97c}
+
+
+If {\ttfamily false}, the call is hang up after playing the prompt. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ad443b458fb9fd27b6ac5b900d6ad284c}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Timeout@{Timeout}}
+\index{Timeout@{Timeout}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Timeout}]{\setlength{\rightskip}{0pt plus 5cm}int Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Timeout\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_ad443b458fb9fd27b6ac5b900d6ad284c}
+
+
+Max recording length in seconds. 
+
+\hypertarget{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a9abf635b1d566fa90a73a857e42b0f30}{\index{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}!Timezone@{Timezone}}
+\index{Timezone@{Timezone}!Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms@{Thecallr\+Api\+::\+Objects\+::\+App\+::\+Param\+::\+Vms}}
+\subsubsection[{Timezone}]{\setlength{\rightskip}{0pt plus 5cm}string Thecallr\+Api.\+Objects.\+App.\+Param.\+Vms.\+Timezone\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_a9abf635b1d566fa90a73a857e42b0f30}
+
+
+Timezone I\+A\+N\+A name. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Objects/\+App/\+Param/Vms.\+cs\end{DoxyCompactItemize}

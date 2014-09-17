@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_media_library_categories" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::MediaLibraryCategories</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a8b4017b25f320e00902de1b5a906dc15" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaLibraryCategories.FAILURE</definition>
+        <argsstring></argsstring>
+        <name>FAILURE</name>
+        <initializer>= &quot;FAILURE&quot;</initializer>
+        <briefdescription>
+<para>Failure related Media. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a2b10091f224093c38102fa3e73f3b750" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaLibraryCategories.WELCOME</definition>
+        <argsstring></argsstring>
+        <name>WELCOME</name>
+        <initializer>= &quot;WELCOME&quot;</initializer>
+        <briefdescription>
+<para>Welcoming Media. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a13d001d3b22ce9fe557ae21cf540d957" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaLibraryCategories.RINGTONE</definition>
+        <argsstring></argsstring>
+        <name>RINGTONE</name>
+        <initializer>= &quot;RINGTONE&quot;</initializer>
+        <briefdescription>
+<para>Music and other ringing Media. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_library_categories_1acd822dbb9e9b2ada74f5929e94a9f8d9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaLibraryCategories.VOICEMAIL</definition>
+        <argsstring></argsstring>
+        <name>VOICEMAIL</name>
+        <initializer>= &quot;VOICEMAIL&quot;</initializer>
+        <briefdescription>
+<para>Voicemail related. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a6b1a4b3b80afcb7d6486e5f439935102" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaLibraryCategories.MISC</definition>
+        <argsstring></argsstring>
+        <name>MISC</name>
+        <initializer>= &quot;MISC&quot;</initializer>
+        <briefdescription>
+<para>Miscellaneous. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a0a692aaa3f0d0f9e411cb92d75c91fa9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaLibraryCategories.IVR</definition>
+        <argsstring></argsstring>
+        <name>IVR</name>
+        <initializer>= &quot;IVR&quot;</initializer>
+        <briefdescription>
+<para>IVR related. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a30994553c64b9ab7e13e07d6ca2d77d4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaLibraryCategories.WHISPER</definition>
+        <argsstring></argsstring>
+        <name>WHISPER</name>
+        <initializer>= &quot;WHISPER&quot;</initializer>
+        <briefdescription>
+<para>Whispering. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the categories of Media Library. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaLibraryCategories.cs" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a8b4017b25f320e00902de1b5a906dc15" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaLibraryCategories</scope><name>FAILURE</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a0a692aaa3f0d0f9e411cb92d75c91fa9" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaLibraryCategories</scope><name>IVR</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a6b1a4b3b80afcb7d6486e5f439935102" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaLibraryCategories</scope><name>MISC</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a13d001d3b22ce9fe557ae21cf540d957" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaLibraryCategories</scope><name>RINGTONE</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1acd822dbb9e9b2ada74f5929e94a9f8d9" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaLibraryCategories</scope><name>VOICEMAIL</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a2b10091f224093c38102fa3e73f3b750" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaLibraryCategories</scope><name>WELCOME</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_library_categories_1a30994553c64b9ab7e13e07d6ca2d77d4" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaLibraryCategories</scope><name>WHISPER</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

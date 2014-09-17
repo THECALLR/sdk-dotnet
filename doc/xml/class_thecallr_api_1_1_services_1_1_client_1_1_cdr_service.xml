@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::CdrService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.ClientBaseService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1adab14d3ad6bf022e62612d9224a35ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.CdrService.CdrService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>CdrService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1aeb5d25c9b53e011c26c1a57ddb87f35e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.CdrService.CdrService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>CdrService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" line="31" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1a8d3a3be9079ca5b31c0c393e663c090e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in" kindref="compound">CdrIn</ref> &gt;</type>
+        <definition>List&lt;CdrIn&gt; ThecallrApi.Services.Client.CdrService.GetInboundCdrs</definition>
+        <argsstring>(DateTime from, DateTime to, string app=null, string number=null)</argsstring>
+        <name>GetInboundCdrs</name>
+        <param>
+          <type>DateTime</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>number</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>This method retrieves inbound CDR. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrieve from this date (inclusive). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrive to this date (inclusive).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Filter CDRs with this Voice App.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Filter CDRs with DID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in" kindref="compound">ThecallrApi.Objects.Cdr.CdrIn</ref> object list.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_in" kindref="compound">ThecallrApi.Objects.Cdr.CdrIn</ref>, ThecallrApi.Enums.CdrTypes</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" line="48" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1aac8d6b7689fcbd3987ae4a6de6753c49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out" kindref="compound">CdrOut</ref> &gt;</type>
+        <definition>List&lt;CdrOut&gt; ThecallrApi.Services.Client.CdrService.GetOutboundCdrs</definition>
+        <argsstring>(DateTime from, DateTime to, string app=null, string number=null)</argsstring>
+        <name>GetOutboundCdrs</name>
+        <param>
+          <type>DateTime</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>app</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>number</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>This method retrieves outbound CDR. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrieve from this date (inclusive). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Retrive to this date (inclusive).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Filter CDRs with this Voice App.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Filter CDRs with DID.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out" kindref="compound">ThecallrApi.Objects.Cdr.CdrOut</ref> object list.</para></simplesect>
+<simplesect kind="see"><para><ref refid="class_thecallr_api_1_1_objects_1_1_cdr_1_1_cdr_out" kindref="compound">ThecallrApi.Objects.Cdr.CdrOut</ref>, ThecallrApi.Enums.CdrTypes</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" line="72" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" bodystart="72" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows CDR management. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="132">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="131">
+        <label>ThecallrApi.Services.Client.CdrService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="134">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="133">
+        <label>ThecallrApi.Services.Client.CdrService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/CdrService.cs" bodystart="13" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1adab14d3ad6bf022e62612d9224a35ed1" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CdrService</scope><name>CdrService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1aeb5d25c9b53e011c26c1a57ddb87f35e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CdrService</scope><name>CdrService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::CdrService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CdrService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CdrService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1a8d3a3be9079ca5b31c0c393e663c090e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CdrService</scope><name>GetInboundCdrs</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_cdr_service_1aac8d6b7689fcbd3987ae4a6de6753c49" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::CdrService</scope><name>GetOutboundCdrs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::ClickToCall::StartOptions</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a337a4946d6d64829e547063aceb5b7e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.ClickToCall.StartOptions.Schedule</definition>
+        <argsstring></argsstring>
+        <name>Schedule</name>
+        <briefdescription>
+<para>Scheduled time of the call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a8abb85d77f1a2d566a84518cb1e1a2d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.ClickToCall.StartOptions.Cli</definition>
+        <argsstring></argsstring>
+        <name>Cli</name>
+        <briefdescription>
+<para>Cli used to call A. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" line="20" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a37c5fe3ec639c49e9bd39143f6d026d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.ClickToCall.StartOptions.CdrField</definition>
+        <argsstring></argsstring>
+        <name>CdrField</name>
+        <briefdescription>
+<para>Custom CDR field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" line="25" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a64b5b09fd65d4347eb5e03a2a191d42e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.ClickToCall.StartOptions.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" line="33" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents Click To <ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_call" kindref="compound">Call</ref> start options. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="309">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="308">
+        <label>ThecallrApi.Objects.ClickToCall.StartOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="311">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="310">
+        <label>ThecallrApi.Objects.ClickToCall.StartOptions</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options"/>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/StartOptions.cs" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a37c5fe3ec639c49e9bd39143f6d026d6" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::StartOptions</scope><name>CdrField</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a8abb85d77f1a2d566a84518cb1e1a2d3" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::StartOptions</scope><name>Cli</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a64b5b09fd65d4347eb5e03a2a191d42e" prot="public" virt="virtual"><scope>ThecallrApi::Objects::ClickToCall::StartOptions</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_start_options_1a337a4946d6d64829e547063aceb5b7e4" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::StartOptions</scope><name>Schedule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4" kind="class" prot="package">
+    <compoundname>ThecallrApi::Helper::Creator&lt; T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a2ada423b8190125672b4635e2d42ca12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ThecallrApi.Helper.Creator&lt; T &gt;.Object</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico, string key)</argsstring>
+        <name>Object</name>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>This method returns the key associted value in the dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An object of type T corresponding to the key associted value, otherwise the T type default value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" line="22" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a446214bddd4446789f03ce58cedafed0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ThecallrApi.Helper.Creator&lt; T &gt;.Object</definition>
+        <argsstring>(object obj, string property)</argsstring>
+        <name>Object</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+<para>This method creates the value object in the expected type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object to cast.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property name (used in case of error).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An oject of type T corresponding to the created object.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" line="35" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" bodystart="35" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1aa9034fb28eea49788265703cf4f2fac8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>static List&lt;T&gt; ThecallrApi.Helper.Creator&lt; T &gt;.ObjectList</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico, string key)</argsstring>
+        <name>ObjectList</name>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>This method returns the key associted value list in the dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An object list of type T corresponding to the key associted value, otherwise the T type default value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a24b1f532eaee98b060059fac233e5dfe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>static List&lt;T&gt; ThecallrApi.Helper.Creator&lt; T &gt;.ObjectList</definition>
+        <argsstring>(object obj, string property)</argsstring>
+        <name>ObjectList</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+<para>This method returns an object value list casted in the expected type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object to cast.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property name (used in case of error).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An oject list of type T corresponding to the casted object.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" line="67" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" bodystart="67" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows you to create an object in its internal type. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The expected conversion type. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+It must inherit from BaseClass.</para>    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Helper/Creator.cs" bodystart="14" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a2ada423b8190125672b4635e2d42ca12" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::Creator&lt; T &gt;</scope><name>Object</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a446214bddd4446789f03ce58cedafed0" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::Creator&lt; T &gt;</scope><name>Object</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1aa9034fb28eea49788265703cf4f2fac8" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::Creator&lt; T &gt;</scope><name>ObjectList</name></member>
+      <member refid="class_thecallr_api_1_1_helper_1_1_creator_3_01_t_01_4_1a24b1f532eaee98b060059fac233e5dfe" prot="public" virt="non-virtual"><scope>ThecallrApi::Helper::Creator&lt; T &gt;</scope><name>ObjectList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

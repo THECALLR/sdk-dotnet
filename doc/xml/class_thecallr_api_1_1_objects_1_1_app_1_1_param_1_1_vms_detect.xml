@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::App::Param::VmsDetect</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a527c2a06b36239e17596985ce2800156" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ThecallrApi.Objects.App.Param.VmsDetect.Active</definition>
+        <argsstring></argsstring>
+        <name>Active</name>
+        <briefdescription>
+<para>Active ? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a193b79af662c3dfe40f97a8a96e9da8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.VmsDetect.DtmfIterations</definition>
+        <argsstring></argsstring>
+        <name>DtmfIterations</name>
+        <briefdescription>
+<para>When using the DTMF method, how many times do we try to have a DTMF ? (default: 2). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a298062aebb728726f144584ac3e74a81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.VmsDetect.DtmfMedia</definition>
+        <argsstring></argsstring>
+        <name>DtmfMedia</name>
+        <briefdescription>
+<para>When using the DTMF method, <ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> played before detection (default: 0). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a53e8d617ee0f2ec11d8558dc2281916f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.VmsDetect.DtmfTimeout</definition>
+        <argsstring></argsstring>
+        <name>DtmfTimeout</name>
+        <briefdescription>
+<para>When using the DTMF method, how long do we wait for a DTMF to be sent ? (default: 2). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a28bb04ac4daf562d199331ca3ca7d89a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.Param.VmsDetect.Method</definition>
+        <argsstring></argsstring>
+        <name>Method</name>
+        <briefdescription>
+<para>Detection method (possible values are defined in ThecallrApi.Enums.VoicemailDetectMethods class). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="34" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a7bf53cbf9be9fc92cc236f75da7f0139" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.VmsDetect.SilenceIterations</definition>
+        <argsstring></argsstring>
+        <name>SilenceIterations</name>
+        <briefdescription>
+<para>When using the SILENCE method, how many times do we try ? (default: 1, min: 1, max: 30). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="39" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1af0ccbdf3ad24b0e07f7846c32043b0c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.VmsDetect.SilenceMedia</definition>
+        <argsstring></argsstring>
+        <name>SilenceMedia</name>
+        <briefdescription>
+<para>When using the SILENCE method, <ref refid="namespace_thecallr_api_1_1_objects_1_1_media" kindref="compound">Media</ref> played before detection (default: 0). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="44" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a7731378e9d2b84dc901266a9d03639a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.VmsDetect.SilenceMs</definition>
+        <argsstring></argsstring>
+        <name>SilenceMs</name>
+        <briefdescription>
+<para>When using the SILENCE method, how long must be the silence in milliseconds ? (default: 1800, min: 50, max: 10000). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="49" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a6c1c058d7dd3b3a64c70fee7e21e38a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.App.Param.VmsDetect.SilenceTimeout</definition>
+        <argsstring></argsstring>
+        <name>SilenceTimeout</name>
+        <briefdescription>
+<para>When using the SILENCE method, how long do we try to detect silence ? (default: 3, min: 0, max: 120). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="54" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a9495a80eb8abbfcb54d6a72f61d617c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.App.Param.VmsDetect.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="62" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="62" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents Outbound Voicemail Detection. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="335">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="334">
+        <label>ThecallrApi.Objects.App.Param.VmsDetect</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="337">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="336">
+        <label>ThecallrApi.Objects.App.Param.VmsDetect</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/Param/VmsDetect.cs" bodystart="8" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a527c2a06b36239e17596985ce2800156" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>Active</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a193b79af662c3dfe40f97a8a96e9da8b" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>DtmfIterations</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a298062aebb728726f144584ac3e74a81" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>DtmfMedia</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a53e8d617ee0f2ec11d8558dc2281916f" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>DtmfTimeout</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a9495a80eb8abbfcb54d6a72f61d617c4" prot="public" virt="virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a28bb04ac4daf562d199331ca3ca7d89a" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>Method</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a7bf53cbf9be9fc92cc236f75da7f0139" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>SilenceIterations</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1af0ccbdf3ad24b0e07f7846c32043b0c5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>SilenceMedia</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a7731378e9d2b84dc901266a9d03639a5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>SilenceMs</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_param_1_1_vms_detect_1a6c1c058d7dd3b3a64c70fee7e21e38a4" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::Param::VmsDetect</scope><name>SilenceTimeout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

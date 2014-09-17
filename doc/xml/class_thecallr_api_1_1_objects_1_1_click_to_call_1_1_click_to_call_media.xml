@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::ClickToCall::ClickToCallMedia</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1ab0c3d537dbb8696f5dc380996c06e990" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.ClickToCallMedia.A_ringtone</definition>
+        <argsstring></argsstring>
+        <name>A_ringtone</name>
+        <briefdescription>
+<para>Played to A while calling B. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1aacad81f654abd19afa10bee0452cb2ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.ClickToCallMedia.A_welcome</definition>
+        <argsstring></argsstring>
+        <name>A_welcome</name>
+        <briefdescription>
+<para>Played to A immediately. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a0ad99a629b6b99d92744ccb3cbe19349" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.ClickToCallMedia.AB_bridge</definition>
+        <argsstring></argsstring>
+        <name>AB_bridge</name>
+        <briefdescription>
+<para>Played to both parties before bridging the call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a25ffb7b43ae4ca4072abc0cf931b0fdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.ClickToCall.ClickToCallMedia.B_whisper</definition>
+        <argsstring></argsstring>
+        <name>B_whisper</name>
+        <briefdescription>
+<para>Played to B only (A still hears the ringtone). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a63e7e5726b94528991ac03ad56ffa7c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.ClickToCall.ClickToCallMedia.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Click-to-Call media. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="146">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="145">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCallMedia</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="148">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="147">
+        <label>ThecallrApi.Objects.ClickToCall.ClickToCallMedia</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/ClickToCall/ClickToCallMedia.cs" bodystart="8" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1ab0c3d537dbb8696f5dc380996c06e990" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallMedia</scope><name>A_ringtone</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1aacad81f654abd19afa10bee0452cb2ea" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallMedia</scope><name>A_welcome</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a0ad99a629b6b99d92744ccb3cbe19349" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallMedia</scope><name>AB_bridge</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a25ffb7b43ae4ca4072abc0cf931b0fdb" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallMedia</scope><name>B_whisper</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call_media_1a63e7e5726b94528991ac03ad56ffa7c1" prot="public" virt="virtual"><scope>ThecallrApi::Objects::ClickToCall::ClickToCallMedia</scope><name>InitFromDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

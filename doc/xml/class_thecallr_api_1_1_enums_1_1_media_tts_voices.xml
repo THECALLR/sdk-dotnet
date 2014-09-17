@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_enums_1_1_media_tts_voices" kind="class" prot="public">
+    <compoundname>ThecallrApi::Enums::MediaTtsVoices</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1ab2b26aac3f5bb599fe0ebb5566d9046b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaTtsVoices.NUANCE_FR_SEBASTIEN</definition>
+        <argsstring></argsstring>
+        <name>NUANCE_FR_SEBASTIEN</name>
+        <initializer>= &quot;NUANCE_FR_SEBASTIEN&quot;</initializer>
+        <briefdescription>
+<para>French male. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1aeadde8b6b5cd3daca59c6e551d1ef878" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaTtsVoices.NUANCE_FR_AUDREY</definition>
+        <argsstring></argsstring>
+        <name>NUANCE_FR_AUDREY</name>
+        <initializer>= &quot;NUANCE_FR_AUDREY&quot;</initializer>
+        <briefdescription>
+<para>French female. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1a314e66be5bea72e2e1cb87f64044d0e8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaTtsVoices.NUANCE_FR_VIRGINIE</definition>
+        <argsstring></argsstring>
+        <name>NUANCE_FR_VIRGINIE</name>
+        <initializer>= &quot;NUANCE_FR_VIRGINIE&quot;</initializer>
+        <briefdescription>
+<para>French female. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1a53814ffea1dc951fde19f76a5ed80c05" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ThecallrApi.Enums.MediaTtsVoices.NUANCE_FR_THOMAS</definition>
+        <argsstring></argsstring>
+        <name>NUANCE_FR_THOMAS</name>
+        <initializer>= &quot;NUANCE_FR_THOMAS&quot;</initializer>
+        <briefdescription>
+<para>French male. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines all the media Text-To-Speech voices. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" line="10" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Enums/MediaTtsVoices.cs" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1aeadde8b6b5cd3daca59c6e551d1ef878" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaTtsVoices</scope><name>NUANCE_FR_AUDREY</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1ab2b26aac3f5bb599fe0ebb5566d9046b" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaTtsVoices</scope><name>NUANCE_FR_SEBASTIEN</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1a53814ffea1dc951fde19f76a5ed80c05" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaTtsVoices</scope><name>NUANCE_FR_THOMAS</name></member>
+      <member refid="class_thecallr_api_1_1_enums_1_1_media_tts_voices_1a314e66be5bea72e2e1cb87f64044d0e8" prot="public" virt="non-virtual"><scope>ThecallrApi::Enums::MediaTtsVoices</scope><name>NUANCE_FR_VIRGINIE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

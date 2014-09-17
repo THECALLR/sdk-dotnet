@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::App::AppForStat</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_base_class" prot="public" virt="non-virtual">ThecallrApi.Objects.BaseClass</basecompoundref>
+    <derivedcompoundref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" prot="public" virt="non-virtual">ThecallrApi.Objects.App.App</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a6e538c1ad356e0bc657287492938e7cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.AppForStat.Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref> unique ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a7b83f0d49dfaf1053ef148fe699d0709" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.App.AppForStat.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref> name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a9785b6f52acd7a85ae0724873aea9219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.App.AppForStat.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" line="27" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a simple Voice <ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="6">
+        <label>ThecallrApi.Objects.App.AppForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ThecallrApi.Objects.App.App</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="9">
+        <label>ThecallrApi.Objects.App.AppForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/AppForStat.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a6e538c1ad356e0bc657287492938e7cf" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::AppForStat</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a9785b6f52acd7a85ae0724873aea9219" prot="public" virt="virtual"><scope>ThecallrApi::Objects::App::AppForStat</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a7b83f0d49dfaf1053ef148fe699d0709" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::AppForStat</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

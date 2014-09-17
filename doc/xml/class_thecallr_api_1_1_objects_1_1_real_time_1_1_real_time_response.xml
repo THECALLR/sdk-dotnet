@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::RealTime::RealTimeResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1a3ae9aaf8c52ce3ab15fdb9e7f3f7175e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ThecallrApi.Objects.RealTime.RealTimeResponse.CommandId</definition>
+        <argsstring></argsstring>
+        <name>CommandId</name>
+        <briefdescription>
+<para>Command ID. Use the value you want. We will send this ID back when we have the result ready. Useful to keep track of your scenario. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" line="14" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1adae0ff55f74c467e335e2487d07dbe86" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string ThecallrApi.Objects.RealTime.RealTimeResponse.Command</definition>
+        <argsstring></argsstring>
+        <name>Command</name>
+        <briefdescription>
+<para>The command we have to execute (see the commands list in Real-Time). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" line="19" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1ab2b41d0a7a68ec46295b7f1f86ce59fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; ThecallrApi.Objects.RealTime.RealTimeResponse.Params</definition>
+        <argsstring></argsstring>
+        <name>Params</name>
+        <briefdescription>
+<para>Command parameters. See the Real-Time commands. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1ae5b9bace436c3c3e61e9a4cc1bef8ead" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; ThecallrApi.Objects.RealTime.RealTimeResponse.Variables</definition>
+        <argsstring></argsstring>
+        <name>Variables</name>
+        <briefdescription>
+<para>Key/Value object. You can fill this object with anything, we will send it back without touching it in our next request. You can use this as a session object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" line="29" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1a566fcea5067602c09530218cfa6b5dbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Objects.RealTime.RealTimeResponse.RealTimeResponse</definition>
+        <argsstring>(string command)</argsstring>
+        <name>RealTimeResponse</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Commnd name.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" line="37" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" bodystart="37" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Real-Time Response (Your response to our requests). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" line="9" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/RealTime/RealTimeResponse.cs" bodystart="8" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1adae0ff55f74c467e335e2487d07dbe86" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTimeResponse</scope><name>Command</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1a3ae9aaf8c52ce3ab15fdb9e7f3f7175e" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTimeResponse</scope><name>CommandId</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1ab2b41d0a7a68ec46295b7f1f86ce59fe" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTimeResponse</scope><name>Params</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1a566fcea5067602c09530218cfa6b5dbd" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTimeResponse</scope><name>RealTimeResponse</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time_response_1ae5b9bace436c3c3e61e9a4cc1bef8ead" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::RealTime::RealTimeResponse</scope><name>Variables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

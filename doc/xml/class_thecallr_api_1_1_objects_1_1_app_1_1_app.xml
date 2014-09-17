@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kind="class" prot="public">
+    <compoundname>ThecallrApi::Objects::App::App</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat" prot="public" virt="non-virtual">ThecallrApi.Objects.App.AppForStat</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1aeb2ee2fb35ab7f407044a0a3a3dcffa3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_call_tracking_1_1_call_tracking" kindref="compound">CallTracking.CallTracking</ref></type>
+        <definition>CallTracking.CallTracking ThecallrApi.Objects.App.App.Ct</definition>
+        <argsstring></argsstring>
+        <name>Ct</name>
+        <briefdescription>
+<para>Call Tracking object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set only if it&apos;s a Call Tracking <ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref>.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="18" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a8b2f7a421d464397e30431761bfae2c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_click_to_call_1_1_click_to_call" kindref="compound">ClickToCall.ClickToCall</ref></type>
+        <definition>ClickToCall.ClickToCall ThecallrApi.Objects.App.App.Ctc</definition>
+        <argsstring></argsstring>
+        <name>Ctc</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_click_to_call" kindref="compound">ClickToCall</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set only if it&apos;s a <ref refid="namespace_thecallr_api_1_1_objects_1_1_click_to_call" kindref="compound">ClickToCall</ref> <ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref>.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1afd59d20e6ce286c90e3f78a793c5b1f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_real_time_1_1_real_time" kindref="compound">RealTime.RealTime</ref></type>
+        <definition>RealTime.RealTime ThecallrApi.Objects.App.App.Rt</definition>
+        <argsstring></argsstring>
+        <name>Rt</name>
+        <briefdescription>
+<para><ref refid="namespace_thecallr_api_1_1_objects_1_1_real_time" kindref="compound">RealTime</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set only if it&apos;s a <ref refid="namespace_thecallr_api_1_1_objects_1_1_real_time" kindref="compound">RealTime</ref> <ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref>.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="30" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a4583c5a48e6905278027f55b8fdccc1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_thecallr_api_1_1_objects_1_1_did_1_1_did" kindref="compound">Did.Did</ref> &gt;</type>
+        <definition>List&lt;Did.Did&gt; ThecallrApi.Objects.App.App.Did</definition>
+        <argsstring></argsstring>
+        <name>Did</name>
+        <briefdescription>
+<para>DIDs assigned to the <ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="35" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a019f1ebcc724bfba07689db44ab75622" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_package" kindref="compound">Package</ref></type>
+        <definition>Package ThecallrApi.Objects.App.App.Package</definition>
+        <argsstring></argsstring>
+        <name>Package</name>
+        <briefdescription>
+<para><ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref> package. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="40" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a3f53bb7ab63063db2e9fe82aa48c7d45" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.App.App.DateCreation</definition>
+        <argsstring></argsstring>
+        <name>DateCreation</name>
+        <briefdescription>
+<para>Date of creation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="45" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1adfa5dc973ed2ea1089cab6853d525028" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ThecallrApi.Objects.App.App.DateUpdate</definition>
+        <argsstring></argsstring>
+        <name>DateUpdate</name>
+        <briefdescription>
+<para>Date of last update. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="50" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a006d5cc3bccc77b67b8afb1018c15845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ThecallrApi.Objects.App.App.InitFromDictionary</definition>
+        <argsstring>(Dictionary&lt; string, object &gt; dico)</argsstring>
+        <name>InitFromDictionary</name>
+        <reimplements refid="class_thecallr_api_1_1_objects_1_1_base_class_1a77680f2cb89665fe65039581c7d907d2">InitFromDictionary</reimplements>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>dico</declname>
+        </param>
+        <briefdescription>
+<para>This method initializes object properties from the parameter dictionary. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="58" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="58" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a Voice <ref refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app" kindref="compound">App</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="1">
+        <label>AppForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>ThecallrApi.Objects.App.App</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>BaseClass</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_base_class"/>
+      </node>
+      <node id="4">
+        <label>AppForStat</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ThecallrApi.Objects.App.App</label>
+        <link refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" line="12" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Objects/App/App.cs" bodystart="11" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1aeb2ee2fb35ab7f407044a0a3a3dcffa3" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>Ct</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a8b2f7a421d464397e30431761bfae2c5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>Ctc</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a3f53bb7ab63063db2e9fe82aa48c7d45" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>DateCreation</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1adfa5dc973ed2ea1089cab6853d525028" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>DateUpdate</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a4583c5a48e6905278027f55b8fdccc1c" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>Did</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a6e538c1ad356e0bc657287492938e7cf" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>Hash</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a006d5cc3bccc77b67b8afb1018c15845" prot="public" virt="virtual"><scope>ThecallrApi::Objects::App::App</scope><name>InitFromDictionary</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_for_stat_1a7b83f0d49dfaf1053ef148fe699d0709" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>Name</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1a019f1ebcc724bfba07689db44ab75622" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>Package</name></member>
+      <member refid="class_thecallr_api_1_1_objects_1_1_app_1_1_app_1afd59d20e6ce286c90e3f78a793c5b1f5" prot="public" virt="non-virtual"><scope>ThecallrApi::Objects::App::App</scope><name>Rt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

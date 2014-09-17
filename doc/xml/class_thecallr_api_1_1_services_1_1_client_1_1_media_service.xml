@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service" kind="class" prot="public">
+    <compoundname>ThecallrApi::Services::Client::MediaService</compoundname>
+    <basecompoundref refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service" prot="public" virt="non-virtual">ThecallrApi.Services.Client.ClientBaseService</basecompoundref>
+    <innerclass refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email" prot="public">ThecallrApi::Services::Client::MediaService::NestedEmail</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library" prot="public">ThecallrApi::Services::Client::MediaService::NestedLibrary</innerclass>
+    <innerclass refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts" prot="public">ThecallrApi::Services::Client::MediaService::NestedTts</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a92b0086e7b833599506f2f7589961757" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email" kindref="compound">NestedEmail</ref></type>
+        <definition>NestedEmail ThecallrApi.Services.Client.MediaService._email</definition>
+        <argsstring></argsstring>
+        <name>_email</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="15" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a8fa056d778188ce122c9f181876ad756" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library" kindref="compound">NestedLibrary</ref></type>
+        <definition>NestedLibrary ThecallrApi.Services.Client.MediaService._library</definition>
+        <argsstring></argsstring>
+        <name>_library</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="16" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a17022fe9889d61fb96a90eec52501963" prot="private" static="no" mutable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts" kindref="compound">NestedTts</ref></type>
+        <definition>NestedTts ThecallrApi.Services.Client.MediaService._tts</definition>
+        <argsstring></argsstring>
+        <name>_tts</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="17" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1ae089b8524249479ae223ac30c91a7405" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_email" kindref="compound">NestedEmail</ref></type>
+        <definition>NestedEmail ThecallrApi.Services.Client.MediaService.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+<para>This class allows Media email management. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="24" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a896317fa88b888876ea5bbb530d130ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_library" kindref="compound">NestedLibrary</ref></type>
+        <definition>NestedLibrary ThecallrApi.Services.Client.MediaService.Library</definition>
+        <argsstring></argsstring>
+        <name>Library</name>
+        <briefdescription>
+<para>This class allows Media library management. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="35" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a4b8075ed42ba760aea9598f48471c0f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1_1_nested_tts" kindref="compound">NestedTts</ref></type>
+        <definition>NestedTts ThecallrApi.Services.Client.MediaService.Tts</definition>
+        <argsstring></argsstring>
+        <name>Tts</name>
+        <briefdescription>
+<para>This class allows Media tts management. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="47" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a93575b71dc17663da39eed9fec08ede8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.MediaService.MediaService</definition>
+        <argsstring>(string url, string login, string password)</argsstring>
+        <name>MediaService</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>API url.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="64" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a39611e6545e4a68f02d818319a4f6995" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThecallrApi.Services.Client.MediaService.MediaService</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>MediaService</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with default API url. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Login.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="73" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="73" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class allows Media management (Library, Text-to-Speech, Recordings...). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="243">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="242">
+        <label>ThecallrApi.Services.Client.MediaService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="245">
+        <label>ClientBaseService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service"/>
+      </node>
+      <node id="244">
+        <label>ThecallrApi.Services.Client.MediaService</label>
+        <link refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" line="13" column="1" bodyfile="C:/Users/Michael/Desktop/v1.0/framework 4.0/sources/ThecallrApi/ThecallrApi/Services/Client/MediaService.cs" bodystart="12" bodyend="286"/>
+    <listofallmembers>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a92b0086e7b833599506f2f7589961757" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>_email</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a8fa056d778188ce122c9f181876ad756" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>_library</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a17022fe9889d61fb96a90eec52501963" prot="private" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>_tts</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3c2d98d682d932d5a8eb5ee580c82bbd" prot="protected" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>client</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a61666e19d3572249fb24ddcab17bdf7e" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_client_base_service_1a3064bd866a10596f73983a19090995f9" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>ClientBaseService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1ae089b8524249479ae223ac30c91a7405" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>Email</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a896317fa88b888876ea5bbb530d130ef" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>Library</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a93575b71dc17663da39eed9fec08ede8" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>MediaService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a39611e6545e4a68f02d818319a4f6995" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>MediaService</name></member>
+      <member refid="class_thecallr_api_1_1_services_1_1_client_1_1_media_service_1a4b8075ed42ba760aea9598f48471c0f5" prot="public" virt="non-virtual"><scope>ThecallrApi::Services::Client::MediaService</scope><name>Tts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
