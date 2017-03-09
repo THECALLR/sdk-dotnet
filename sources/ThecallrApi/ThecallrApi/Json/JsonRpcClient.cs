@@ -15,7 +15,7 @@ namespace CallrApi.Json
         /// <summary>
         /// API url.
         /// </summary>
-        public static readonly string URL_API = "https://api.thecallr.com";
+        public static readonly string URL_API = "https://api.callr.com/json-rpc/v1.1/";
 
         #region Member variables
         /// <summary>
