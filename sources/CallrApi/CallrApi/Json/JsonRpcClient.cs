@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Net;
+using System.Reflection;
 using System.Text;
 using System.Web.Script.Serialization;
 using CallrApi.Exception;
@@ -95,6 +96,10 @@ namespace CallrApi.Json
                 web_request.ContentType = "application/json-rpc; charset=utf-8";
                 web_request.ServicePoint.Expect100Continue = false; // Hack for lighttpd bug
                 web_request.Headers["Authorization"] = this.base64_authorization;
+                web_request.UserAgent = "sdk=dotNet; sdk-version="
+                    + Assembly.GetExecutingAssembly().GetName().Version
+                    + "; lang-version=" + Environment.Version
+                    + "; platform=\"" + Environment.OSVersion + "\"";
 
                 // POST content initialization
                 JsonRequest json_request = new JsonRequest(++this.request_id, method, parameter);
