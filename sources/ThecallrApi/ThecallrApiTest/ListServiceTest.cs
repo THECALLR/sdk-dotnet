@@ -5,7 +5,7 @@ using CallrApi.Services.Client;
 using System.Collections.Generic;
 using CallrApi.Exception;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests List service methods.

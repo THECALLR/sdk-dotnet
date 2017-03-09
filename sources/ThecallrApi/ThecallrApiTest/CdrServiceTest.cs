@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using CallrApi.Objects.Cdr;
 using CallrApi.Exception;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests CDR service methods.

@@ -8,7 +8,7 @@ using CallrApi.Exception;
 using System.Collections.Generic;
 using CallrApi.Objects.Misc;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests TheDialr service methods.

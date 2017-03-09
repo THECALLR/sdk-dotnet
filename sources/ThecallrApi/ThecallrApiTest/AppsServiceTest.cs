@@ -8,7 +8,7 @@ using CallrApi.Exception;
 using CallrApi.Objects.App;
 using CallrApi.Objects.Did;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests App service methods.

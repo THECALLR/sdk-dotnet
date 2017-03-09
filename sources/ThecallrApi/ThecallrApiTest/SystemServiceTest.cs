@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CallrApi.Services.Client;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests System service methods.

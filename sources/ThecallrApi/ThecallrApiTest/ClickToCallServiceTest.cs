@@ -10,7 +10,7 @@ using System.Linq;
 using CallrApi.Exception;
 using CallrApi.Objects.Misc;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests Click-To-Call service methods.

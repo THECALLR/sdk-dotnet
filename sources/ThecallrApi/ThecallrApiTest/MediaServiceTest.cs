@@ -6,7 +6,7 @@ using CallrApi.Enums;
 using CallrApi.Objects.Media;
 using CallrApi.Exception;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests Media service methods.

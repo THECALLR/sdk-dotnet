@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using CallrApi.Objects.Sms;
 using System.Linq;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests Sms service methods.

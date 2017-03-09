@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using CallrApi.Objects.App.Param;
 using CallrApi.Enums;
 
-namespace ThecallrApiTest
+namespace CallrApiTest
 {
     /// <summary>
     /// This class tests CallTracking service methods.
