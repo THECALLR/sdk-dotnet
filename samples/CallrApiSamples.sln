@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallTrackingSample", "CallTrackingSample\CallTrackingSample.csproj", "{85BD7726-95E4-4145-9FD3-56FAB09A9553}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdrSample", "CdrSample\CdrSample.csproj", "{7164D66D-B4E7-445F-9A9D-3E8F09EB73D2}"
@@ -11,49 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaSample", "MediaSample\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickStart", "QuickStart\QuickStart.csproj", "{9FEA957F-015D-41BC-B173-17F2737710B9}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RealTimeBasicServerSample", "RealTimeBasicServerSample\", "{BD09C1F4-E61B-4AAD-A7C3-E10EA75F245D}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/RealTimeBasicServerSample"
-		Debug.AspNetCompiler.PhysicalPath = "RealTimeBasicServerSample\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\RealTimeBasicServerSample\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/RealTimeBasicServerSample"
-		Release.AspNetCompiler.PhysicalPath = "RealTimeBasicServerSample\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\RealTimeBasicServerSample\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "49191"
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeSample", "RealTimeSample\RealTimeSample.csproj", "{22A784E0-7D99-4C8D-9021-669D01252231}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsSample", "SmsSample\SmsSample.csproj", "{93E7F079-F80E-410F-9E71-4B99E702478B}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RealTimeServerSample", "RealTimeServerSample\", "{DF3AF4BD-A5C1-4AAA-BD0C-87CC7D23D6D0}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/RealTimeServerSample"
-		Debug.AspNetCompiler.PhysicalPath = "RealTimeServerSample\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\RealTimeServerSample\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/RealTimeServerSample"
-		Release.AspNetCompiler.PhysicalPath = "RealTimeServerSample\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\RealTimeServerSample\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "49200"
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,10 +43,6 @@ Global
 		{9FEA957F-015D-41BC-B173-17F2737710B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FEA957F-015D-41BC-B173-17F2737710B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEA957F-015D-41BC-B173-17F2737710B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD09C1F4-E61B-4AAD-A7C3-E10EA75F245D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD09C1F4-E61B-4AAD-A7C3-E10EA75F245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD09C1F4-E61B-4AAD-A7C3-E10EA75F245D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD09C1F4-E61B-4AAD-A7C3-E10EA75F245D}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{22A784E0-7D99-4C8D-9021-669D01252231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22A784E0-7D99-4C8D-9021-669D01252231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22A784E0-7D99-4C8D-9021-669D01252231}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -93,10 +51,6 @@ Global
 		{93E7F079-F80E-410F-9E71-4B99E702478B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E7F079-F80E-410F-9E71-4B99E702478B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E7F079-F80E-410F-9E71-4B99E702478B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF3AF4BD-A5C1-4AAA-BD0C-87CC7D23D6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF3AF4BD-A5C1-4AAA-BD0C-87CC7D23D6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF3AF4BD-A5C1-4AAA-BD0C-87CC7D23D6D0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF3AF4BD-A5C1-4AAA-BD0C-87CC7D23D6D0}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
