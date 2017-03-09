@@ -7,8 +7,8 @@
     <ProjectGuid>{316FB1B7-CB6D-4FAD-83BE-5ED3D5486168}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThecallrApi</RootNamespace>
-    <AssemblyName>ThecallrApi</AssemblyName>
+    <RootNamespace>CallrApi</RootNamespace>
+    <AssemblyName>CallrApi</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -21,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\ThecallrApi.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\CallrApi.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,7 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\ThecallrApi.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\CallrApi.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
