@@ -31,8 +31,8 @@ namespace ThecallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new AppsService("https://api.thecallr.com", "login", "password");
-            Dialr = new DialrService("https://api.thecallr.com", "login", "password");
+            Service = new AppsService(null, "login", "password");
+            Dialr = new DialrService(null, "login", "password");
         }
 
         /// <summary>

@@ -28,7 +28,7 @@ namespace ThecallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new MediaService("https://api.thecallr.com", "login", "password");
+            Service = new MediaService(null, "login", "password");
         }
 
         /// <summary>

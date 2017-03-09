@@ -24,7 +24,7 @@ namespace ThecallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new SystemService("https://api.thecallr.com", "login", "password");
+            Service = new SystemService(null, "login", "password");
         }
 
         /// <summary>

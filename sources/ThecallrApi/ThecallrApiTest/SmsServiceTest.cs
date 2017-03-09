@@ -28,7 +28,7 @@ namespace ThecallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new SmsService("https://api.thecallr.com", "login", "password");
+            Service = new SmsService(null, "login", "password");
         }
 
         /// <summary>
