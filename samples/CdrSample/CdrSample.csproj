@@ -7,8 +7,8 @@
     <ProjectGuid>{7164D66D-B4E7-445F-9A9D-3E8F09EB73D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThecallrApi.Samples.CdrSample</RootNamespace>
-    <AssemblyName>ThecallrApi.Samples.CdrSample</AssemblyName>
+    <RootNamespace>CallrApi.Samples.CdrSample</RootNamespace>
+    <AssemblyName>CallrApi.Samples.CdrSample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CallrApi">
+      <HintPath>..\bin\CallrApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -41,9 +44,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThecallrApi">
-      <HintPath>..\bin\ThecallrApi.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />

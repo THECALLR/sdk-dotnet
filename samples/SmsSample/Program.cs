@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Exception;
-using ThecallrApi.Helper;
-using ThecallrApi.Services.Client;
-using ThecallrApi.Objects.Sms;
+using CallrApi.Exception;
+using CallrApi.Helper;
+using CallrApi.Services.Client;
+using CallrApi.Objects.Sms;
 
-namespace ThecallrApi.Samples.SmsSample
+namespace CallrApi.Samples.SmsSample
 {
     /// <summary>
     /// This class gives an example of SMS manipulation.
@@ -32,13 +32,13 @@ namespace ThecallrApi.Samples.SmsSample
             try
             {
                 // SMS sender must be alphanumeric (at least one character - cannot be digits only). Max length = 11 characters
-                string sender = "THECALLR";
+                string sender = "SMS";
 
                 // Mobile number you want to send an sms to (E.164 format)
                 string mobile_number = "__PHONE_NUMBER__";
 
                 // Sms content
-                string message = "This is my first SMS with THECALLR API!";
+                string message = "This is my first SMS with CALLR API!";
 
                 // SMS Options
                 SmsOptions options = new SmsOptions();

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Exception;
-using ThecallrApi.Helper;
-using ThecallrApi.Objects.Cdr;
-using ThecallrApi.Services.Client;
+using CallrApi.Exception;
+using CallrApi.Helper;
+using CallrApi.Objects.Cdr;
+using CallrApi.Services.Client;
 
-namespace ThecallrApi.Samples.CdrSample
+namespace CallrApi.Samples.CdrSample
 {
     /// <summary>
     /// This class gives an example of CDR manipulation.
