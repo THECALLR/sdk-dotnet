@@ -1,4 +1,6 @@
 sdk-dotnet
 ==========
 
-SDK for .NET in C# for THECALLR API
+SDK for .NET in C# for CALLR API
+
+https://www.callr.com/docs/
