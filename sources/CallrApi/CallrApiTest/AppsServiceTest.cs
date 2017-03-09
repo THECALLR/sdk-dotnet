@@ -40,7 +40,7 @@ namespace CallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new AppsService(null, "login", "password");
+            Service = new AppsService("login", "password");
             App = Service.Create(ApplicationTypes.CALLTRACKING, "Unit Test App", null);
         }
 

@@ -24,7 +24,7 @@ namespace CallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new BillingService(null, "login", "password");
+            Service = new BillingService("login", "password");
         }
 
         /// <summary>

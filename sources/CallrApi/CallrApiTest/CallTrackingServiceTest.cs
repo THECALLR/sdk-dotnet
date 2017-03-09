@@ -30,7 +30,7 @@ namespace CallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new CallTrackingService(null, "login", "password");
+            Service = new CallTrackingService("login", "password");
         }
 
         /// <summary>

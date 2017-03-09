@@ -37,8 +37,8 @@ namespace CallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new ClickToCallService(null, "login", "password");
-            AppsService = new AppsService(null, "login", "password");
+            Service = new ClickToCallService("login", "password");
+            AppsService = new AppsService("login", "password");
         }
 
         /// <summary>

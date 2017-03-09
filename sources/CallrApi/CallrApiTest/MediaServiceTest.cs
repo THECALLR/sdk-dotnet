@@ -28,7 +28,7 @@ namespace CallrApiTest
         [ClassInitialize]
         public static void Init(TestContext context)
         {
-            Service = new MediaService(null, "login", "password");
+            Service = new MediaService("login", "password");
         }
 
         /// <summary>
