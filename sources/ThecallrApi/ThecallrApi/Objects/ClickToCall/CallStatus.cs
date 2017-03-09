@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.ClickToCall
+namespace CallrApi.Objects.ClickToCall
 {
     /// <summary>
     /// This class represents a Click-to-Call Call status.
@@ -19,7 +19,7 @@ namespace ThecallrApi.Objects.ClickToCall
         public string Number { get; set; }
 
         /// <summary>
-        /// Call status (possible values are defined in <see cref="ThecallrApi.Enums.ClickToCallCallStatuses"/> class).
+        /// Call status (possible values are defined in <see cref="CallrApi.Enums.ClickToCallCallStatuses"/> class).
         /// </summary>
         public string Status { get; set; }
 

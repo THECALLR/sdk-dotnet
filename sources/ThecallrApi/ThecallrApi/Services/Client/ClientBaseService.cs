@@ -1,6 +1,6 @@
-﻿using ThecallrApi.Json;
+﻿using CallrApi.Json;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class is the base class of all API services.

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects
+namespace CallrApi.Objects
 {
     /// <summary>
     /// This class represents the base class for JSON received objects.

@@ -1,6 +1,6 @@
 ﻿
 using System;
-namespace ThecallrApi.Exception
+namespace CallrApi.Exception
 {
     /// <summary>
     /// This class represents an internal library error.

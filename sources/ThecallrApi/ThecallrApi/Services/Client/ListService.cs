@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Json;
-using ThecallrApi.Objects;
-using ThecallrApi.Objects.Misc;
+using CallrApi.Json;
+using CallrApi.Objects;
+using CallrApi.Objects.Misc;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows you to retrieve static items.
@@ -37,8 +37,8 @@ namespace ThecallrApi.Services.Client
         /// <summary>
         /// This method retrieves all managed countries.
         /// </summary>
-        /// <returns>A dictionary of string/<see cref="ThecallrApi.Objects.Misc.Country" /> key/value pairs.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Misc.Country"/>
+        /// <returns>A dictionary of string/<see cref="CallrApi.Objects.Misc.Country" /> key/value pairs.</returns>
+        /// <seealso cref="CallrApi.Objects.Misc.Country"/>
         public Dictionary<string, Country> GetCountries()
         {
             List<object> parameters = new List<object>() { };
@@ -50,8 +50,8 @@ namespace ThecallrApi.Services.Client
         /// This method retrieves informations on a specific phone number.
         /// </summary>
         /// <param name="number">Phone number to inspect.</param>
-        /// <returns><see cref="ThecallrApi.Objects.Misc.NumberInfos" /> object representing number informations.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Misc.NumberInfos"/>
+        /// <returns><see cref="CallrApi.Objects.Misc.NumberInfos" /> object representing number informations.</returns>
+        /// <seealso cref="CallrApi.Objects.Misc.NumberInfos"/>
         public NumberInfos GetNumberInfos(string number)
         {
             List<object> parameters = new List<object>() { number };
@@ -62,8 +62,8 @@ namespace ThecallrApi.Services.Client
         /// <summary>
         /// This method retrieves all managed timezones.
         /// </summary>
-        /// <returns>A dictionary of string/<see cref="ThecallrApi.Objects.Misc.Timezone" /> key/value pairs.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Misc.Timezone"/>
+        /// <returns>A dictionary of string/<see cref="CallrApi.Objects.Misc.Timezone" /> key/value pairs.</returns>
+        /// <seealso cref="CallrApi.Objects.Misc.Timezone"/>
         public Dictionary<int, Timezone> GetTimezones()
         {
             List<object> parameters = new List<object>() { };

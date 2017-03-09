@@ -1,5 +1,5 @@
 ﻿
-namespace ThecallrApi.Enums
+namespace CallrApi.Enums
 {
     /// <summary>
     /// This class defines all Media Library/Recording Statuses.

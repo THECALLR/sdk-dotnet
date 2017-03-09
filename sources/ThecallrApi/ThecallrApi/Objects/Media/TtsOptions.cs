@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Media
+namespace CallrApi.Objects.Media
 {
     /// <summary>
     /// This class represents Media Text-to-Speech Options.

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.App.Param
+namespace CallrApi.Objects.App.Param
 {
     /// <summary>
     /// This class represents a Voicemail
@@ -19,7 +19,7 @@ namespace ThecallrApi.Objects.App.Param
         public int Intro { get; set; }
 
         /// <summary>
-        /// File attachment format (possible values are defined in <see cref="ThecallrApi.Enums.VoicemailFileFormats"/> class).
+        /// File attachment format (possible values are defined in <see cref="CallrApi.Enums.VoicemailFileFormats"/> class).
         /// </summary>
         public string FileFormat { get; set; }
 

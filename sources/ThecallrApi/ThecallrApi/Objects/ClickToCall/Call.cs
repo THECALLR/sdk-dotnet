@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Objects.Misc;
+using CallrApi.Objects.Misc;
 
-namespace ThecallrApi.Objects.ClickToCall
+namespace CallrApi.Objects.ClickToCall
 {
     /// <summary>
     /// This class represents a Click-to-Call Call.

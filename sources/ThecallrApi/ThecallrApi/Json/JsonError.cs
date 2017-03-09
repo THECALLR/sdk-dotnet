@@ -1,4 +1,4 @@
-﻿namespace ThecallrApi.Json
+﻿namespace CallrApi.Json
 {
     /// <summary>
     /// This class represents a JSON-RPC format error.

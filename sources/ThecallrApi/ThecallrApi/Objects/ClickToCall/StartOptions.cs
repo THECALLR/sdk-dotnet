@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.ClickToCall
+namespace CallrApi.Objects.ClickToCall
 {
     /// <summary>
     /// This class represents Click To Call start options.

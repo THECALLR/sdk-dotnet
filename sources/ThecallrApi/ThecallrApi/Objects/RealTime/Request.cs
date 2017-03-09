@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.RealTime
+namespace CallrApi.Objects.RealTime
 {
     /// <summary>
     /// This class represents a Real-Time Request (Our POST to your server).
@@ -59,7 +59,7 @@ namespace ThecallrApi.Objects.RealTime
         public string command_error { get; set; }
 
         /// <summary>
-        /// Call status (possible values are defined in <see cref="ThecallrApi.Enums.RealTimeCallStatuses"/> class).
+        /// Call status (possible values are defined in <see cref="CallrApi.Enums.RealTimeCallStatuses"/> class).
         /// </summary>
         public string call_status { get; set; }
 

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using ThecallrApi.Objects.App.Param;
-using ThecallrApi.Objects.Misc;
+using CallrApi.Objects.App.Param;
+using CallrApi.Objects.Misc;
 
-namespace ThecallrApi.Objects.CallTracking
+namespace CallrApi.Objects.CallTracking
 {
     /// <summary>
     /// This class represents Call Tracking with call forwarding, prompts, and voicemail.

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using ThecallrApi.Json;
-using ThecallrApi.Objects.Did;
+using CallrApi.Json;
+using CallrApi.Objects.Did;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class acts as an extended base class for application services that adds Did manipulation.
@@ -50,8 +50,8 @@ namespace ThecallrApi.Services.Client
         /// This method assigns the first available DID to a Voice App.
         /// </summary>
         /// <param name="app">App ID.</param>
-        /// <returns><see cref="ThecallrApi.Objects.Did.Did" /> object representing the associated DID, otherwise null if none was found.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Did.Did"/>
+        /// <returns><see cref="CallrApi.Objects.Did.Did" /> object representing the associated DID, otherwise null if none was found.</returns>
+        /// <seealso cref="CallrApi.Objects.Did.Did"/>
         public Did AssignFirstAvailableDid(string app)
         {
             Did did = this.GetDids(true).FirstOrDefault();
@@ -76,8 +76,8 @@ namespace ThecallrApi.Services.Client
         /// This method retrieves the list of (available) DIDs assigned to your account.
         /// </summary>
         /// <param name="only_available">If <c>true</c>, return only available DIDs.</param>
-        /// <returns><see cref="ThecallrApi.Objects.Did.Did" /> object list representing the list of DIDs assigned to your account.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Did.Did"/>
+        /// <returns><see cref="CallrApi.Objects.Did.Did" /> object list representing the list of DIDs assigned to your account.</returns>
+        /// <seealso cref="CallrApi.Objects.Did.Did"/>
         public List<Did> GetDids(bool only_available)
         {
             List<object> parameters = new List<object>() { only_available };

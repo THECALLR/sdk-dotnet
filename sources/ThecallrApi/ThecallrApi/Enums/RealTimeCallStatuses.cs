@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ThecallrApi.Enums
+namespace CallrApi.Enums
 {
     /// <summary>
     /// This class defines all the Real Time call statuses.

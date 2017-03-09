@@ -1,8 +1,8 @@
-﻿using ThecallrApi.Enums;
-using ThecallrApi.Objects.CallTracking;
-using ThecallrApi.Objects.App;
+﻿using CallrApi.Enums;
+using CallrApi.Objects.CallTracking;
+using CallrApi.Objects.App;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows CallTracking management.
@@ -37,9 +37,9 @@ namespace ThecallrApi.Services.Client
         /// </summary>
         /// <param name="name">CallTracking App name.</param>
         /// <param name="ct">CallTracking App parameters (Optional).</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the new CallTracking App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.CallTracking.CallTracking"/>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the new CallTracking App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.CallTracking.CallTracking"/>
         public App Create(string name, CallTracking ct = null)
         {
             return base.Create(ApplicationTypes.CALLTRACKING, name, ct);
@@ -51,9 +51,9 @@ namespace ThecallrApi.Services.Client
         /// <param name="app">CallTracking App ID.</param>
         /// <param name="name">The App name. Send <c>null</c> if you do not want to edit the name.</param>
         /// <param name="ct">A CallTracking object containing the parameters you want to edit.</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the edited CallTracking App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.CallTracking.CallTracking"/>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the edited CallTracking App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.CallTracking.CallTracking"/>
         public App Edit(string app, string name, CallTracking ct)
         {
             return base.Edit(app, name, ct);

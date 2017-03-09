@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Web.Script.Serialization;
 
-namespace ThecallrApi.Json
+namespace CallrApi.Json
 {
     /// <summary>
     /// This class represents data sent to API server during a JSON-RPC request.
@@ -57,7 +57,7 @@ namespace ThecallrApi.Json
         public string GetJson()
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
-            js.RegisterConverters(new[] { new ThecallrApi.Helper.BaseClassJavaScriptConverter() });
+            js.RegisterConverters(new[] { new CallrApi.Helper.BaseClassJavaScriptConverter() });
             StringBuilder buffer = new StringBuilder();
 
             buffer.Append("{");

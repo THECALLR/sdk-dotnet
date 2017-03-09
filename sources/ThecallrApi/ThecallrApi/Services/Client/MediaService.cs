@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Json;
-using ThecallrApi.Objects;
-using ThecallrApi.Objects.Media;
+using CallrApi.Json;
+using CallrApi.Objects;
+using CallrApi.Objects.Media;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows Media management (Library, Text-to-Speech, Recordings...).
@@ -93,10 +93,10 @@ namespace ThecallrApi.Services.Client
             /// <summary>
             /// This methods retireves email templates (used in Voicemails, recording alerts, etc.)
             /// </summary>
-            /// <param name="templateType">Template type (possibles values are defined in <see cref="ThecallrApi.Enums.MediaEmailTemplates" /> class).</param>
-            /// <returns>Dictionary (string key type, <see cref="ThecallrApi.Objects.Media.EmailTemplate" /> value type) object representing the list of available templates.</returns>
-            /// <seealso cref="ThecallrApi.Enums.MediaEmailTemplates" />
-            /// <seealso cref="ThecallrApi.Objects.Media.EmailTemplate" />
+            /// <param name="templateType">Template type (possibles values are defined in <see cref="CallrApi.Enums.MediaEmailTemplates" /> class).</param>
+            /// <returns>Dictionary (string key type, <see cref="CallrApi.Objects.Media.EmailTemplate" /> value type) object representing the list of available templates.</returns>
+            /// <seealso cref="CallrApi.Enums.MediaEmailTemplates" />
+            /// <seealso cref="CallrApi.Objects.Media.EmailTemplate" />
             public Dictionary<string, EmailTemplate> GetTemplates(string templateType)
             {
                 List<object> parameters = new List<object>() { templateType };
@@ -149,8 +149,8 @@ namespace ThecallrApi.Services.Client
             /// This method retrieves a specific MediaLibrary.
             /// </summary>
             /// <param name="mediaId">Media ID.</param>
-            /// <returns><see cref="ThecallrApi.Objects.Media.MediaLibrary" /> object representing the media.</returns>
-            /// <seealso cref="ThecallrApi.Objects.Media.MediaLibrary" />
+            /// <returns><see cref="CallrApi.Objects.Media.MediaLibrary" /> object representing the media.</returns>
+            /// <seealso cref="CallrApi.Objects.Media.MediaLibrary" />
             public MediaLibrary Get(int mediaId)
             {
                 List<object> parameters = new List<object>() { mediaId };
@@ -161,10 +161,10 @@ namespace ThecallrApi.Services.Client
             /// <summary>
             /// This method retrieves a list of Medias available in the Library by categories.
             /// </summary>
-            /// <param name="categories">Filter by categories (possibles values are defined in <see cref="ThecallrApi.Enums.MediaLibraryCategories" /> class).</param>
-            /// <returns>Dictionary (int key type, <see cref="ThecallrApi.Objects.Media.MediaLibrary" /> value type) object representing the medias.</returns>
-            /// <seealso cref="ThecallrApi.Objects.Media.MediaLibrary"/>
-            /// <seealso cref="ThecallrApi.Enums.MediaLibraryCategories" />
+            /// <param name="categories">Filter by categories (possibles values are defined in <see cref="CallrApi.Enums.MediaLibraryCategories" /> class).</param>
+            /// <returns>Dictionary (int key type, <see cref="CallrApi.Objects.Media.MediaLibrary" /> value type) object representing the medias.</returns>
+            /// <seealso cref="CallrApi.Objects.Media.MediaLibrary"/>
+            /// <seealso cref="CallrApi.Enums.MediaLibraryCategories" />
             public Dictionary<int, MediaLibrary> GetList(List<string> categories)
             {
                 List<object> parameters = new List<object>() { categories };
@@ -177,8 +177,8 @@ namespace ThecallrApi.Services.Client
             /// </summary>
             /// <param name="mediaId">The Media ID your want to record by phone.</param>
             /// <param name="countryCode">The country code you are in (we will give you a local phone number to call).</param>
-            /// <returns><see cref="ThecallrApi.Objects.Media.PhoneId" /> object representing the Phone ID (DTMF sequence + phone number).</returns>
-            /// <seealso cref="ThecallrApi.Objects.Media.PhoneId" />
+            /// <returns><see cref="CallrApi.Objects.Media.PhoneId" /> object representing the Phone ID (DTMF sequence + phone number).</returns>
+            /// <seealso cref="CallrApi.Objects.Media.PhoneId" />
             public PhoneId GetPhoneId(int mediaId, string countryCode)
             {
                 List<object> parameters = new List<object>() { mediaId, countryCode };
@@ -204,7 +204,7 @@ namespace ThecallrApi.Services.Client
             /// This method sets MediaLibrary content from a recording previously created using Realtime command <c>record</c>.
             /// </summary>
             /// <param name="mediaId">The Media ID to change.</param>
-            /// <param name="mediaFile">Recording path (<see cref="M:ThecallrApi.Services.Server.RealTimeService.Record"/>).</param>
+            /// <param name="mediaFile">Recording path (<see cref="M:CallrApi.Services.Server.RealTimeService.Record"/>).</param>
             /// <returns>Always <c>true</c>, throws an Exception otherwise.</returns>
             public bool SetContentFromRecording(int mediaId, string mediaFile)
             {
@@ -236,7 +236,7 @@ namespace ThecallrApi.Services.Client
             /// It will completely replace previously set tags.
             /// <remarks>
             /// Special tag names :
-            ///  * CATEGORY : if specified, values must be one of <see cref="ThecallrApi.Enums.MediaLibraryCategories" /> class.
+            ///  * CATEGORY : if specified, values must be one of <see cref="CallrApi.Enums.MediaLibraryCategories" /> class.
             ///  * LANGUAGE : if specified, values must be in the form “en_US”, “en_GB”, “fr_FR”, etc.
             /// </remarks>
             /// </param>
@@ -270,11 +270,11 @@ namespace ThecallrApi.Services.Client
             /// </summary>
             /// <param name="mediaId">The Media ID to change.</param>
             /// <param name="text">The text to say.</param>
-            /// <param name="voice">A voice (possibles values are defined in <see cref="ThecallrApi.Enums.MediaTtsVoices" /> class).</param>
-            /// <param name="options"><see cref="ThecallrApi.Objects.Media.TtsOptions" /> options.</param>
+            /// <param name="voice">A voice (possibles values are defined in <see cref="CallrApi.Enums.MediaTtsVoices" /> class).</param>
+            /// <param name="options"><see cref="CallrApi.Objects.Media.TtsOptions" /> options.</param>
             /// <returns>Always <c>true</c>, throws an Exception otherwise.</returns>
-            /// <seealso cref="ThecallrApi.Objects.Media.TtsOptions" />
-            /// <seealso cref="ThecallrApi.Enums.MediaTtsVoices" />
+            /// <seealso cref="CallrApi.Objects.Media.TtsOptions" />
+            /// <seealso cref="CallrApi.Enums.MediaTtsVoices" />
             public bool SetContent(int mediaId, string text, string voice, TtsOptions options)
             {
                 List<object> parameters = new List<object>() { mediaId, text, voice, options };

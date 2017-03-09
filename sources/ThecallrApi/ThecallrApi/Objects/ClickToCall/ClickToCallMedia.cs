@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.ClickToCall
+namespace CallrApi.Objects.ClickToCall
 {
     /// <summary>
     /// This class represents a Click-to-Call media.

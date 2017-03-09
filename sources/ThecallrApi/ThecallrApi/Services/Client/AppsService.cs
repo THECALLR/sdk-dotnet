@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using ThecallrApi.Json;
-using ThecallrApi.Objects.App;
+using CallrApi.Json;
+using CallrApi.Objects.App;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows Voice Apps manipulation.
@@ -35,15 +35,15 @@ namespace ThecallrApi.Services.Client
         /// <summary>
         /// This method creates a new Voice App, and optionally configure it at the same time.
         /// </summary>
-        /// <param name="type">Voice App type (possible values are defined in <see cref="ThecallrApi.Enums.ApplicationTypes" /> class).</param>
+        /// <param name="type">Voice App type (possible values are defined in <see cref="CallrApi.Enums.ApplicationTypes" /> class).</param>
         /// <param name="name">Voice App name.</param>
-        /// <param name="obj">Optional Voice App parameters (possible objects are <see cref="ThecallrApi.Objects.CallTracking.CallTracking"/>, <see cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="ThecallrApi.Objects.RealTime.RealTime"/>).</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the new Voice App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.CallTracking.CallTracking"/>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>
-        /// <seealso cref="ThecallrApi.Objects.RealTime.RealTime"/>
-        /// <seealso cref="ThecallrApi.Enums.ApplicationTypes"/>
+        /// <param name="obj">Optional Voice App parameters (possible objects are <see cref="CallrApi.Objects.CallTracking.CallTracking"/>, <see cref="CallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="CallrApi.Objects.RealTime.RealTime"/>).</param>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the new Voice App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.CallTracking.CallTracking"/>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.ClickToCall"/>
+        /// <seealso cref="CallrApi.Objects.RealTime.RealTime"/>
+        /// <seealso cref="CallrApi.Enums.ApplicationTypes"/>
         public new App Create(string type, string name, object obj)
         {
             return base.Create(type, name, obj);
@@ -54,12 +54,12 @@ namespace ThecallrApi.Services.Client
         /// </summary>
         /// <param name="hash">Voice App ID.</param>
         /// <param name="name">The App name. Send <c>null</c> if you do not want to edit the name.</param>
-        /// <param name="app">An object containing the parameters you want to edit (possible objects are <see cref="ThecallrApi.Objects.CallTracking.CallTracking"/>, <see cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="ThecallrApi.Objects.RealTime.RealTime"/>).</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the edited Voice App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.CallTracking.CallTracking"/>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>
-        /// <seealso cref="ThecallrApi.Objects.RealTime.RealTime"/>
+        /// <param name="app">An object containing the parameters you want to edit (possible objects are <see cref="CallrApi.Objects.CallTracking.CallTracking"/>, <see cref="CallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="CallrApi.Objects.RealTime.RealTime"/>).</param>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the edited Voice App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.CallTracking.CallTracking"/>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.ClickToCall"/>
+        /// <seealso cref="CallrApi.Objects.RealTime.RealTime"/>
         public new App Edit(string hash, string name, object app)
         {
             return base.Edit(hash, name, app);
@@ -69,8 +69,8 @@ namespace ThecallrApi.Services.Client
         /// This method retrieves the list of your Voice Apps.
         /// </summary>
         /// <param name="with_numbers">If <c>true</c>, also returns the list of DIDs associated with each app.</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object list representing the list of Voice Apps.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object list representing the list of Voice Apps.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
         public List<App> GetList(bool with_numbers)
         {
             List<object> parameters = new List<object>() { with_numbers };

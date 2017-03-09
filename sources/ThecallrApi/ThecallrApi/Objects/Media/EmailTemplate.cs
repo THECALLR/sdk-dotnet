@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Media
+namespace CallrApi.Objects.Media
 {
     /// <summary>
     /// This class represents an email template.
@@ -14,7 +14,7 @@ namespace ThecallrApi.Objects.Media
         public string Hash { get; set; }
 
         /// <summary>
-        /// Template type (possible values are defined in <see cref="ThecallrApi.Enums.MediaEmailTemplates"/> class).
+        /// Template type (possible values are defined in <see cref="CallrApi.Enums.MediaEmailTemplates"/> class).
         /// </summary>
         public string Type { get; set; }
 

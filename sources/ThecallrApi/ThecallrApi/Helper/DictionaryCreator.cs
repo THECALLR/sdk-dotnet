@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using ThecallrApi.Exception;
-using ThecallrApi.Objects;
+using CallrApi.Exception;
+using CallrApi.Objects;
 
-namespace ThecallrApi.Helper
+namespace CallrApi.Helper
 {
     /// <summary>
     /// This class allows you to create a dictonary of objects in their internal types.

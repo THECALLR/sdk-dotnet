@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Misc
+namespace CallrApi.Objects.Misc
 {
     /// <summary>
     /// This class represents a Target (Phone number + timeout).

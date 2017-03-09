@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Helper;
-using ThecallrApi.Json;
-using ThecallrApi.Objects.RealTime;
-using ThecallrApi.Objects.Misc;
+using CallrApi.Helper;
+using CallrApi.Json;
+using CallrApi.Objects.RealTime;
+using CallrApi.Objects.Misc;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows Dialr Service management.
@@ -76,9 +76,9 @@ namespace ThecallrApi.Services.Client
             /// This methods starts an outbound call on multiple targets.
             /// </summary>
             /// <param name="app">Voice App ID.</param>
-            /// <param name="target">The phone number to call <see cref="ThecallrApi.Objects.Misc.Target" />.</param>
-            /// <param name="options">Call options (CLI, CDR field...) <see cref="ThecallrApi.Objects.RealTime.RealTimeCallOptions" />.</param>
-            /// <seealso cref="ThecallrApi.Objects.Misc.Target"/>
+            /// <param name="target">The phone number to call <see cref="CallrApi.Objects.Misc.Target" />.</param>
+            /// <param name="options">Call options (CLI, CDR field...) <see cref="CallrApi.Objects.RealTime.RealTimeCallOptions" />.</param>
+            /// <seealso cref="CallrApi.Objects.Misc.Target"/>
             public string RealTime(string app, Target target, RealTimeCallOptions options)
             {
                 List<object> parameters = new List<object>() { app, target, options };

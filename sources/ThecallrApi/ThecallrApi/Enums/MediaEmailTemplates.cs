@@ -1,5 +1,5 @@
 ﻿
-namespace ThecallrApi.Enums
+namespace CallrApi.Enums
 {
     /// <summary>
     /// This class defines all the email templates of media.

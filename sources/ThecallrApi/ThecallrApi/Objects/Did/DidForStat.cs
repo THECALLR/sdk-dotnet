@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Did
+namespace CallrApi.Objects.Did
 {
     /// <summary>
     /// This class represents a simple DID.

@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Reflection;
 using System.Text;
-using ThecallrApi.Objects;
+using CallrApi.Objects;
 
-namespace ThecallrApi.Helper
+namespace CallrApi.Helper
 {
     /// <summary>
     /// This class gives usefull helpers.

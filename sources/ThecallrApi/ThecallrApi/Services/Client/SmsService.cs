@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Enums;
-using ThecallrApi.Helper;
-using ThecallrApi.Json;
-using ThecallrApi.Objects;
-using ThecallrApi.Objects.Sms;
+using CallrApi.Enums;
+using CallrApi.Helper;
+using CallrApi.Json;
+using CallrApi.Objects;
+using CallrApi.Objects.Sms;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows SMS manipulation.
@@ -41,9 +41,9 @@ namespace ThecallrApi.Services.Client
         /// <param name="from">The SMS sender. Must be alphanumeric (at least one character - cannot be digits only). Max length = 11 characters.</param>
         /// <param name="to">The SMS recipient.</param>
         /// <param name="text">Text message.</param>
-        /// <param name="options"><see cref="ThecallrApi.Objects.Sms.SmsOptions" /> options.</param>
+        /// <param name="options"><see cref="CallrApi.Objects.Sms.SmsOptions" /> options.</param>
         /// <returns>String object representing the identifier you can use to get detailed sms status.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Sms.SmsOptions"/>
+        /// <seealso cref="CallrApi.Objects.Sms.SmsOptions"/>
         public string Send(string from, string to, string text, SmsOptions options = null)
         {
             List<object> parameters = new List<object>() { from, to, text, options };
@@ -55,8 +55,8 @@ namespace ThecallrApi.Services.Client
         /// This method gets more informations on a specific SMS.
         /// </summary>
         /// <param name="id">SMS identifier.</param>
-        /// <returns><see cref="ThecallrApi.Objects.Sms.Sms" /> object representing the SMS.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Sms.Sms"/>
+        /// <returns><see cref="CallrApi.Objects.Sms.Sms" /> object representing the SMS.</returns>
+        /// <seealso cref="CallrApi.Objects.Sms.Sms"/>
         public Sms Get(string id)
         {
             List<object> parameters = new List<object>() { id, };
@@ -69,9 +69,9 @@ namespace ThecallrApi.Services.Client
         /// </summary>
         /// <param name="from">Retrieve from date.</param>
         /// <param name="to">Retrieve to date.</param>
-        /// <returns><see cref="ThecallrApi.Objects.Sms.Sms" /> object list.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Sms.Sms"/>
-        /// <seealso cref="ThecallrApi.Enums.SmsTypes"/>
+        /// <returns><see cref="CallrApi.Objects.Sms.Sms" /> object list.</returns>
+        /// <seealso cref="CallrApi.Objects.Sms.Sms"/>
+        /// <seealso cref="CallrApi.Enums.SmsTypes"/>
         public List<Sms> GetInList(DateTime from, DateTime to)
         {
             List<object> parameters = new List<object>() { SmsTypes.IN, Tools.UtcDateString(from), Tools.UtcDateString(to) };
@@ -84,9 +84,9 @@ namespace ThecallrApi.Services.Client
         /// </summary>
         /// <param name="from">Retrieve from date.</param>
         /// <param name="to">Retrieve to date. </param>
-        /// <returns><see cref="ThecallrApi.Objects.Sms.Sms" /> object list.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Sms.Sms"/>
-        /// <seealso cref="ThecallrApi.Enums.SmsTypes"/>
+        /// <returns><see cref="CallrApi.Objects.Sms.Sms" /> object list.</returns>
+        /// <seealso cref="CallrApi.Objects.Sms.Sms"/>
+        /// <seealso cref="CallrApi.Enums.SmsTypes"/>
         public List<Sms> GetOutList(DateTime from, DateTime to)
         {
             List<object> parameters = new List<object>() { SmsTypes.OUT, Tools.UtcDateString(from), Tools.UtcDateString(to) };

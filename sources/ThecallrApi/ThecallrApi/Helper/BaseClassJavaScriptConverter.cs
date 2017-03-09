@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Web.Script.Serialization;
-using ThecallrApi.Objects;
+using CallrApi.Objects;
 
-namespace ThecallrApi.Helper
+namespace CallrApi.Helper
 {
     /// <summary>
     /// This class is a converter for BaseClass objects.

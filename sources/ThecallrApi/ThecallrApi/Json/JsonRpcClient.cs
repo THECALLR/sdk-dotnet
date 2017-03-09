@@ -3,9 +3,9 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Web.Script.Serialization;
-using ThecallrApi.Exception;
+using CallrApi.Exception;
 
-namespace ThecallrApi.Json
+namespace CallrApi.Json
 {
     /// <summary>
     /// This class allows you to execute API requests.
@@ -79,9 +79,9 @@ namespace ThecallrApi.Json
         /// </summary>
         /// <param name="method">API method to execute.</param>
         /// <param name="parameter">Method parameter.</param>
-        /// <returns><see cref="ThecallrApi.Json.JsonResponse"/> object containing error or result.</returns>
-        /// <seealso cref="ThecallrApi.Json.JsonResponse"/>
-        /// <seealso cref="ThecallrApi.Json.JsonRequest"/>
+        /// <returns><see cref="CallrApi.Json.JsonResponse"/> object containing error or result.</returns>
+        /// <seealso cref="CallrApi.Json.JsonResponse"/>
+        /// <seealso cref="CallrApi.Json.JsonRequest"/>
         /// <seealso cref="System.Net.HttpWebRequest"/>
         /// <seealso cref="System.Web.Script.Serialization.JavaScriptSerializer"/>
         public JsonResponse MakeRequest(string method, object parameter)

@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ThecallrApi.Services.Client;
+using CallrApi.Services.Client;
 
 namespace ThecallrApiTest
 {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Cdr
+namespace CallrApi.Objects.Cdr
 {
     /// <summary>
     /// This class represents an Inbound Call Detail Records.

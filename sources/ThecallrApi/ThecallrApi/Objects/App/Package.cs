@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.App
+namespace CallrApi.Objects.App
 {
     /// <summary>
     /// This class reresents a voice app package.
@@ -9,12 +9,12 @@ namespace ThecallrApi.Objects.App
     {
         #region Member variables
         /// <summary>
-        /// Package name (possible values are defined in <see cref="ThecallrApi.Enums.ApplicationTypes"/> class).
+        /// Package name (possible values are defined in <see cref="CallrApi.Enums.ApplicationTypes"/> class).
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Package type (possible values are defined in <see cref="ThecallrApi.Enums.ApplicationPackageTypes"/> class).
+        /// Package type (possible values are defined in <see cref="CallrApi.Enums.ApplicationPackageTypes"/> class).
         /// </summary>
         public string Type { get; set; }
 

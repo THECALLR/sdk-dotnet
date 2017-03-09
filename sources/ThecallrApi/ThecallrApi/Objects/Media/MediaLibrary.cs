@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Media
+namespace CallrApi.Objects.Media
 {
     /// <summary>
     /// This class represents a media library.
@@ -34,12 +34,12 @@ namespace ThecallrApi.Objects.Media
         public int Duration { get; set; }
 
         /// <summary>
-        /// Text-to-Speech Voice ID (possible values are defined in <see cref="ThecallrApi.Enums.MediaTtsVoices"/> class).
+        /// Text-to-Speech Voice ID (possible values are defined in <see cref="CallrApi.Enums.MediaTtsVoices"/> class).
         /// </summary>
         public string Voice { get; set; }
 
         /// <summary>
-        /// Media status (possible values are defined in <see cref="ThecallrApi.Enums.MediaStatuses"/> class).
+        /// Media status (possible values are defined in <see cref="CallrApi.Enums.MediaStatuses"/> class).
         /// </summary>
         public string Status { get; set; }
 
@@ -49,7 +49,7 @@ namespace ThecallrApi.Objects.Media
         public List<string> Language { get; private set; }
 
         /// <summary>
-        /// Media categories (possible values are defined in <see cref="ThecallrApi.Enums.MediaLibraryCategories"/> class).
+        /// Media categories (possible values are defined in <see cref="CallrApi.Enums.MediaLibraryCategories"/> class).
         /// </summary>
         public List<string> Category { get; private set; }
 

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ThecallrApi.Json;
+using CallrApi.Json;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class gets system informations.

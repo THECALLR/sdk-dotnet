@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.App
+namespace CallrApi.Objects.App
 {
     /// <summary>
     /// This class represents a simple Voice App.

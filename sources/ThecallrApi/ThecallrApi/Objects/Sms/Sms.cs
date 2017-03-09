@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Sms
+namespace CallrApi.Objects.Sms
 {
     /// <summary>
     /// This class represents a SMS text message.
@@ -10,7 +10,7 @@ namespace ThecallrApi.Objects.Sms
     {
         #region Member variables
         /// <summary>
-        /// SMS type (possible values are defined in <see cref="ThecallrApi.Enums.SmsTypes"/> class).
+        /// SMS type (possible values are defined in <see cref="CallrApi.Enums.SmsTypes"/> class).
         /// </summary>
         public string Type { get; set; }
 
@@ -40,7 +40,7 @@ namespace ThecallrApi.Objects.Sms
         public SmsOptions Options { get; set; }
 
         /// <summary>
-        /// Billing mode (possible values are defined in <see cref="ThecallrApi.Enums.BillingModes"/> class).
+        /// Billing mode (possible values are defined in <see cref="CallrApi.Enums.BillingModes"/> class).
         /// </summary>
         public string BCustomerMode { get; set; }
 
@@ -50,7 +50,7 @@ namespace ThecallrApi.Objects.Sms
         public decimal BCustomerDebit { get; set; }
 
         /// <summary>
-        /// SMS status (possible values are defined in <see cref="ThecallrApi.Enums.SmsStatuses"/> class).
+        /// SMS status (possible values are defined in <see cref="CallrApi.Enums.SmsStatuses"/> class).
         /// </summary>
         public string Status { get; set; }
 

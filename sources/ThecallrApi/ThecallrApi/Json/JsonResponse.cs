@@ -1,5 +1,5 @@
 ﻿
-namespace ThecallrApi.Json
+namespace CallrApi.Json
 {
     /// <summary>
     /// This class represents data contained in a JSON-RPC response.

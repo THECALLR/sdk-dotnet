@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Cdr
+namespace CallrApi.Objects.Cdr
 {
     /// <summary>
     /// This class represents a Call Detail Records.
@@ -15,7 +15,7 @@ namespace ThecallrApi.Objects.Cdr
         public int Callid { get; set; }
 
         /// <summary>
-        /// CLI presentation (possible values are defined in <see cref="ThecallrApi.Enums.CliPresentations"/> class).
+        /// CLI presentation (possible values are defined in <see cref="CallrApi.Enums.CliPresentations"/> class).
         /// </summary>
         public string CliPres { get; set; }
 
@@ -45,7 +45,7 @@ namespace ThecallrApi.Objects.Cdr
         public DateTime Hangup { get; set; }
 
         /// <summary>
-        /// Hangup source (possible values are defined in <see cref="ThecallrApi.Enums.CdrHangupSources"/> class).
+        /// Hangup source (possible values are defined in <see cref="CallrApi.Enums.CdrHangupSources"/> class).
         /// </summary>
         public string Hangupsource { get; set; }
 

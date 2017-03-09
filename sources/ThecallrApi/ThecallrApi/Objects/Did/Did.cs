@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Did
+namespace CallrApi.Objects.Did
 {
     /// <summary>
     /// This class represents a DID.
@@ -9,12 +9,12 @@ namespace ThecallrApi.Objects.Did
     {
         #region Member variables
         /// <summary>
-        /// DID class (possible values are defined in <see cref="ThecallrApi.Enums.DidClasses"/> class).
+        /// DID class (possible values are defined in <see cref="CallrApi.Enums.DidClasses"/> class).
         /// </summary>
         public string Class { get; set; }
 
         /// <summary>
-        /// DID type (possible values are defined in <see cref="ThecallrApi.Enums.DidTypes"/> class).
+        /// DID type (possible values are defined in <see cref="CallrApi.Enums.DidTypes"/> class).
         /// </summary>
         public string Type { get; set; }
 

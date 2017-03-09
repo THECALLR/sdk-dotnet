@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Enums;
-using ThecallrApi.Objects.RealTime;
+using CallrApi.Enums;
+using CallrApi.Objects.RealTime;
 
-namespace ThecallrApi.Objects.App
+namespace CallrApi.Objects.App
 {
     /// <summary>
     /// This class represents a Voice App.

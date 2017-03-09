@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ThecallrApi.Services.Client;
-using ThecallrApi.Enums;
+using CallrApi.Services.Client;
+using CallrApi.Enums;
 using System.Collections.Generic;
-using ThecallrApi.Objects.Misc;
-using ThecallrApi.Exception;
-using ThecallrApi.Objects.App;
-using ThecallrApi.Objects.Did;
+using CallrApi.Objects.Misc;
+using CallrApi.Exception;
+using CallrApi.Objects.App;
+using CallrApi.Objects.Did;
 
 namespace ThecallrApiTest
 {

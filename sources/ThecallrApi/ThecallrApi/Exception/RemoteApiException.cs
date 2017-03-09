@@ -1,7 +1,7 @@
 ﻿using System;
-using ThecallrApi.Json;
+using CallrApi.Json;
 
-namespace ThecallrApi.Exception
+namespace CallrApi.Exception
 {
     /// <summary>
     /// This class represents a remote API error.

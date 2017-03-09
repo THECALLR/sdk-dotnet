@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.App.Param
+namespace CallrApi.Objects.App.Param
 {
     /// <summary>
     /// This class represents Outbound Voicemail Detection.
@@ -29,7 +29,7 @@ namespace ThecallrApi.Objects.App.Param
         public int DtmfTimeout { get; set; }
 
         /// <summary>
-        /// Detection method (possible values are defined in <see cref="ThecallrApi.Enums.VoicemailDetectMethods"/> class).
+        /// Detection method (possible values are defined in <see cref="CallrApi.Enums.VoicemailDetectMethods"/> class).
         /// </summary>
         public string Method { get; set; }
 

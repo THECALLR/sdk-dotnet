@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.RealTime
+namespace CallrApi.Objects.RealTime
 {
     /// <summary>
     /// This class represents a Real-Time Response (Your response to our requests).

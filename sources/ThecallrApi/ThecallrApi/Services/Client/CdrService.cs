@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Enums;
-using ThecallrApi.Helper;
-using ThecallrApi.Json;
-using ThecallrApi.Objects.Cdr;
+using CallrApi.Enums;
+using CallrApi.Helper;
+using CallrApi.Json;
+using CallrApi.Objects.Cdr;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows CDR management.
@@ -42,9 +42,9 @@ namespace ThecallrApi.Services.Client
         /// <param name="to">Retrive to this date (inclusive).</param>
         /// <param name="app">(Optional) Filter CDRs with this Voice App.</param>
         /// <param name="number">(Optional) Filter CDRs with DID.</param>
-        /// <returns><see cref="ThecallrApi.Objects.Cdr.CdrIn" /> object list.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Cdr.CdrIn"/>
-        /// <seealso cref="ThecallrApi.Enums.CdrTypes"/>
+        /// <returns><see cref="CallrApi.Objects.Cdr.CdrIn" /> object list.</returns>
+        /// <seealso cref="CallrApi.Objects.Cdr.CdrIn"/>
+        /// <seealso cref="CallrApi.Enums.CdrTypes"/>
         public List<CdrIn> GetInboundCdrs(DateTime from, DateTime to, string app = null, string number = null)
         {
             List<object> parameters = new List<object>()
@@ -66,9 +66,9 @@ namespace ThecallrApi.Services.Client
         /// <param name="to">Retrive to this date (inclusive).</param>
         /// <param name="app">(Optional) Filter CDRs with this Voice App.</param>
         /// <param name="number">(Optional) Filter CDRs with DID.</param>
-        /// <returns><see cref="ThecallrApi.Objects.Cdr.CdrOut" /> object list.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Cdr.CdrOut"/>
-        /// <seealso cref="ThecallrApi.Enums.CdrTypes"/>
+        /// <returns><see cref="CallrApi.Objects.Cdr.CdrOut" /> object list.</returns>
+        /// <seealso cref="CallrApi.Objects.Cdr.CdrOut"/>
+        /// <seealso cref="CallrApi.Enums.CdrTypes"/>
         public List<CdrOut> GetOutboundCdrs(DateTime from, DateTime to, string app = null, string number = null)
         {
             List<object> parameters = new List<object>()

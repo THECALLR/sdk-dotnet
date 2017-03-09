@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using ThecallrApi.Exception;
+using CallrApi.Exception;
 
-namespace ThecallrApi.Helper
+namespace CallrApi.Helper
 {
     /// <summary>
     /// This class allows you to convert an object in its internal type.

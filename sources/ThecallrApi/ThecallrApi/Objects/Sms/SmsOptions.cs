@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Sms
+namespace CallrApi.Objects.Sms
 {
     /// <summary>
     /// This class represents SMS options.

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using ThecallrApi.Json;
-using ThecallrApi.Objects.App;
-using ThecallrApi.Objects.Misc;
+using CallrApi.Json;
+using CallrApi.Objects.App;
+using CallrApi.Objects.Misc;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class acts as base class for application services thats allows you CRUD operations.
@@ -37,8 +37,8 @@ namespace ThecallrApi.Services.Client
         /// This method retrieves a Voice App.
         /// </summary>
         /// <param name="hash">App ID.</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the Voice App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the Voice App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
         public App Get(string hash)
         {
             List<object> parameters = new List<object>() { hash };
@@ -61,10 +61,10 @@ namespace ThecallrApi.Services.Client
         /// <summary>
         /// This method lists the authorized CLIs on your account.
         /// </summary>
-        /// <param name="type">CLI type (possible values are defined in <see cref="ThecallrApi.Enums.CliAuthTypes"/> class).</param>
-        /// <returns><see cref="ThecallrApi.Objects.Misc.CustomerCli" /> object list representing the authorized CLIs on your account.</returns>
-        /// <seealso cref="ThecallrApi.Enums.CliAuthTypes"/>
-        /// <seealso cref="ThecallrApi.Objects.Misc.CustomerCli" />
+        /// <param name="type">CLI type (possible values are defined in <see cref="CallrApi.Enums.CliAuthTypes"/> class).</param>
+        /// <returns><see cref="CallrApi.Objects.Misc.CustomerCli" /> object list representing the authorized CLIs on your account.</returns>
+        /// <seealso cref="CallrApi.Enums.CliAuthTypes"/>
+        /// <seealso cref="CallrApi.Objects.Misc.CustomerCli" />
         public List<CustomerCli> GetAuthorizedClis(string type)
         {
             List<object> parameters = new List<object>() { type };
@@ -77,15 +77,15 @@ namespace ThecallrApi.Services.Client
         /// <summary>
         /// This method creates a new Voice App, and optionally configure it at the same time.
         /// </summary>
-        /// <param name="type">Voice App type (possible values are defined in <see cref="ThecallrApi.Enums.ApplicationTypes" /> class).</param>
+        /// <param name="type">Voice App type (possible values are defined in <see cref="CallrApi.Enums.ApplicationTypes" /> class).</param>
         /// <param name="name">Voice App name.</param>
-        /// <param name="obj">Optional Voice App parameters (possible objects are <see cref="ThecallrApi.Objects.CallTracking.CallTracking"/>, <see cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="ThecallrApi.Objects.RealTime.RealTime"/>).</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the new Voice App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.CallTracking.CallTracking"/>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>
-        /// <seealso cref="ThecallrApi.Objects.RealTime.RealTime"/>
-        /// <seealso cref="ThecallrApi.Enums.ApplicationTypes"/>
+        /// <param name="obj">Optional Voice App parameters (possible objects are <see cref="CallrApi.Objects.CallTracking.CallTracking"/>, <see cref="CallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="CallrApi.Objects.RealTime.RealTime"/>).</param>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the new Voice App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.CallTracking.CallTracking"/>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.ClickToCall"/>
+        /// <seealso cref="CallrApi.Objects.RealTime.RealTime"/>
+        /// <seealso cref="CallrApi.Enums.ApplicationTypes"/>
         protected App Create(string type, string name, object obj)
         {
             List<object> parameters = new List<object>() { type, name, obj };
@@ -98,12 +98,12 @@ namespace ThecallrApi.Services.Client
         /// </summary>
         /// <param name="hash">Voice App ID.</param>
         /// <param name="name">The App name. Send <c>null</c> if you do not want to edit the name.</param>
-        /// <param name="app">An object containing the parameters you want to edit (possible objects are <see cref="ThecallrApi.Objects.CallTracking.CallTracking"/>, <see cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="ThecallrApi.Objects.RealTime.RealTime"/>).</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the edited Voice App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.CallTracking.CallTracking"/>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>
-        /// <seealso cref="ThecallrApi.Objects.RealTime.RealTime"/>
+        /// <param name="app">An object containing the parameters you want to edit (possible objects are <see cref="CallrApi.Objects.CallTracking.CallTracking"/>, <see cref="CallrApi.Objects.ClickToCall.ClickToCall"/>, <see cref="CallrApi.Objects.RealTime.RealTime"/>).</param>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the edited Voice App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.CallTracking.CallTracking"/>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.ClickToCall"/>
+        /// <seealso cref="CallrApi.Objects.RealTime.RealTime"/>
         protected App Edit(string hash, string name, object app)
         {
             List<object> parameters = new List<object>() { hash, name, app };

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.RealTime
+namespace CallrApi.Objects.RealTime
 {
     /// <summary>
     /// This class represents Realtime App. Allows you to control the call in realtime.
@@ -9,7 +9,7 @@ namespace ThecallrApi.Objects.RealTime
     {
         #region Member variables
         /// <summary>
-        /// Data format. The only format supported right now is "JSON" (possible values are defined in <see cref="ThecallrApi.Enums.RealTimeDataFormats"/> class).
+        /// Data format. The only format supported right now is "JSON" (possible values are defined in <see cref="CallrApi.Enums.RealTimeDataFormats"/> class).
         /// </summary>
         public string DataFormat { get; set; }
 

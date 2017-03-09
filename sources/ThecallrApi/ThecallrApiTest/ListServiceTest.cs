@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ThecallrApi.Objects.Misc;
-using ThecallrApi.Services.Client;
+using CallrApi.Objects.Misc;
+using CallrApi.Services.Client;
 using System.Collections.Generic;
-using ThecallrApi.Exception;
+using CallrApi.Exception;
 
 namespace ThecallrApiTest
 {

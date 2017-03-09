@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.Cdr
+namespace CallrApi.Objects.Cdr
 {
     /// <summary>
     /// This class represents an Outbound Call Detail Records.
@@ -29,7 +29,7 @@ namespace ThecallrApi.Objects.Cdr
         public string NumberType { get; set; }
 
         /// <summary>
-        /// Call state (possible values are defined in <see cref="ThecallrApi.Enums.DialStatuses"/> class).
+        /// Call state (possible values are defined in <see cref="CallrApi.Enums.DialStatuses"/> class).
         /// </summary>
         public string Dialstatus { get; set; }
         #endregion

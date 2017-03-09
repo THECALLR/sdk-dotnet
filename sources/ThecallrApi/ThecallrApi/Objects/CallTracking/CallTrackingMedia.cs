@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThecallrApi.Objects.CallTracking
+namespace CallrApi.Objects.CallTracking
 {
     /// <summary>
     /// This class represents a Call Tracking media.

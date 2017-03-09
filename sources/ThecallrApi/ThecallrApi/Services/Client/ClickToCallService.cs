@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Enums;
-using ThecallrApi.Helper;
-using ThecallrApi.Json;
-using ThecallrApi.Objects.App;
-using ThecallrApi.Objects.ClickToCall;
-using ThecallrApi.Objects.Misc;
+using CallrApi.Enums;
+using CallrApi.Helper;
+using CallrApi.Json;
+using CallrApi.Objects.App;
+using CallrApi.Objects.ClickToCall;
+using CallrApi.Objects.Misc;
 
-namespace ThecallrApi.Services.Client
+namespace CallrApi.Services.Client
 {
     /// <summary>
     /// This class allows Click-To-Call manipulation.
@@ -42,9 +42,9 @@ namespace ThecallrApi.Services.Client
         /// </summary>
         /// <param name="name">Click-To-Call App name.</param>
         /// <param name="ctc">Click-To-Call App parameters (Optional).</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the new Click-To-Call App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the new Click-To-Call App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.ClickToCall"/>
         public App Create(string name, ClickToCall ctc = null)
         {
             return base.Create(ApplicationTypes.CLICKTOCALL, name, ctc);
@@ -56,9 +56,9 @@ namespace ThecallrApi.Services.Client
         /// <param name="app">Click-To-Call App ID.</param>
         /// <param name="name">The App name. Send <c>null</c> if you do not want to edit the name.</param>
         /// <param name="ctc">A Click-To-Call object containing the parameters you want to edit.</param>
-        /// <returns><see cref="ThecallrApi.Objects.App.App" /> object representing the edited Click-To-Call App.</returns>
-        /// <seealso cref="ThecallrApi.Objects.App.App"/>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.ClickToCall"/>
+        /// <returns><see cref="CallrApi.Objects.App.App" /> object representing the edited Click-To-Call App.</returns>
+        /// <seealso cref="CallrApi.Objects.App.App"/>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.ClickToCall"/>
         public App Edit(string app, string name, ClickToCall ctc)
         {
             return base.Edit(app, name, ctc);
@@ -82,8 +82,8 @@ namespace ThecallrApi.Services.Client
         /// <param name="app">Voice App ID.</param>
         /// <param name="from">List calls between this date (inclusive).</param>
         /// <param name="to">And this date (inclusive).</param>
-        /// <returns><see cref="ThecallrApi.Objects.ClickToCall.Call" /> object list.</returns>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.Call"/>
+        /// <returns><see cref="CallrApi.Objects.ClickToCall.Call" /> object list.</returns>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.Call"/>
         public List<Call> GetCallList(string app, DateTime from, DateTime to)
         {
             List<object> parameters = new List<object>() { app, Tools.UtcDateString(from), Tools.UtcDateString(to) };
@@ -95,8 +95,8 @@ namespace ThecallrApi.Services.Client
         /// This method gets a call status.
         /// </summary>
         /// <param name="hash">Call identifier.</param>
-        /// <returns><see cref="ThecallrApi.Objects.ClickToCall.Call" /> object.</returns>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.Call"/>
+        /// <returns><see cref="CallrApi.Objects.ClickToCall.Call" /> object.</returns>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.Call"/>
         public Call GetCallStatus(string hash)
         {
             List<object> parameters = new List<object>() { hash };
@@ -112,8 +112,8 @@ namespace ThecallrApi.Services.Client
         /// <param name="b_targets">Party B targets.</param>
         /// <param name="options">Options.</param>
         /// <returns>The Call identifier.</returns>
-        /// <seealso cref="ThecallrApi.Objects.Misc.Target"/>
-        /// <seealso cref="ThecallrApi.Objects.ClickToCall.StartOptions"/>
+        /// <seealso cref="CallrApi.Objects.Misc.Target"/>
+        /// <seealso cref="CallrApi.Objects.ClickToCall.StartOptions"/>
         public string Start2Calls(string app, List<Target> a_targets, List<Target> b_targets, StartOptions options)
         {
             List<object> parameters = new List<object>() { app, a_targets, b_targets, options };
