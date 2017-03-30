@@ -7,8 +7,8 @@
     <ProjectGuid>{93E7F079-F80E-410F-9E71-4B99E702478B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThecallrApi.Samples.SmsSample</RootNamespace>
-    <AssemblyName>ThecallrApi.Samples.SmsSample</AssemblyName>
+    <RootNamespace>CallrApi.Samples.SmsSample</RootNamespace>
+    <AssemblyName>CallrApi.Samples.SmsSample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CallrApi">
+      <HintPath>..\bin\CallrApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,9 +43,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThecallrApi">
-      <HintPath>..\bin\ThecallrApi.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />

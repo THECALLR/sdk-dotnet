@@ -7,8 +7,8 @@
     <ProjectGuid>{85BD7726-95E4-4145-9FD3-56FAB09A9553}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThecallrApi.Samples.CallTrackingSample</RootNamespace>
-    <AssemblyName>ThecallrApi.Samples.CallTrackingSample</AssemblyName>
+    <RootNamespace>CallrApi.Samples.CallTrackingSample</RootNamespace>
+    <AssemblyName>CallrApi.Samples.CallTrackingSample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CallrApi">
+      <HintPath>..\bin\CallrApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,9 +43,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThecallrApi">
-      <HintPath>..\bin\ThecallrApi.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />

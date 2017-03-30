@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Exception;
-using ThecallrApi.Helper;
-using ThecallrApi.Objects.App;
-using ThecallrApi.Services.Client;
+using CallrApi.Exception;
+using CallrApi.Helper;
+using CallrApi.Objects.App;
+using CallrApi.Services.Client;
 
-namespace ThecallrApi.Samples.QuickStart
+namespace CallrApi.Samples.QuickStart
 {
     /// <summary>
     /// This class gives an example of simple server requests.
@@ -33,11 +33,11 @@ namespace ThecallrApi.Samples.QuickStart
             {
                 SystemService service = new SystemService(this.login, this.password);
 
-                // Request the current timestamp on the THECALLR server
+                // Request the current timestamp on the CALLR server
                 int timestamp = service.GetTimestamp();
 
                 // Display the result
-                Console.WriteLine("The current UNIX time from THECALLR server is {0}.", timestamp);
+                Console.WriteLine("The current UNIX time from CALLR server is {0}.", timestamp);
             }
             catch (RemoteApiException remote_ex)
             {

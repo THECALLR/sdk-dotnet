@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Exception;
+using CallrApi.Exception;
 using System.Linq;
-using ThecallrApi.Helper;
-using ThecallrApi.Services.Client;
-using ThecallrApi.Objects.App;
-using ThecallrApi.Objects.Misc;
-using ThecallrApi.Objects.Did;
+using CallrApi.Helper;
+using CallrApi.Services.Client;
+using CallrApi.Objects.App;
+using CallrApi.Objects.Misc;
+using CallrApi.Objects.Did;
 
-namespace ThecallrApi.Samples.CallTrackingSample
+namespace CallrApi.Samples.CallTrackingSample
 {
     /// <summary>
     /// This class gives an example of Call Tracking manipulation.

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using ThecallrApi.Enums;
-using ThecallrApi.Exception;
-using ThecallrApi.Objects.Media;
-using ThecallrApi.Services.Client;
+using CallrApi.Enums;
+using CallrApi.Exception;
+using CallrApi.Objects.Media;
+using CallrApi.Services.Client;
 
-namespace ThecallrApi.Samples.MediaSample
+namespace CallrApi.Samples.MediaSample
 {
     /// <summary>
     /// This class gives an example of Media manipulation.

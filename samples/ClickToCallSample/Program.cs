@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using ThecallrApi.Exception;
-using ThecallrApi.Helper;
-using ThecallrApi.Objects.App;
-using ThecallrApi.Objects.ClickToCall;
-using ThecallrApi.Objects.Misc;
-using ThecallrApi.Services.Client;
+using CallrApi.Exception;
+using CallrApi.Helper;
+using CallrApi.Objects.App;
+using CallrApi.Objects.ClickToCall;
+using CallrApi.Objects.Misc;
+using CallrApi.Services.Client;
 
 namespace ClickToCallSample
 {

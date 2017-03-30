@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using ThecallrApi.Enums;
-using ThecallrApi.Exception;
-using ThecallrApi.Objects.App;
-using ThecallrApi.Objects.Did;
-using ThecallrApi.Objects.Misc;
-using ThecallrApi.Objects.RealTime;
-using ThecallrApi.Services.Client;
+using CallrApi.Enums;
+using CallrApi.Exception;
+using CallrApi.Objects.App;
+using CallrApi.Objects.Did;
+using CallrApi.Objects.Misc;
+using CallrApi.Objects.RealTime;
+using CallrApi.Services.Client;
 
 namespace RealTimeSample
 {
@@ -54,7 +54,7 @@ namespace RealTimeSample
                 App app = appServ.Create(ApplicationTypes.REALTIME, application_name, rt);
                 string app_id = app.Hash;
 
-                // 2 - Make an outbound call from THECALLR
+                // 2 - Make an outbound call from CALLR
                 // Specify first callee phone number(s) declaration
                 Target target = new Target();
                 target.Number = "+33123456789";

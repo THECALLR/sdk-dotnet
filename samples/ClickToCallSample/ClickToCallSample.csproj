@@ -7,8 +7,8 @@
     <ProjectGuid>{3CC251B2-F47B-4C43-916E-01ECE19E1C67}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThecallrApi.Samples.ClickToCallSample</RootNamespace>
-    <AssemblyName>ThecallrApi.Samples.ClickToCallSample</AssemblyName>
+    <RootNamespace>CallrApi.Samples.ClickToCallSample</RootNamespace>
+    <AssemblyName>CallrApi.Samples.ClickToCallSample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CallrApi">
+      <HintPath>..\bin\CallrApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,9 +43,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThecallrApi">
-      <HintPath>..\bin\ThecallrApi.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
