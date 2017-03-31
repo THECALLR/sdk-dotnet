@@ -9,7 +9,7 @@ namespace CallrApi.Helper
     /// This class allows you to convert an object in its internal type.
     /// </summary>
     /// <typeparam name="T">The expected conversion type.</typeparam>
-    internal static class Converter<T>
+    public static class Converter<T>
     {
         /// <summary>
         /// This method returns the key associted value in the dictionary.
